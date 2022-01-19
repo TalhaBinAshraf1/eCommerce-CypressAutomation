@@ -7,9 +7,9 @@ describe("Ticket A001", () =>{
     });
     
     it("Validating Company Logo Visible ", () => {
-        const logo = cy.get(".logo");
-        if (logo.should("be.visible")) {
-          cy.log(logo + "Is Visible ");
+        const companyLogo = cy.get(".logo");
+        if (companyLogo.should("be.visible")) {
+          cy.log(companyLogo + "Is Visible ");
         } else {
             cy.visit(Cypress.env("url"));
         }
