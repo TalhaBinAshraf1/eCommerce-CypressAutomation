@@ -62,6 +62,74 @@ describe("Test Case 1: Register User", () =>{
   });
   
 
+  // it("should login using the custom commands", () => {
+  //   cy.visit("https://admin-demo.nopcommerce.com/");
+  //   cy.login("admin@yourstore.com", "admin");
+  //   cy.url().should('be.equal', 'https://admin-demo.nopcommerce.com/admin/')
+  // });
+
+
+it("TC - 7. Click 'Signup' button  ", () => {
+
+
+});
+
+
+it("TC - 8. Verify that 'ENTER ACCOUNT INFORMATION' is visible ", () => {
+
+
+});
+
+
+it(" TC - 9. Fill details: Title, Name, Email, Password, Date of birth ", () => {
+
+
+});
+
+it("TC - 10. Select checkbox 'Sign up for our newsletter!'", () => {
+
+
+});
+
+it(" TC - 11. Select checkbox 'Receive special offers from our partners!'", () => {
+
+
+});
+
+it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number ", () => {
+
+
+});
+
+it(" TC - 13. Click 'Create Account button' ", () => {
+
+
+});
+
+it("  TC - 14. Verify that 'ACCOUNT CREATED!' is visible ", () => {
+
+
+});
+
+it(" TC - 15. Click 'Continue' button ", () => {
+
+
+});
+
+it(" TC - 16. Verify that 'Logged in as username' is visible ", () => {
+
+
+});
+
+it("  TC - 17. Click 'Delete Account' button ", () => {
+
+
+});
+
+it(" TC - 18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button ", () => {
+
+
+});
 
     
-    });
+ });
