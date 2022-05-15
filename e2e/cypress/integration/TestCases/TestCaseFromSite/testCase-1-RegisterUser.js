@@ -9,7 +9,12 @@ describe("Test Case 1: Register User", () =>{
           expect(response.status).to.eq(200);
         }
       );
-    
+
+      cy.cookies();
+    //   Cypress.Cookies.defaults({
+    //     preserve: "csrftoken"
+    // })
+
     });
     
     it("Click on 'Signup / Login' button It Should Be visible In this Page  ", () => {
@@ -42,7 +47,7 @@ describe("Test Case 1: Register User", () =>{
     {
       nameInputField.focus();
       //nameInputField.contains("Name");
-      nameInputField.type("test012");
+      nameInputField.type("test01289");
       cy.log(" Name Inputted Successfully")
     }else{
       cy.visit(Cypress.env("url"));
@@ -53,8 +58,8 @@ describe("Test Case 1: Register User", () =>{
       emailInputField.focus();
       //cy.get(".signup-form > form[method='post'] > input[name='email']").invoke('val').should('contain', 'Email Address')
       //emailInputField.invoke('attr', 'placeholder').should('contain', 'Email Address')
-      emailInputField.type("test on going in cypress");
-      cy.log(" Name Inputted Successfully");
+      emailInputField.type("alexsmkovtkvtzb489799@sgisfg.com");
+      cy.log(" Email Inputted Successfully ");
     }else{
       cy.visit(Cypress.env("url"));
     }
@@ -71,6 +76,15 @@ describe("Test Case 1: Register User", () =>{
 
 it("TC - 7. Click 'Signup' button  ", () => {
 
+  const signUpButton = cy.get(".signup-form > form[method='post'] > .btn.btn-default")
+  if(signUpButton.should("be.visible"))
+  {
+    signUpButton.focus();
+    signUpButton.click();
+    cy.log("Button is Displayed and Clickable ")
+  }else{
+    cy.visit(Cypress.env("url"));
+  }
 
 });
 

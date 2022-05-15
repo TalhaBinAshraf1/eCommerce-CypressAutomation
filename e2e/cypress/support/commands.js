@@ -33,3 +33,12 @@ Cypress.Commands.add("login", (username, password) => {
     cy.get('[id=Password]').type(password);
     cy.get('[type=submit]').click();
   });
+
+  Cypress.Commands.add("cookies", () => {
+    //adding a new command named login
+    Cypress.Cookies.defaults({
+      preserve: "csrftoken"
+  })
+
+  });
+
