@@ -1,67 +1,46 @@
-/// <reference types="cypress" />
+const testCase1RegisterUserPage = {
 
-describe("Test Case 1: Register User", () =>{
-    it("Navigate to url 'http://automationexercise.com'",() =>{
-    cy.visit(Cypress.env("url"));
-    cy.url().should("equal", Cypress.env("url"));
-    cy.request(Cypress.env("url")).should(
-        (response) => {
-          expect(response.status).to.eq(200);
-        }
-      );
-    
-    });
-    
-    it("Click on 'Signup / Login' button It Should Be visible In this Page  ", () => {
-        const signupLogin = cy.get(".nav.navbar-nav > li:nth-of-type(4) > a");
-        if (signupLogin.should("be.visible")) {
-          signupLogin.click(); 
-          cy.log(signupLogin + "Is Visible ");
-        } else {
-            cy.visit(Cypress.env("url"));
-        }
-    
-    });
-        
-    it("Verify 'New User Signup!' is visible ", () => {
-      const newUserSignup = cy.get(".signup-form > h2");
-      if (newUserSignup.should("be.visible")) {
-          newUserSignup.should("include.text","New User Signup!")
-                       .and("have.length","1");
-          cy.log(newUserSignup + "Is Visible ");
-      } else {
-          cy.visit(Cypress.env("url"));
-      }
+  getSignupLoginButton: () => cy.get('.nav.navbar-nav > li:nth-of-type(4) > a' , {timeout :1000}),
+  getNewUserSignupText: () => cy.get('.signup-form > h2' , {timeout :1000}),
+  getNameInputField: () => cy.get("form[method='post'] > input[name='name']" , {timeout :1000}),
+  getEmailInputField: () => cy.get(".signup-form > form[method='post'] > input[name='email']" , {timeout :1000}),
+  getSignupButton: () => cy.get(".signup-form > form[method='post'] > .btn.btn-default" , {timeout :1000}),
+  getEnterAccountInformationText: () => cy.get(".login-form > .text-center.title > b" , {timeout :1000}),
+  getMrRedioButton: () => cy.get("div:nth-of-type(1) > .top" , {timeout :1000}),
+  getMrsRedioButton: () => cy.get("div:nth-of-type(2) > .top" , {timeout :1000}),
+  getPasswordinputField: () => cy.get("input#password" , {timeout :1000}),
+  getSignUpForOurNewsLetterCheckbox: () => cy.get("form[method='post'] > div:nth-of-type(6)" , {timeout :1000}),
+  getRecivespecialOffersFromOurPartnersCheckbox: () => cy.get("div:nth-of-type(7) > label" , {timeout :1000}),
+  getAddressinformationText: () => cy.get("form[method='post'] > .text-center.title > b" , {timeout :1000}),
+  getFirstNameInputField: () => cy.get("input#first_name" , {timeout :1000}),
+  getLastNameInputField: () => cy.get("input#last_name" , {timeout :1000}),
+  getCompanyNameInputField: () => cy.get("input#company" , {timeout :1000}),
+  getAdressInputField: () => cy.get("input[name='address1']" , {timeout :1000}),
+  getAdress2InputField: () => cy.get("input[name='address2']" , {timeout :1000}),
+  getStateInputField: () => cy.get("input#state" , {timeout :1000}),
+  getCityInputField: () => cy.get("input#city" , {timeout :1000}),
+  getZipcodeInputField: () => cy.get("input#zipcode" , {timeout :1000}),
+  getMobileNumberInputField: () => cy.get("input#mobile_number" , {timeout :1000}),
+  getCreateAccountButton: () => cy.get("section#form > .container form[method='post'] > .btn.btn-default" , {timeout :1000}),
+  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+
+
+
+
+
+
+
+
+ 
+
+
   
-  });  
-
-  it ("Enter name and email address", () =>{
-
-    const nameInputField = cy.get("form[method='post'] > input[name='name']")
-    if(nameInputField.should("be.visible"))
-    {
-      nameInputField.focus();
-      //nameInputField.contains("Name");
-      nameInputField.type("test012");
-      cy.log(" Name Inputted Successfully")
-    }else{
-      cy.visit(Cypress.env("url"));
-    }
-    const emailInputField = cy.get(".signup-form > form[method='post'] > input[name='email']");
-    if(emailInputField.should("be.visible"))
-    {
-      emailInputField.focus();
-      //cy.get(".signup-form > form[method='post'] > input[name='email']").invoke('val').should('contain', 'Email Address')
-      //emailInputField.invoke('attr', 'placeholder').should('contain', 'Email Address')
-      emailInputField.type("test on going in cypress");
-      cy.log(" Name Inputted Successfully");
-    }else{
-      cy.visit(Cypress.env("url"));
-    }
-
-  });
+  };
+  module.exports = testCase1RegisterUserPage;
   
-
-
-    
-    });
