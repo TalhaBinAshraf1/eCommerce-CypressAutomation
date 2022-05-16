@@ -1,5 +1,8 @@
 /// <reference types="cypress" />
 
+import tc1rup from '../../PageObject/testCase-1-RegisterUserPage';
+
+
 describe("Test Case 1: Register User", () =>{
     it("Navigate to url 'http://automationexercise.com'",() =>{
     cy.visit(Cypress.env("url"));
@@ -9,16 +12,12 @@ describe("Test Case 1: Register User", () =>{
           expect(response.status).to.eq(200);
         }
       );
-
-      cy.cookies();
-    //   Cypress.Cookies.defaults({
-    //     preserve: "csrftoken"
-    // })
-
+      cy.csrfCookies();
     });
     
     it("Click on 'Signup / Login' button It Should Be visible In this Page  ", () => {
-        const signupLogin = cy.get(".nav.navbar-nav > li:nth-of-type(4) > a");
+      
+       const signupLogin = tc1rup.getSignupLoginButton();
         if (signupLogin.should("be.visible")) {
           signupLogin.click(); 
           cy.log(signupLogin + "Is Visible ");
@@ -29,10 +28,10 @@ describe("Test Case 1: Register User", () =>{
     });
         
     it("Verify 'New User Signup!' is visible ", () => {
-      const newUserSignup = cy.get(".signup-form > h2");
+      const newUserSignup = tc1rup.getNewUserSignupText();
       if (newUserSignup.should("be.visible")) {
           newUserSignup.should("include.text","New User Signup!")
-                       .and("have.length","1");
+          .and("have.length","1");
           cy.log(newUserSignup + "Is Visible ");
       } else {
           cy.visit(Cypress.env("url"));
@@ -42,7 +41,7 @@ describe("Test Case 1: Register User", () =>{
 
   it ("Enter name and email address", () =>{
 
-    const nameInputField = cy.get("form[method='post'] > input[name='name']")
+    const nameInputField = tc1rup.getNameInputField();
     if(nameInputField.should("be.visible"))
     {
       nameInputField.focus();
@@ -52,7 +51,7 @@ describe("Test Case 1: Register User", () =>{
     }else{
       cy.visit(Cypress.env("url"));
     }
-    const emailInputField = cy.get(".signup-form > form[method='post'] > input[name='email']");
+    const emailInputField = tc1rup.getEmailInputField();
     if(emailInputField.should("be.visible"))
     {
       emailInputField.focus();
@@ -90,7 +89,15 @@ it("TC - 7. Click 'Signup' button  ", () => {
 
 
 it("TC - 8. Verify that 'ENTER ACCOUNT INFORMATION' is visible ", () => {
-
+  
+  const enterAccountInformationText = tc1rup.getEnterAccountInformationText();
+  if(enterAccountInformationText.should("be.visible"))
+  {
+    enterAccountInformationText.should("have.text","Enter Account Information")
+    cy.log("Element Not Found ")
+  }else{
+    cy.visit(Cypress.env("url"));
+  }
 
 });
 
