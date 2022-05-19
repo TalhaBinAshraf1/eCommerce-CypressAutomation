@@ -22,13 +22,13 @@ const testCase1RegisterUserPage = {
   getZipcodeInputField: () => cy.get("input#zipcode" , {timeout :1000}),
   getMobileNumberInputField: () => cy.get("input#mobile_number" , {timeout :1000}),
   getCreateAccountButton: () => cy.get("section#form > .container form[method='post'] > .btn.btn-default" , {timeout :1000}),
-  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
-  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
-  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
-  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
-  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
-  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
-  getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  // getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  // getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  // getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  // getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  // getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  // getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
+  // getNameInputField: () => cy.get("" , {timeout :1000}),
 
 
 
