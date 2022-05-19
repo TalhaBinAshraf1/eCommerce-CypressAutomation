@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import tc1rup from '../../PageObject/testCase-1-RegisterUserPage';
+import tc1rup from '../../../PageObject/testCase-1-RegisterUserPage';
 
 
 describe("Test Case 1: Register User", () =>{
@@ -78,7 +78,6 @@ it("TC - 7. Click 'Signup' button  ", () => {
   const signUpButton = cy.get(".signup-form > form[method='post'] > .btn.btn-default")
   if(signUpButton.should("be.visible"))
   {
-    signUpButton.focus();
     signUpButton.click();
     cy.log("Button is Displayed and Clickable ")
   }else{
