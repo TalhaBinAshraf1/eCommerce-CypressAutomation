@@ -49,9 +49,7 @@ Cypress.Commands.add("login", (username, password) => {
 // DATE OF BIRTH DROPDOWN 
 
 //DAY
-  Cypress.Commands.add(
-    "dayDropdown",
-    (menuText, value) => {
+  Cypress.Commands.add("dayDropdown",(menuText, value) => {
       cy.get("select#days")
         .select(menuText)
         .should("contain.text", menuText)
@@ -61,9 +59,7 @@ Cypress.Commands.add("login", (username, password) => {
   );
 
   //Month
-  Cypress.Commands.add(
-    "monthDropdown",
-    (menuText, value) => {
+  Cypress.Commands.add("monthDropdown",(menuText, value) => {
       cy.get("select#months")
         .select(menuText)
         .should("contain.text", menuText)
@@ -73,9 +69,7 @@ Cypress.Commands.add("login", (username, password) => {
   );
 
   //YEAR
-  Cypress.Commands.add(
-    "yearDropdown",
-    (menuText, value) => {
+  Cypress.Commands.add("yearDropdown",(menuText, value) => {
       cy.get("select#years")
         .select(menuText)
         .should("contain.text", menuText)
@@ -85,9 +79,7 @@ Cypress.Commands.add("login", (username, password) => {
   );
 
 //Country
-  Cypress.Commands.add(
-    "countryDropdown",
-    (menuText, value) => {
+  Cypress.Commands.add("countryDropdown",(menuText, value) => {
       cy.get("select#country")
         .select(menuText)
         .should("contain.text", menuText)
