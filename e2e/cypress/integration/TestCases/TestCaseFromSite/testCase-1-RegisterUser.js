@@ -410,43 +410,43 @@ it(" TC - 15. Click 'Continue' button ", () => {
 
 });
 
-// it(" TC - 16. Verify that 'Logged in as username' is visible ", () => {
+it(" TC - 16. Verify that 'Logged in as username' is visible ", () => {
 
-//   cy.wait(2000);
-//   cy.reload();
-//   const  loggedInasUserNameText = tc1rup.getLoggedInAsUsernameText();
+  cy.wait(2000);
+  cy.reload();
+  const  loggedInasUserNameText = tc1rup.getLoggedInAsUsernameText();
 
-//   if( loggedInasUserNameText
-//     .should("be.visible")
-//     .should("have.text"," Logged in as " + Cypress.env("name")))
+  if( loggedInasUserNameText
+    .should("be.visible")
+    .should("have.text"," Logged in as " + Cypress.env("name")))
  
-//    {
-//      cy.log("Text is Displayed   ")
-//    }else{
-//      cy.visit(Cypress.env("url"));
-//    }
+   {
+     cy.log("Text is Displayed   ")
+   }else{
+     cy.visit(Cypress.env("url"));
+   }
 
 
-// });
+});
 
-// it("  TC - 17. Click 'Delete Account' button ", () => {
+it("  TC - 17. Click 'Delete Account' button ", () => {
 
-//   const  deleteButton = tc1rup.getDeleteButton();
-//   if( deleteButton.should("be.visible")
-//   .should("have.text","Create Account")
-//   .should("have.css", "background-color",)
-//   .and ("be.colored" ,"#FE980F") )
+  const  deleteButton = tc1rup.getDeleteButton();
+  if( deleteButton.should("be.visible")
+  .should("have.text","Create Account")
+  .should("have.css", "background-color",)
+  .and ("be.colored" ,"#FE980F") )
 
-//   {
-//     tc1rup.getDeleteButton().click();
-//     cy.log("Button is Displayed and Clickable ")
-//   }else{
-//     cy.visit(Cypress.env("url"));
-//   }
+  {
+    tc1rup.getDeleteButton().click();
+    cy.log("Button is Displayed and Clickable ")
+  }else{
+    cy.visit(Cypress.env("url"));
+  }
 
 
 
-// });
+});
 
 
     

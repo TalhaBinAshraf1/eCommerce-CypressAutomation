@@ -30,16 +30,6 @@ const testCase1RegisterUserPage = {
   // getCompanyNameInputField: () => cy.get("" , {timeout :1000}),
   // getNameInputField: () => cy.get("" , {timeout :1000}),
 
-
-
-
-
-
-
-
- 
-
-
   
   };
   module.exports = testCase1RegisterUserPage;
