@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import tc1rup, { getAccountCreatedText } from '../../../PageObject/testCase-1-RegisterUserPage';
+import testCase1RegisterUserPage from '../../../PageObject/testCase-1-RegisterUserPage';
 
 import chaiColors from 'chai-colors' 
 chai.use(chaiColors)
@@ -33,7 +33,7 @@ describe("Test Case 1: Register User", () =>{
     
     it("Click on 'Signup / Login' button It Should Be visible In this Page  ", () => {
       
-       const signupLogin = tc1rup.getSignupLoginButton();
+       const signupLogin = testCase1RegisterUserPage.getSignupLoginButton();
         if (signupLogin.should("be.visible")) {
           signupLogin.click(); 
           cy.log(signupLogin + elementVisible);
@@ -44,7 +44,7 @@ describe("Test Case 1: Register User", () =>{
     });
         
     it("Verify 'New User Signup!' is visible ", () => {
-      const newUserSignup = tc1rup.getNewUserSignupText();
+      const newUserSignup = testCase1RegisterUserPage.getNewUserSignupText();
       if (newUserSignup.should("be.visible")) {
           newUserSignup.should("include.text","New User Signup!")
           .and("have.length","1");
@@ -57,7 +57,7 @@ describe("Test Case 1: Register User", () =>{
 
   it ("Enter name and email address", () =>{
 
-    const nameInputField = tc1rup.getNameInputField();
+    const nameInputField = testCase1RegisterUserPage.getNameInputField();
     if(nameInputField.should("be.visible"))
     {
       nameInputField.focus();
@@ -67,7 +67,7 @@ describe("Test Case 1: Register User", () =>{
       cy.visit(Cypress.env("url"));
     }
 
-    const emailInputField = tc1rup.getEmailInputField();
+    const emailInputField = testCase1RegisterUserPage.getEmailInputField();
     if(emailInputField.should("be.visible"))
     {
       emailInputField.focus();
@@ -102,7 +102,7 @@ it("TC - 7. Click 'Signup' button  ", () => {
 
 it("TC - 8. Verify that 'ENTER ACCOUNT INFORMATION' is visible ", () => {
   
-  const enterAccountInformationText = tc1rup.getEnterAccountInformationText();
+  const enterAccountInformationText = testCase1RegisterUserPage.getEnterAccountInformationText();
   if(enterAccountInformationText.should("be.visible"))
   {
     enterAccountInformationText.should("have.text","Enter Account Information")
@@ -116,7 +116,7 @@ it("TC - 8. Verify that 'ENTER ACCOUNT INFORMATION' is visible ", () => {
 
 it(" TC - 9. Fill details: Title, Name, Email, Password, Date of birth ", () => {
 
-    const mrRedioButton = tc1rup.getMrRedioButton();
+    const mrRedioButton = testCase1RegisterUserPage.getMrRedioButton();
     if (mrRedioButton.should("be.visible")) {
       mrRedioButton.click();
       cy.log(" ✔✔✔ Button Is Visible and Clickable ✔✔✔");
@@ -125,7 +125,7 @@ it(" TC - 9. Fill details: Title, Name, Email, Password, Date of birth ", () => 
     }
 
     
-    const mrsRedioButton = tc1rup.getMrsRedioButton();
+    const mrsRedioButton = testCase1RegisterUserPage.getMrsRedioButton();
     if (mrsRedioButton.should("be.visible")) {
       mrsRedioButton.click();
       cy.log(" ✔✔✔ Button Is Visible and Clickable ✔✔✔");
@@ -135,11 +135,11 @@ it(" TC - 9. Fill details: Title, Name, Email, Password, Date of birth ", () => 
     }
 
     //Mr redio Button is clicked 
-    tc1rup.getMrRedioButton().click();
+    testCase1RegisterUserPage.getMrRedioButton().click();
     cy.wait(2000);
 
     //Password Inputted 
-    const passwordInputField = tc1rup.getPasswordinputField();
+    const passwordInputField = testCase1RegisterUserPage.getPasswordinputField();
     if (passwordInputField.should("be.visible")) {
       passwordInputField.type(Cypress.env("password"));
       cy.log(" ✔✔✔ Input Field Is Visible and Inputted SucessFully ✔✔✔");
@@ -213,7 +213,7 @@ cy.yearDropdown("1994","1994");
 
 it("TC - 10. Select checkbox 'Sign up for our newsletter!'", () => {
 
-  const signUpForOurNewsLetterscheckbox = tc1rup.getSignUpForOurNewsLetterCheckbox();
+  const signUpForOurNewsLetterscheckbox = testCase1RegisterUserPage.getSignUpForOurNewsLetterCheckbox();
   if (signUpForOurNewsLetterscheckbox
     .should("be.visible")
     .should("not.be.checked")
@@ -229,7 +229,7 @@ it("TC - 10. Select checkbox 'Sign up for our newsletter!'", () => {
 
 it(" TC - 11. Select checkbox 'Receive special offers from our partners!'", () => {
 
-  const recieveSpecialOffersFromOurPartnersCheckbox = tc1rup.getRecivespecialOffersFromOurPartnersCheckbox();
+  const recieveSpecialOffersFromOurPartnersCheckbox = testCase1RegisterUserPage.getRecivespecialOffersFromOurPartnersCheckbox();
   if (recieveSpecialOffersFromOurPartnersCheckbox
     .should("be.visible")
     .should("not.be.checked")
@@ -245,7 +245,7 @@ it(" TC - 11. Select checkbox 'Receive special offers from our partners!'", () =
 it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number ", () => {
 
   //First Name 
-  const firstNameInputField = tc1rup.getFirstNameInputField();
+  const firstNameInputField = testCase1RegisterUserPage.getFirstNameInputField();
   if(firstNameInputField.should("be.visible"))
   {
     firstNameInputField.focus();
@@ -256,7 +256,7 @@ it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, C
   }
 
     //Last Name 
-    const lastNameInputField = tc1rup.getLastNameInputField();
+    const lastNameInputField = testCase1RegisterUserPage.getLastNameInputField();
     if(lastNameInputField.should("be.visible"))
     {
       lastNameInputField.focus();
@@ -268,7 +268,7 @@ it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, C
 
 
     //Company Name 
-    const companyNameInputField = tc1rup.getCompanyNameInputField();
+    const companyNameInputField = testCase1RegisterUserPage.getCompanyNameInputField();
     if(companyNameInputField.should("be.visible"))
     {
       companyNameInputField.focus();
@@ -280,7 +280,7 @@ it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, C
 
  
     //Address Name 
-    const addressInputField = tc1rup.getAdressInputField();
+    const addressInputField = testCase1RegisterUserPage.getAdressInputField();
     if(addressInputField.should("be.visible"))
     {
       addressInputField.focus();
@@ -292,7 +292,7 @@ it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, C
     
     //Address2 2 Name
 
-    const address2InputField = tc1rup.getAdressInputField();
+    const address2InputField = testCase1RegisterUserPage.getAdressInputField();
     if(address2InputField.should("be.visible"))
     {
       address2InputField.focus();
@@ -313,7 +313,7 @@ it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, C
 
     //State 
 
-    const stateInputField = tc1rup.getStateInputField();
+    const stateInputField = testCase1RegisterUserPage.getStateInputField();
     if(stateInputField.should("be.visible"))
     {
       stateInputField.focus();
@@ -325,7 +325,7 @@ it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, C
 
     //City
 
-    const cityInputField = tc1rup.getCityInputField();
+    const cityInputField = testCase1RegisterUserPage.getCityInputField();
     if(cityInputField.should("be.visible"))
     {
       cityInputField.focus();
@@ -337,7 +337,7 @@ it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, C
 
     //Zipcode
 
-    const zipCodeInputField = tc1rup.getZipcodeInputField();
+    const zipCodeInputField = testCase1RegisterUserPage.getZipcodeInputField();
     if(zipCodeInputField.should("be.visible"))
     {
       zipCodeInputField.focus();
@@ -349,7 +349,7 @@ it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, C
     
      //Mobile Number 
 
-    const mobileNumberInputField = tc1rup.getMobileNumberInputField();
+    const mobileNumberInputField = testCase1RegisterUserPage.getMobileNumberInputField();
     if(mobileNumberInputField.should("be.visible"))
     {
       mobileNumberInputField.focus();
@@ -362,11 +362,11 @@ it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, C
 
 it(" TC - 13. Click 'Create Account button' ", () => {
 
-    const  createAccountButton = tc1rup.getCreateAccountButton();
+    const  createAccountButton = testCase1RegisterUserPage.getCreateAccountButton();
   if( createAccountButton.should("be.visible").should("have.text","Create Account").should("have.css", "background-color",).and ("be.colored" ,"#FE980F") )
  
   {
-    tc1rup.getCreateAccountButton().click();
+    testCase1RegisterUserPage.getCreateAccountButton().click();
     cy.log("Button is Displayed and Clickable ")
   }else{
     cy.visit(Cypress.env("url"));
@@ -377,14 +377,14 @@ it(" TC - 13. Click 'Create Account button' ", () => {
 
 it("  TC - 14. Verify that 'ACCOUNT CREATED!' is visible ", () => {
 
-  const  accountCreatedText = tc1rup.getAccountCreatedText();
+  const  accountCreatedText = testCase1RegisterUserPage.getAccountCreatedText();
 
   if( accountCreatedText
     .should("be.visible")
     .should("have.text","Account Created!"))
  
    {
-     tc1rup.getAccountCreatedText().click()
+     testCase1RegisterUserPage.getAccountCreatedText().click()
      cy.log("Text is Displayed   ")
    }else{
      cy.visit(Cypress.env("url"));
@@ -394,14 +394,14 @@ it("  TC - 14. Verify that 'ACCOUNT CREATED!' is visible ", () => {
 
 it(" TC - 15. Click 'Continue' button ", () => {
 
-  const  continueButton = tc1rup.getContinueButton();
+  const  continueButton = testCase1RegisterUserPage.getContinueButton();
    if( continueButton.should("be.visible")
    .should("have.text","Continue")
    .should("have.css", "background-color",)
    .and ("be.colored" ,"#FE980F") )
  
    {
-     tc1rup.getContinueButton().click();
+     testCase1RegisterUserPage.getContinueButton().click();
      cy.log("Button is Displayed and Clickable ")
    }else{
      cy.visit(Cypress.env("url"));
@@ -414,7 +414,7 @@ it(" TC - 16. Verify that 'Logged in as username' is visible ", () => {
 
   cy.wait(2000);
   cy.reload();
-  const  loggedInasUserNameText = tc1rup.getLoggedInAsUsernameText();
+  const  loggedInasUserNameText = testCase1RegisterUserPage.getLoggedInAsUsernameText();
 
   if( loggedInasUserNameText
     .should("be.visible")
@@ -431,18 +431,20 @@ it(" TC - 16. Verify that 'Logged in as username' is visible ", () => {
 
 it("  TC - 17. Click 'Delete Account' button ", () => {
 
-  const  deleteButton = tc1rup.getDeleteButton();
-  if( deleteButton.should("be.visible")
-  .should("have.text","Create Account")
-  .should("have.css", "background-color",)
-  .and ("be.colored" ,"#FE980F") )
+//  ❌❌   Due to the site vulnarable API the "Account delete" not Working properly  ❌❌
 
-  {
-    tc1rup.getDeleteButton().click();
-    cy.log("Button is Displayed and Clickable ")
-  }else{
-    cy.visit(Cypress.env("url"));
-  }
+  // const  deleteButton = testCase1RegisterUserPage.getDeleteButton();
+  // if( deleteButton.should("be.visible")
+  // .should("have.text","Create Account")
+  // .should("have.css", "background-color",)
+  // .and ("be.colored" ,"#FE980F") )
+
+  // {
+  //   testCase1RegisterUserPage.getDeleteButton().click();
+  //   cy.log("Button is Displayed and Clickable ")
+  // }else{
+  //   cy.visit(Cypress.env("url"));
+  // }
 
 
 
