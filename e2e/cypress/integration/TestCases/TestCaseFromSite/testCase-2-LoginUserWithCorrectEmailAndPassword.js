@@ -1,5 +1,5 @@
 
-import tc2luwcap from '../../../PageObject/testCase-2-LoginUserWithCorrectEmailAndPasswordPage';
+import  testcase2loginuserwithcorrectemailandpasswordpage  from '../../../PageObject/testCase-2-LoginUserWithCorrectEmailAndPasswordPage';
 
 const positiveMessage = "Inputted Successfully" ; 
 const elementVisible = "Is Visible";
@@ -33,7 +33,7 @@ it ("TC - 3. Verify that home page is visible successfully", ()=>{
 
 it ("TC - 4. Click on 'Signup / Login' button", ()=>{
 
-    const signupLogin = tc2luwcap.getSignupLoginButton();
+    const signupLogin = testcase2loginuserwithcorrectemailandpasswordpage.getSignupLoginButton();
     if (signupLogin.should("be.visible")) {
       signupLogin.click(); 
       cy.log(signupLogin + elementVisible);
@@ -47,7 +47,7 @@ it ("TC - 4. Click on 'Signup / Login' button", ()=>{
 
 it (" TC - 5. Verify 'Login to your account' is visible", ()=>{
 
-    const logintoYourAccountText = tc2luwcap.getLoginToYourAccountText();
+    const logintoYourAccountText = testcase2loginuserwithcorrectemailandpasswordpage.getLoginToYourAccountText();
     if (logintoYourAccountText.should("be.visible")) {
         logintoYourAccountText.should("include.text","Login to your account")
         .and("have.length","1");
@@ -63,7 +63,7 @@ it (" TC - 5. Verify 'Login to your account' is visible", ()=>{
 it ("TC - 6. Enter correct email address and password", ()=>{
 
 
-    const emailInputField = tc2luwcap.getEmailInputField();
+    const emailInputField = testcase2loginuserwithcorrectemailandpasswordpage.getEmailInputField();
     if(emailInputField.should("be.visible"))
     {
       emailInputField.focus();
@@ -73,7 +73,7 @@ it ("TC - 6. Enter correct email address and password", ()=>{
       cy.visit(Cypress.env("url"));
     }
 
-    const passwordInputField = tc2luwcap.getPasswordInputField();
+    const passwordInputField = testcase2loginuserwithcorrectemailandpasswordpage.getPasswordInputField();
     if(passwordInputField.should("be.visible"))
     {
       passwordInputField.focus();
@@ -88,7 +88,7 @@ it ("TC - 6. Enter correct email address and password", ()=>{
 
 it (" TC - 7. Click 'login' button", ()=>{
 
-    const loginButton = tc2luwcap.getLogInButton();
+    const loginButton = testcase2loginuserwithcorrectemailandpasswordpage.getLogInButton();
     if(loginButton.should("be.visible"))
     {
       loginButton.click();
@@ -103,7 +103,7 @@ it (" TC - 7. Click 'login' button", ()=>{
 it ("TC - 8. Verify that 'Logged in as username' is visible", ()=>{
 
     cy.wait(2000);
-    const  loggedInasUserNameText = tc2luwcap.getLoggedInAsUsernameText();
+    const  loggedInasUserNameText = testcase2loginuserwithcorrectemailandpasswordpage.getLoggedInAsUsernameText();
   
     if( loggedInasUserNameText
       .should("be.visible")
@@ -121,6 +121,20 @@ it ("TC - 8. Verify that 'Logged in as username' is visible", ()=>{
 
 it ("TC - 9. Click 'Delete Account' button", ()=>{
 
+//  ❌❌   Due to the site vulnarable delete API the "Account delete" not Working properly  ❌❌
+
+  // const  deleteButton = tc1rup.getDeleteButton();
+  // if( deleteButton.should("be.visible")
+  // .should("have.text","Create Account")
+  // .should("have.css", "background-color",)
+  // .and ("be.colored" ,"#FE980F") )
+
+  // {
+  //   tc1rup.getDeleteButton().click();
+  //   cy.log("Button is Displayed and Clickable ")
+  // }else{
+  //   cy.visit(Cypress.env("url"));
+  // }
 
 
 });

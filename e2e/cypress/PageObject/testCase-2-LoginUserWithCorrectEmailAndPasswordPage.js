@@ -1,4 +1,4 @@
-const testCase1RegisterUserPage = {
+const testcase2loginuserwithcorrectemailandpasswordpage = {
 
     getSignupLoginButton: () => cy.get('.nav.navbar-nav > li:nth-of-type(4) > a' , {timeout :1000}),
     getLoginToYourAccountText: () => cy.get(".login-form > h2" , {timeout :1000}),
@@ -12,5 +12,5 @@ const testCase1RegisterUserPage = {
   
     
     };
-    module.exports = testCase1RegisterUserPage;
+    module.exports = testcase2loginuserwithcorrectemailandpasswordpage;
     
