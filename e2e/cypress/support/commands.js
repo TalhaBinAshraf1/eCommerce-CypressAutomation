@@ -88,5 +88,13 @@ Cypress.Commands.add("login", (username, password) => {
     }
   );
   
-  
+  //Testcase 7 Verify Test CasePage 
+
+  Cypress.Commands.add("testcaselist",(menuText) => {
+    cy.get("div > .panel.panel-default > .panel-heading")
+      .should("be.visible" ,menuText )
+      .should("contain.text", menuText)
+      .log(menuText + " Available in page");
+  }
+);
 
