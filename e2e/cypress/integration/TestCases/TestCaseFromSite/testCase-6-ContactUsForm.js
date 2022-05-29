@@ -15,7 +15,6 @@ const message = "test ongoiing in cypress";
 describe("Test Case 6: Contact Us Form", ()=>{
 
     
-    
     it ("TC - 2. Navigate to url 'http://automationexercisTC - e.com'", ()=>{
         
         cy.visit(Cypress.env("url"));
