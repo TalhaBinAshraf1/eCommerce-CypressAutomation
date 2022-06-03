@@ -10,19 +10,34 @@ const elementVisible = "Is Visible";
 describe(" Test Case 7: Verify Test Cases Page ", ()=>{
 
     
-    it ("TC - 2. Navigate to url 'http://automationexercisTC - e.com'", ()=>{
+    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
     
         cy.visit(Cypress.env("url"));
         cy.url().should("equal", Cypress.env("url"));
-        cy.request(Cypress.env("url")).should(
-            (response) => {
-              expect(response.status).to.eq(200);
-            }
-          );
-          cy.csrfCookies();
-    
-    
     });
+
+    it ("TC - 3. Verify that home page is visible successfully", ()=>{
+    
+ 
+      cy.request(Cypress.env("url")).should(
+          (response) => {
+            expect(response.status).to.eq(200);
+          }
+        );
+        cy.csrfCookies()
+    
+      //             ✅  Navbar Validation  ✅
+
+       cy.navbarItems(" Home");
+       cy.navbarItems(" Products");
+       cy.navbarItems(" Cart");
+       cy.navbarItems(" Signup / Login");
+       cy.navbarItems(" Test Cases");
+       cy.navbarItems(" API Testing");
+       cy.navbarItems(" Contact us");
+  
+  
+  });
     
 
     
@@ -60,6 +75,10 @@ describe(" Test Case 7: Verify Test Cases Page ", ()=>{
             cy.visit(Cypress.env("url"));
         }
     
+
+      //   ✅  TestCase List Valiadtion  ✅ 
+
+
         cy.testcaselist("Test Case 1: Register User");
         cy.testcaselist("Test Case 2: Login User with correct email and password");
         cy.testcaselist("Test Case 3: Login User with incorrect email and password");

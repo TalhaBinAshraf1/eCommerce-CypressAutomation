@@ -14,14 +14,31 @@ describe("Test Case 5: Register User with existing email", ()=>{
 
     it("Navigate to url 'http://automationexercise.com'",() =>{
     cy.visit(Cypress.env("url"));
-    cy.url().should("equal", Cypress.env("url"));
-    cy.request(Cypress.env("url")).should(
-        (response) => {
-          expect(response.status).to.eq(200);
-        }
-      );
-      cy.csrfCookies();
+cy.url().should("equal", Cypress.env("url"));
     });
+
+    it ("TC - 3. Verify that home page is visible successfully", ()=>{
+    
+      
+      cy.request(Cypress.env("url")).should(
+          (response) => {
+            expect(response.status).to.eq(200);
+          }
+        );
+        cy.csrfCookies()
+    
+      //             ✅  Navbar Validation  ✅
+
+       cy.navbarItems(" Home");
+       cy.navbarItems(" Products");
+       cy.navbarItems(" Cart");
+       cy.navbarItems(" Signup / Login");
+       cy.navbarItems(" Test Cases");
+       cy.navbarItems(" API Testing");
+       cy.navbarItems(" Contact us");
+  
+  
+  });
     
     it("Click on 'Signup / Login' button It Should Be visible In this Page  ", () => {
       
