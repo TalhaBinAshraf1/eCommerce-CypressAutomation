@@ -42,6 +42,17 @@ Cypress.Commands.add("login", (username, password) => {
   })
   });
 
+  
+//  ✅ Navbar Items Validation ✅
+
+Cypress.Commands.add("navbarItems",(menuText) => {
+  cy.get("li > a")
+    .should("be.visible" ,menuText )
+    .should("contain.text", menuText)
+    .log(menuText + " Available in page");
+}
+
+);
 
 
 //                ✅     testCase-1-RegisterUser     ✅
@@ -88,7 +99,10 @@ Cypress.Commands.add("login", (username, password) => {
     }
   );
   
-  //Testcase 7 Verify Test CasePage 
+
+
+
+  //      ✅  Test Case 7: Verify Test Cases Page   ✅
 
   Cypress.Commands.add("testcaselist",(menuText) => {
     cy.get("div > .panel.panel-default > .panel-heading")
@@ -96,5 +110,42 @@ Cypress.Commands.add("login", (username, password) => {
       .should("contain.text", menuText)
       .log(menuText + " Available in page");
   }
+  
+);
+
+
+
+//  ✅  Test Case 8: Verify All Products and product detail page ✅
+
+
+Cypress.Commands.add("categoryList",(menuText) => {
+  cy.get("div > .panel-heading > .panel-title")
+    .should("be.visible" ,menuText )
+    .should("contain.text", menuText)
+    .log(menuText + " Available in page");
+}
+
+);
+
+
+
+Cypress.Commands.add("categorySubItems",(menuText) => {
+  cy.get("div.panel-body ul > li")
+    .should("be.visible" ,menuText )
+    .should("contain.text", menuText)
+    .log(menuText + " Available in page");
+    
+}
+
+);
+
+
+Cypress.Commands.add("brandList",(menuText) => {
+  cy.get(".nav.nav-pills.nav-stacked > li > a")
+    .should("be.visible" ,menuText )
+    .should("contain.text", menuText)
+    .log(menuText + " Available in page");
+}
+
 );
 

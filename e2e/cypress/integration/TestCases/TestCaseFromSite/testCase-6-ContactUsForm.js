@@ -15,16 +15,35 @@ const message = "test ongoiing in cypress";
 describe("Test Case 6: Contact Us Form", ()=>{
 
     
-    it ("TC - 2. Navigate to url 'http://automationexercisTC - e.com'", ()=>{
+    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
         
         cy.visit(Cypress.env("url"));
         cy.url().should("equal", Cypress.env("url"));
+    
+    });
+
+
+    it ("TC - 3. Verify that home page is visible successfully", ()=>{
+    
+ 
         cy.request(Cypress.env("url")).should(
             (response) => {
               expect(response.status).to.eq(200);
             }
           );
-          cy.csrfCookies();
+          cy.csrfCookies()
+      
+        //             ✅  Navbar Validation  ✅
+  
+         cy.navbarItems(" Home");
+         cy.navbarItems(" Products");
+         cy.navbarItems(" Cart");
+         cy.navbarItems(" Signup / Login");
+         cy.navbarItems(" Test Cases");
+         cy.navbarItems(" API Testing");
+         cy.navbarItems(" Contact us");
+    
+    
     });
     
 

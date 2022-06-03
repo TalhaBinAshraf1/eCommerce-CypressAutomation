@@ -7,23 +7,34 @@ describe("Test Case 4: Logout User", ()=>{
 
 
 
-    it ("TC - 2. Navigate to url 'http://automationexercisTC - e.com'", ()=>{
+    it ("TC - 2. Navigate to url 'http://automationexercis.com'", ()=>{
 
         cy.visit(Cypress.env("url"));
-    
+        cy.url().should("equal", Cypress.env("url"));
     });
     
     
     
     it ("TC - 3. Verify that home page is visible successfully", ()=>{
     
-        cy.url().should("equal", Cypress.env("url"));
+       
         cy.request(Cypress.env("url")).should(
             (response) => {
               expect(response.status).to.eq(200);
             }
           );
           cy.csrfCookies();
+
+          
+        //             ✅  Navbar Validation  ✅
+
+         cy.navbarItems(" Home");
+         cy.navbarItems(" Products");
+         cy.navbarItems(" Cart");
+         cy.navbarItems(" Signup / Login");
+         cy.navbarItems(" Test Cases");
+         cy.navbarItems(" API Testing");
+         cy.navbarItems(" Contact us");
     
     
     });
