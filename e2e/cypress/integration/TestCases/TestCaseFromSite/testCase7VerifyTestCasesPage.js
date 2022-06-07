@@ -65,15 +65,22 @@ describe(" Test Case 7: Verify Test Cases Page ", ()=>{
               expect(response.status).to.eq(200);
             }
           );
-
-        const testCasesText = testcase7VerifyTestCasePage_Page.getTestCaseText();
-        if (testCasesText.should("be.visible")) {
-            testCasesText.should("include.text","Test Cases")
-            .and("have.length","1");
-            cy.log(testCasesText + elementVisible);
-        } else {
-            cy.visit(Cypress.env("url"));
-        }
+          
+          const testCasesText = testcase7VerifyTestCasePage_Page.getTestCaseText();
+          if (testCasesText.should("be.visible")
+          .should("have.css", "color", "rgb(254, 152, 15)")
+          .should("have.css","font-family","Roboto, sans-serif")
+          .should("have.css", "font-size", "18px")
+          .should("have.css", "line-height", "19.8px")
+          .should("have.css", "text-align", "center")
+          .should("have.css", "text-transform", "uppercase")
+          .should("have.css", "-webkit-tap-highlight-color", "rgba(0, 0, 0, 0)")) {
+              testCasesText.should("include.text","Test Cases")
+              .and("have.length","1");
+              cy.log(testCasesText + elementVisible);
+          } else {
+              cy.visit(Cypress.env("url"));
+          }
     
 
       //   ✅  TestCase List Valiadtion  ✅ 
