@@ -1,5 +1,6 @@
 import testcase6contactusformpage from '../../../PageObject/testCase-6-ContactUsFormPage';
 
+import 'cypress-file-upload';
 import chaiColors from 'chai-colors' 
 chai.use(chaiColors)
 
@@ -11,6 +12,7 @@ const name = "test012";
 const email = "test012345@testmail.com";
 const subject = "test ongoiing in cypress";
 const message = "test ongoiing in cypress";
+const sucesstext ="Success! Your details have been submitted successfully.";
 
 describe("Test Case 6: Contact Us Form", ()=>{
 
@@ -130,7 +132,7 @@ describe("Test Case 6: Contact Us Form", ()=>{
                 //Choose File  
        const  chooseFileButton  = testcase6contactusformpage.getChooseFileButton();
        if ( chooseFileButton .should("be.visible")) {
-         // chooseFileButton .click(); 
+          chooseFileButton.attachFile("testImage.jpg"); 
          cy.log( chooseFileButton  + elementVisible);
        } else {
            cy.visit(Cypress.env("url"));
@@ -168,15 +170,18 @@ describe("Test Case 6: Contact Us Form", ()=>{
 
     it ("TC - 10. Verify success message 'Success! Your details have been submitted successfully.' is visible", ()=>{
     
+        const sucessfulText = testcase6contactusformpage.getSucessfulText();
+        if (sucessfulText.should("be.visible")) {
+            sucessfulText.should("include.text",sucesstext)
+            cy.log(sucesstext + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
     
     
     });
 
-    it ("TC - 11. Click 'Home' button and verify that landed to home page successfully ", ()=>{
-    
-    
-    
-    });
+
     
     
     
