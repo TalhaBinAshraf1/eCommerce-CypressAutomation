@@ -3,6 +3,14 @@ describe(" Test Case 11: Verify Subscription in Cart page ", ()=>{
     it (" TC - 1. Launch browser ", ()=>{
     
     
+        cy.visit("https://register.rediff.com/register/register.php?FormName=user_details");
+        // click on submit button to produce the alert pop up
+        cy.get('input[type="submit"]').click();
+        // firing window: alert event with on() method
+        cy.on('window:alert',(txt)=>{
+           //Mocha assertions
+           expect(txt).to.contains('Your full name cannot be blank.');
+        })
     
     });
     
