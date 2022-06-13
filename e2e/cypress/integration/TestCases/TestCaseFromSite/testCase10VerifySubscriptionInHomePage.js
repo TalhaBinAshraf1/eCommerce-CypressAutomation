@@ -1,56 +1,108 @@
+import testCase10Verifysubscriptioninhomepage from '../../../PageObject/testCase-10-VerifySubscriptionInHomePage-Page';
+
+
+const positiveMessage = "Inputted Successfully" ; 
+const elementVisible = "Is Visible";
+const subscription = "Subscription" ;
+
 describe(" Test Case 10: Verify Subscription in home page ", ()=>{
 
 
-    it (" TC - 1. Launch browser ", ()=>{
+    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
     
-    
-    
-    });
-    
-    
-    it ("TC - 2. Navigate to url 'http://automationexercisTC - e.com'", ()=>{
-    
-    
-    
+        cy.visit(Cypress.env("url"));
+        cy.url().should("equal", Cypress.env("url"));
+
+
     });
     
     
     
     it ("TC - 3. Verify that home page is visible successfully ", ()=>{
     
-    
+        cy.request(Cypress.env("url")).should(
+            (response) => {
+              expect(response.status).to.eq(200);
+            }
+          );
+          cy.csrfCookies();
+
+        //             ✅  Navbar Validation  ✅
+
+        cy.navbarItems(" Home");
+        cy.navbarItems(" Products");
+        cy.navbarItems(" Cart");
+        cy.navbarItems(" Signup / Login");
+        cy.navbarItems(" Test Cases");
+        cy.navbarItems(" API Testing");
+        cy.navbarItems(" Contact us");
+
     
     });
     
     
     it ("TC - 4. Scroll down to footer", ()=>{
     
-    
+        cy.scrollTo('bottom');
     
     });
     
     
     it (" TC -5. Verify text 'SUBSCRIPTION' ", ()=>{
-    
-    
+     
+            
+//   ✅    Product name -> " Blue Top" validation ✅ 
+
+        const  subscriptionText = testCase10Verifysubscriptioninhomepage.getSubsCriptionText();
+        if ( subscriptionText.should("be.visible")) {
+            subscriptionText.should("have.text",subscription );
+            cy.log( subscriptionText + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
     
     });
     
 
-        
     
     it ("TC - 6. Enter email address in input and click arrow button ", ()=>{
     
+        const emailinputField = testCase10Verifysubscriptioninhomepage.getEmailInputField();
+        if (emailinputField.should("be.visible")) {
+            emailinputField.type("test012@gmail.com");
+
+            cy.log(emailinputField + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
+    
+     
+
     
     
     });
 
 
-        
-    
     it ("TC - 7. Verify success message 'You have been successfully subscribed!' is visible ", ()=>{
     
-    
+
+        testCase10Verifysubscriptioninhomepage.getSubscribeButton().should("be.visible").click();
+
+    cy.on('window:alert', (str) => {
+        expect(str).to.contains('You have been successfully subscribed!');
+      })
+
+      cy.on('window:confirm', (txt) => {
+        expect(txt).to.contains('You have been successfully subscribed!');
+        return false;
+      });
+
+        // const stub = cy.stub()  
+        // cy.on ('window:alert', stub)
+        // cy.get('button').contains('Click me!').click()
+        // .then(() => {
+        //   expect(stub.getCall(0)).to.be.calledWith('You have been successfully subscribed!')      
+        // })
     
     });
 
