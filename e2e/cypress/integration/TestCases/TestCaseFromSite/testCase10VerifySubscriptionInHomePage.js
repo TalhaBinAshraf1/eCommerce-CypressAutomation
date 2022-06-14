@@ -97,18 +97,8 @@ describe(" Test Case 10: Verify Subscription in home page ", ()=>{
         return false;
       });
 
-        // const stub = cy.stub()  
-        // cy.on ('window:alert', stub)
-        // cy.get('button').contains('Click me!').click()
-        // .then(() => {
-        //   expect(stub.getCall(0)).to.be.calledWith('You have been successfully subscribed!')      
-        // })
-    
     });
 
 
-    
-
-        
     
     });
