@@ -1,71 +1,111 @@
+import testCase11Verifysubscriptionincartpage from "../../../PageObject/testCase-11-VerifySubscriptionInCartPage-Pages"
+
+
+const positiveMessage = "Inputted Successfully" ; 
+const elementVisible = "Is Visible";
+const subscription = "Subscription" ;
+
 describe(" Test Case 11: Verify Subscription in Cart page ", ()=>{
 
-    it (" TC - 1. Launch browser ", ()=>{
+    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
     
-    
-        cy.visit("https://register.rediff.com/register/register.php?FormName=user_details");
-        // click on submit button to produce the alert pop up
-        cy.get('input[type="submit"]').click();
-        // firing window: alert event with on() method
-        cy.on('window:alert',(txt)=>{
-           //Mocha assertions
-           expect(txt).to.contains('Your full name cannot be blank.');
-        })
-    
-    });
-    
-    
-    it ("TC - 2. Navigate to url 'http://automationexercisTC - e.com'", ()=>{
-    
-    
-    
+        cy.visit(Cypress.env("url"));
+        cy.url().should("equal", Cypress.env("url"));
+
+
     });
     
     
     
     it ("TC - 3. Verify that home page is visible successfully ", ()=>{
     
-    
+        cy.request(Cypress.env("url")).should(
+            (response) => {
+              expect(response.status).to.eq(200);
+            }
+          );
+          cy.csrfCookies();
+
+        //             ✅  Navbar Validation  ✅
+
+        cy.navbarItems(" Home");
+        cy.navbarItems(" Products");
+        cy.navbarItems(" Cart");
+        cy.navbarItems(" Signup / Login");
+        cy.navbarItems(" Test Cases");
+        cy.navbarItems(" API Testing");
+        cy.navbarItems(" Contact us");
+
     
     });
     
     
     it ("TC -4. Click 'Cart' button", ()=>{
     
-    
-    
-    });
-    
-    
-    it (" TC -5. Scroll down to footer' ", ()=>{
-    
-    
-    
-    });
-    
-
+    const   cartButton = testCase11Verifysubscriptionincartpage.getCartButton();
+        if (  cartButton.should("be.visible")) {
+             cartButton.should("have.text"," Cart" );
+             cartButton.click();
+            cy.log(  cartButton + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
+        
         
     
-    it ("TC - 6. Verify text 'SUBSCRIPTION' ", ()=>{
+    });
     
+    
+    it (" TC -5. Verify text 'SUBSCRIPTION' ", ()=>{
+     
+            
+//   ✅    Product name -> " Blue Top" validation ✅ 
+
+        const  subscriptionText = testCase11Verifysubscriptionincartpage.getSubsCriptionText();
+        if ( subscriptionText.should("be.visible")) {
+            subscriptionText.should("have.text",subscription );
+            cy.log( subscriptionText + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
+    
+    });
+    
+
+    it ("TC - 6. Enter email address in input and click arrow button ", ()=>{
+    
+        const emailinputField = testCase11Verifysubscriptionincartpage.getEmailInputField();
+        if (emailinputField.should("be.visible")) {
+            emailinputField.type("test012@gmail.com");
+
+            cy.log(emailinputField + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
+    
+     
+
     
     
     });
 
+
+    it ("TC - 7. Verify success message 'You have been successfully subscribed!' is visible ", ()=>{
     
-    it ("TC - 7. Enter email address in input and click arrow button ", ()=>{
-    
-    
-    
+
+        testCase11Verifysubscriptionincartpage.getSubscribeButton().should("be.visible").click();
+
+    cy.on('window:alert', (str) => {
+        expect(str).to.contains('You have been successfully subscribed!');
+      })
+
+      cy.on('window:confirm', (txt) => {
+        expect(txt).to.contains('You have been successfully subscribed!');
+        return false;
+      });
+
     });
 
-
-    it ("TC - 8. Verify success message 'You have been successfully subscribed!' is visible ", ()=>{
-    
-    
-    
-    });
-    
 
         
     
