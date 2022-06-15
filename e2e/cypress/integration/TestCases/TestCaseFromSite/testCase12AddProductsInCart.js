@@ -1,10 +1,8 @@
 
 import testcase12addproductincartpage from "../../../PageObject/testCase-12-AddProductsInCartPage"
 
-
 const positiveMessage = "Inputted Successfully" ; 
 const elementVisible = "Is Visible";
-const subscription = "Subscription" ;
 
 
 describe(" Test Case 12: Add Products in Cart ", ()=>{
@@ -85,26 +83,58 @@ describe(" Test Case 12: Add Products in Cart ", ()=>{
     });
 
 
-    // it(" TC -6. Hover over first product and click 'Add to cart' ", ()=>{
+    it(" TC -6. Hover over first product and click 'Add to cart' ", ()=>{
+
+      //  testcase12addproductincartpage.getFirstProductAddToCartButtonProductPage().click();
+
+    //    ✅   1st product Add to cart  ✅
+
+    const firstProductAddToCartButton = testcase12addproductincartpage.getFirstProductAddToCartButtonProductPage();
+        if (firstProductAddToCartButton.should("be.visible").should("include.text","Add to cart")) {
+            
+            testcase12addproductincartpage.getFirstProductAddToCartButtonProductPage().click();
+            cy.log(firstProductAddToCartButton + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
+
+           //  ✅  continue Shoping Button validation  ✅ 
+
+    const continueShopingButton = testcase12addproductincartpage.getContinueShopingbutton();
+
+        if (continueShopingButton.should("be.visible")) {
+            continueShopingButton.should("include.text","Continue Shopping");
+            testcase12addproductincartpage.getContinueShopingbutton().click();
+            cy.log(continueShopingButton + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
 
     
-    // const firstProductAddToCartButton = testcase12addproductincartpage.getFirstProductAddToCartButtonProductPage();
-    //     if (firstProductAddToCartButton.should("be.visible")) {
-    //         firstProductAddToCartButton.should("include.text","Add to cart");
-    //         cy.wait(2000);
-    //         testcase12addproductincartpage.getFirstProductAddToCartButtonProductPage().click();
+    //    ✅   2ND product Add to cart  ✅
 
-    //         cy.log(firstProductAddToCartButton + elementVisible);
-    //     } else {
-    //         cy.visit(Cypress.env("url"));
-    //     }
-    // });
+    const secondProductAddToCartButton = testcase12addproductincartpage.getSecondProductAddToCartButton();
+        if (secondProductAddToCartButton.should("be.visible")) {
+            secondProductAddToCartButton.should("include.text","Add to cart");
+            cy.wait(2000);
+            testcase12addproductincartpage.getSecondProductAddToCartButton().click();
+
+            cy.log(secondProductAddToCartButton + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
+        
+        
+
+    });
     
 
     
     // it("TC - 7. Click 'Continue Shopping' button ", ()=>{
     
+    //     testcase12addproductincartpage.getContinueShopingbutton().click();
 
+    //     //  ✅  continue Shoping Button validation  ✅ 
     //     const continueShopingButton = testcase12addproductincartpage.getContinueShopingbutton();
 
     //     if (continueShopingButton.should("be.visible")) {
@@ -122,6 +152,11 @@ describe(" Test Case 12: Add Products in Cart ", ()=>{
     // it("TC - 8. Hover over second product and click 'Add to cart' ", ()=>{
     
 
+    //     testcase12addproductincartpage.getSecondProductAddToCartButton().click();
+
+
+    // //    ✅   2ND product Add to cart  ✅
+
     //     const secondProductAddToCartButton = testcase12addproductincartpage.getSecondProductAddToCartButton();
     //     if (secondProductAddToCartButton.should("be.visible")) {
     //         secondProductAddToCartButton.should("include.text","Add to cart");
@@ -137,48 +172,117 @@ describe(" Test Case 12: Add Products in Cart ", ()=>{
     // });
 
 
-    // it("TC - 9. Click 'View Cart' button ", ()=>{
-    
-    //     const continueShopingButton = testcase12addproductincartpage.getContinueShopingbutton();
-    //     if (continueShopingButton.should("be.visible")) {
-    //         continueShopingButton.should("include.text","Continue Shopping");
-    //         continueShopingButton.click();
-    //         cy.log(continueShopingButton + elementVisible);
-    //     } else {
-    //         cy.visit(Cypress.env("url"));
-    //     }
-
-    //     const viewCartButton = testcase12addproductincartpage.getViewCartbutton();
-    //     if (viewCartButton.should("be.visible")) {
-    //         viewCartButton.should("include.text"," Cart");
-    //         viewCartButton.click();
-    //         cy.log(viewCartButton + elementVisible);
-    //     } else {
-    //         cy.visit(Cypress.env("url"));
-    //     }
-    
-    
-    
-    // });
+    it("TC - 9. Click 'View Cart' button ", ()=>{
 
 
-    
-    it ("TC - 10. Verify both products are added to Cart ", ()=>{
-    
-        testcase12addproductincartpage.getFirstProductAddToCartButtonProductPage().click();
-        testcase12addproductincartpage.getContinueShopingbutton().click();
-        testcase12addproductincartpage.getSecondProductAddToCartButton().click();
-        testcase12addproductincartpage.getContinueShopingbutton().click();
-        testcase12addproductincartpage.getViewCartbutton().click();
+         // cy.get(".modal-body > p:nth-of-type(2)").click();
 
-
+        const viewCartButton = testcase12addproductincartpage.getViewCartbutton();
+        if (viewCartButton.should("be.visible")) {
+            viewCartButton.should("include.text"," Cart");
+            viewCartButton.click();
+            cy.log(viewCartButton + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
+    
     
     
     });
 
     
+    it ("TC - 10. Verify both products are added to Cart ", ()=>{
+    
+        // testcase12addproductincartpage.getFirstProductAddToCartButtonProductPage().click();
+        // testcase12addproductincartpage.getContinueShopingbutton().click();
+        // testcase12addproductincartpage.getSecondProductAddToCartButton().click();
+        // cy.get(".modal-body > p:nth-of-type(2)").click();
+
+    const firstProductName = testcase12addproductincartpage.getFirstProductName();
+        if (firstProductName.should("be.visible")) {
+            firstProductName.should("include.text","Blue Top");
+            cy.log(firstProductName + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
+
+    const secondProductName = testcase12addproductincartpage.getSecondProductName();
+        if (secondProductName.should("be.visible")) {
+            secondProductName.should("include.text","Men Tshirt");
+            cy.log(secondProductName + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }
+
+        
+    });
+
+    
     it ("TC - 11. Verify their prices, quantity and total price", ()=>{
     
+    //  ✅  1st Product Price validation from cart page  ✅
+      
+    const firstProductPrice = testcase12addproductincartpage.getFirstProductPrice();
+    if (firstProductPrice.should("be.visible")) {
+        firstProductPrice.should("include.text","Rs. 500");
+        cy.log(firstProductPrice + elementVisible);
+    } else {
+        cy.visit(Cypress.env("url"));
+    }
+
+    //  ✅  1st Product Quantity validation from cart page  ✅
+
+    const firstProductQuantity = testcase12addproductincartpage.getFirstProductQuantity();
+    if (firstProductQuantity.should("be.visible")) {
+        firstProductQuantity.should("include.text","1");
+        cy.log(firstProductQuantity + elementVisible);
+    } else {
+        cy.visit(Cypress.env("url"));
+    }
+
+
+    //  ✅  1st Product Price validation from cart page  ✅
+
+    const firstProductTotalPrice = testcase12addproductincartpage.getFirstProductTotalPrice();
+    if (firstProductTotalPrice.should("be.visible")) {
+        firstProductTotalPrice.should("include.text","Rs. 500");
+        cy.log(firstProductTotalPrice + elementVisible);
+    } else {
+        cy.visit(Cypress.env("url"));
+    }
+    
+
+    //  ✅  2nd Product Price validation from cart page  ✅
+      
+    const secondProductPrice = testcase12addproductincartpage.getSecondProductPrice();
+    if (secondProductPrice.should("be.visible")) {
+        secondProductPrice.should("include.text","Rs. 400");
+        cy.log(secondProductPrice + elementVisible);
+    } else {
+        cy.visit(Cypress.env("url"));
+    }
+
+    //  ✅  2nd Product Quantity validation from cart page  ✅
+
+    const secondProductQuantity = testcase12addproductincartpage.getSecondProductQuantity();
+    if (secondProductQuantity.should("be.visible")) {
+        secondProductQuantity.should("include.text","1");
+        cy.log(secondProductQuantity + elementVisible);
+    } else {
+        cy.visit(Cypress.env("url"));
+    }
+
+
+    //  ✅  2nd Product Price validation from cart page  ✅
+
+    const secondProductTotalPrice = testcase12addproductincartpage.getSecondProductTotalPrice();
+    if (secondProductTotalPrice.should("be.visible")) {
+        secondProductTotalPrice.should("include.text","Rs. 400");
+        cy.log(secondProductTotalPrice + elementVisible);
+    } else {
+        cy.visit(Cypress.env("url"));
+    }
+
     
     
     });
