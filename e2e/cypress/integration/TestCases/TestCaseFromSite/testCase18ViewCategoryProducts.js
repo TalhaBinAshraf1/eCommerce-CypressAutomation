@@ -1,5 +1,9 @@
 /// <reference types="cypress" />
 
+import testcase18viewcategoryproductpage  from "../../../PageObject/testCase-18-ViewCategoryProductsPage" ;
+
+const elementVisible = "Is Visible";
+
 describe ("Test Case 18: View Category Products", ()=>{
 
     it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
@@ -14,11 +18,11 @@ describe ("Test Case 18: View Category Products", ()=>{
     
     it ("TC - 3. Verify that categories are visible on left side bar", ()=>{
     
-      let initialPosition;
+      let categoryelementPosition;
 
       cy.get('.left-sidebar > h2').then(
         ($button) => {
-          initialPosition = $button.position();
+          categoryelementPosition = $button.position();
         }
       );
       
@@ -26,7 +30,7 @@ describe ("Test Case 18: View Category Products", ()=>{
       
       cy.get('.left-sidebar > h2').should(
           ($button) => {
-            expect($button.position()).deep.equal(initialPosition);
+            expect($button.position()).deep.equal(categoryelementPosition);
           }
         );
  
@@ -36,12 +40,34 @@ describe ("Test Case 18: View Category Products", ()=>{
     
     it ("TC - 4. Click on 'Women' category", ()=>{
     
+      const womenCategory  = testcase18viewcategoryproductpage.getWomenCategory();
+      if (womenCategory .should("be.visible").should("have.text","\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tWomen\n\t\t\t\t\t\t\t\t\t\t")) {
+       
+        womenCategory.click({force:true});
+        cy.log(womenCategory  + elementVisible);
+      } else {
+          cy.visit(Cypress.env("url"));
+      }
+
+      
+      cy.womenCategoryItems("Dress ");
+      cy.womenCategoryItems("Tops ");
+      cy.womenCategoryItems("Saree ");
+
+
     
     });
     
     
     it ("TC - 5. Click on any category link under 'Women' category, for example: Dress", ()=>{
     
+
+      cy.visit("/");
+      cy.get(":nth-child(1) > .panel-heading > .panel-title > a").click({force:true});
+      cy.wait(2000);
+      cy.xpath("//div[@id='Women']//ul/li[1]").click({force:true});
+
+      
     
     });
 
