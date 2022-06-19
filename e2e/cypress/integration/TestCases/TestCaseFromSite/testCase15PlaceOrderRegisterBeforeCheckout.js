@@ -3,15 +3,11 @@
 describe(" Test Case 15: Place Order: Register before Checkout ", ()=>{
 
 
-it ("TC - 1. Launch browser", ()=>{
-
-
-});
-
-
 
 it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
 
+    cy.visit('/');
+    cy.url().should("equal", Cypress.env("url"));
 
 });
 

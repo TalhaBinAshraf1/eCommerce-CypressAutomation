@@ -13,8 +13,10 @@ describe("Test Case 5: Register User with existing email", ()=>{
 
 
     it("Navigate to url 'http://automationexercise.com'",() =>{
-    cy.visit(Cypress.env("url"));
-cy.url().should("equal", Cypress.env("url"));
+
+      cy.visit('/');
+      cy.url().should("equal", Cypress.env("url"));
+
     });
 
     it ("TC - 3. Verify that home page is visible successfully", ()=>{
