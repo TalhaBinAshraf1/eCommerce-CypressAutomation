@@ -9,7 +9,7 @@ describe(" Test Case 11: Verify Subscription in Cart page ", ()=>{
 
     it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
     
-        cy.visit(Cypress.env("url"));
+        cy.visit('/');
         cy.url().should("equal", Cypress.env("url"));
 
 

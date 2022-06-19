@@ -19,7 +19,7 @@ describe("Test Case 6: Contact Us Form", ()=>{
     
     it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
         
-        cy.visit(Cypress.env("url"));
+        cy.visit('/');
         cy.url().should("equal", Cypress.env("url"));
     
     });

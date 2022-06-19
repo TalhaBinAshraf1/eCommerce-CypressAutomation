@@ -10,7 +10,7 @@ describe(" Test Case 10: Verify Subscription in home page ", ()=>{
 
     it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
     
-        cy.visit(Cypress.env("url"));
+        cy.visit('/');
         cy.url().should("equal", Cypress.env("url"));
 
 

@@ -9,8 +9,8 @@ describe("Test Case 4: Logout User", ()=>{
 
     it ("TC - 2. Navigate to url 'http://automationexercis.com'", ()=>{
 
-        cy.visit(Cypress.env("url"));
-        cy.url().should("equal", Cypress.env("url"));
+      cy.visit('/');
+      cy.url().should("equal", Cypress.env("url"));
     });
     
     

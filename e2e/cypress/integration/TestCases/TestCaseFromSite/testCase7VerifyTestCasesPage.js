@@ -12,8 +12,8 @@ describe(" Test Case 7: Verify Test Cases Page ", ()=>{
     
     it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
     
-        cy.visit(Cypress.env("url"));
-        cy.url().should("equal", Cypress.env("url"));
+      cy.visit('/');
+      cy.url().should("equal", Cypress.env("url"));
     });
 
     it ("TC - 3. Verify that home page is visible successfully", ()=>{

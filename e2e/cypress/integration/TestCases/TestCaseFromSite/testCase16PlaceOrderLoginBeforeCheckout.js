@@ -4,6 +4,8 @@ describe ("Test Case 16: Place Order: Login before Checkout", ()=>{
 
 it ("TC- 2. Navigate to url 'http://automationexercise.com'", ()=>{
 
+    cy.visit('/');
+    cy.url().should("equal", Cypress.env("url"));
 
 });
 

@@ -10,8 +10,8 @@ describe("Test Case 3: Login User with incorrect email and password", ()=>{
     it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
    
     
-        cy.visit(Cypress.env("url"));
-        cy.url().should("equal", Cypress.env("url"));
+      cy.visit('/');
+      cy.url().should("equal", Cypress.env("url"));
     
     });
     
