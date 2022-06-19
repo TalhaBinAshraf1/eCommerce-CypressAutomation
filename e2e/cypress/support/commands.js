@@ -149,3 +149,35 @@ Cypress.Commands.add("brandList",(menuText) => {
 
 );
 
+
+//  ✅  TC - 18    ✅
+
+
+Cypress.Commands.add("womenCategoryItems",(menuText) => {
+  cy.get("div#Women  ul > li > a")
+    .should("be.visible" ,menuText )
+    .should("contain.text", menuText)
+    .log(menuText + " Available in page");
+}
+
+);
+
+// ✅ TC - 19 ✅
+
+Cypress.Commands.add("poloBrandProducts",(menuText) => {
+  cy.get("div > .product-image-wrapper > .single-products > .productinfo.text-center > p")
+    .should("be.visible" ,menuText )
+    .should("contain.text", menuText)
+    .log(menuText + " Available in page");
+}
+
+);
+
+Cypress.Commands.add("hnmBrandProducts",(menuText) => {
+  cy.get("div > .product-image-wrapper > .single-products > .productinfo.text-center > p")
+    .should("be.visible" ,menuText )
+    .should("contain.text", menuText)
+    .log(menuText + " Available in page");
+}
+
+);
