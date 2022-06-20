@@ -205,6 +205,11 @@ it ("TC - 12.Click 'Cart' button ", ()=>{
 
     it ("TC -13. Click 'Proceed To Checkout' button ", ()=>{
     
+        
+        //     ❌ Now,It doesn't Work. ❌ 
+        //     ❌Need to Inform the devoloper ❌ 
+
+
       const proceedToCheckoutButton  = testcase14placeorderregisterwhitecheckoutpage.getProceedToCheckOutButton();
       if (proceedToCheckoutButton .should("be.visible").should("contain.text","Proceed To Checkout")) {
         proceedToCheckoutButton .click(); 
