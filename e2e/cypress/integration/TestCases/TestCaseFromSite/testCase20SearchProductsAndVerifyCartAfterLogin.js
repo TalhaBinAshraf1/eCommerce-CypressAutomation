@@ -197,7 +197,8 @@ describe ("Test Case 20: Search Products and Verify Cart After Login", ()=>{
     
     it ("TC - 12. Verify that those products are visible in cart after login as well", ()=>{
     
-        //     ❌ Now,It doesn't Work.❌
+        //     ❌ Now,It doesn't Work.❌ 
+        //      ❌Need to Inform the devoloper ❌ 
     
     });
     

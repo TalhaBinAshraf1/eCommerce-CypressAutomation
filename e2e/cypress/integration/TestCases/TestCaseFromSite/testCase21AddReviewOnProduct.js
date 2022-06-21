@@ -121,12 +121,25 @@ describe ("Test Case 21: Add review on product", ()=>{
     });
 
     it ("8. Click 'Submit' button", ()=>{
+
+
+        const submitButton = testcase21addreviewonproduct.getSubmitButton();
+        if (submitButton.should("be.visible").should("have.text","\n\t\t\t\t\t\t\t\t\t\t\tSubmit\n\t\t\t\t\t\t\t\t\t\t")) {
+            submitButton.click();
+            cy.log(submitButton + elementVisible);
+        } else {
+            cy.visit(Cypress.env("url"));
+        }    
     
     
     });
     
     it ("9. Verify success message 'Thank you for your review.'", ()=>{
     
+              cy.get('#review-section > div > div > span').should(($div) => {
+            // access the native DOM element
+            expect($div.get(0).innerText).to.eq('Thank you for your review.')
+          })
     
     });
 

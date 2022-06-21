@@ -171,13 +171,11 @@ describe("Test Case 6: Contact Us Form", ()=>{
     it ("TC - 10. Verify success message 'Success! Your details have been submitted successfully.' is visible", ()=>{
     
         const sucessfulText = testcase6contactusformpage.getSucessfulText();
-        if (sucessfulText.should("be.visible")) {
-            sucessfulText.should("include.text",sucesstext)
-            cy.log(sucesstext + elementVisible);
-        } else {
-            cy.visit(Cypress.env("url"));
-        }
-    
+   
+        sucessfulText .should(($div) => {
+            // access the native DOM element
+            expect($div.get(0).innerText).to.eq(sucesstext)
+          })
     
     });
 

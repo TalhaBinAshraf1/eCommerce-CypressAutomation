@@ -1,6 +1,6 @@
 const testcase6contactusformpage = {
 
-    getContuctUsButton: () => cy.get(".nav.navbar-nav > li:nth-of-type(7) > a" , {timeout :1000}),
+    getContuctUsButton: () => cy.get(".nav.navbar-nav > li:nth-of-type(8) > a" , {timeout :1000}),
     getGetinTouchText: () => cy.get(".contact-form > .text-center.title" , {timeout :1000}),
     getNameInputField: () => cy.get("input[name='name']" , {timeout :1000}),
     getEmailInputField: () => cy.get("input[name='email']" , {timeout :1000}),
