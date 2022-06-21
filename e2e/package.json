@@ -4,6 +4,7 @@
   "description": "Cypress UI testing for this site -> http://automationpractice.com/index.php",
   "main": "index.js",
   "scripts": {
+    "cy:run": "cypress run --browser chrome --headless",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
