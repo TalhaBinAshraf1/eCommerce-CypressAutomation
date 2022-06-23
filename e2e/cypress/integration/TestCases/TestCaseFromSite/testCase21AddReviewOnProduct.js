@@ -10,7 +10,7 @@ const positiveMessage = "Inputted Successfully" ;
 
 describe ("Test Case 21: Add review on product", ()=>{
 
-    it ("2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it ("Navigate to url 'http://automationexercise.com'", ()=>{
     
         cy.visit('/');
         cy.url().should("equal", Cypress.env("url"));
@@ -18,7 +18,7 @@ describe ("Test Case 21: Add review on product", ()=>{
     });
     
     
-    it ("3. Click on 'Products' button", ()=>{
+    it ("Click on 'Products' button", ()=>{
     
            
         const productButton  = testcase21addreviewonproduct.getProductsButton();
@@ -31,7 +31,7 @@ describe ("Test Case 21: Add review on product", ()=>{
     
     });
 
-    it ("4. Verify user is navigated to ALL PRODUCTS page successfully", ()=>{
+    it ("Verify user is navigated to ALL PRODUCTS page successfully", ()=>{
     
         cy.url().should("equal", Cypress.env("productpageurl"));
         cy.request(Cypress.env("productpageurl")).should(
@@ -62,7 +62,7 @@ describe ("Test Case 21: Add review on product", ()=>{
     });
     
     
-    it ("5. Click on 'View Product' button", ()=>{
+    it ("Click on 'View Product' button", ()=>{
     
         
         const viewProductButton = testcase21addreviewonproduct.getViewProductButton();
@@ -77,7 +77,7 @@ describe ("Test Case 21: Add review on product", ()=>{
     });
     
 
-    it ("6. Verify 'Write Your Review' is visible", ()=>{
+    it ("Verify 'Write Your Review' is visible", ()=>{
     
         const writeYourReviewText = testcase21addreviewonproduct.getWriteYourReviewText();
         if (writeYourReviewText.should("be.visible")) {
@@ -90,7 +90,7 @@ describe ("Test Case 21: Add review on product", ()=>{
     });
     
     
-    it ("7. Enter name, email and review", ()=>{
+    it ("Enter name, email and review", ()=>{
 
         const nameInputField = testcase21addreviewonproduct.getNameInputField();
         if (nameInputField.should("be.visible").invoke("attr","placeholder").should("contain","Your Name")) {
@@ -120,7 +120,7 @@ describe ("Test Case 21: Add review on product", ()=>{
     
     });
 
-    it ("8. Click 'Submit' button", ()=>{
+    it ("Click 'Submit' button", ()=>{
 
 
         const submitButton = testcase21addreviewonproduct.getSubmitButton();
@@ -134,7 +134,7 @@ describe ("Test Case 21: Add review on product", ()=>{
     
     });
     
-    it ("9. Verify success message 'Thank you for your review.'", ()=>{
+    it ("Verify success message 'Thank you for your review.'", ()=>{
     
               cy.get('#review-section > div > div > span').should(($div) => {
             // access the native DOM element

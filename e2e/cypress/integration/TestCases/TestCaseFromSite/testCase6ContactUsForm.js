@@ -17,7 +17,7 @@ const sucesstext ="Success! Your details have been submitted successfully.";
 describe("Test Case 6: Contact Us Form", ()=>{
 
     
-    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it (" Navigate to url 'http://automationexercise.com'", ()=>{
         
         cy.visit('/');
         cy.url().should("equal", Cypress.env("url"));
@@ -25,7 +25,7 @@ describe("Test Case 6: Contact Us Form", ()=>{
     });
 
 
-    it ("TC - 3. Verify that home page is visible successfully", ()=>{
+    it ("Verify that home page is visible successfully", ()=>{
     
  
         cy.request(Cypress.env("url")).should(
@@ -50,7 +50,7 @@ describe("Test Case 6: Contact Us Form", ()=>{
     
 
     
-    it ("TC - 4. Click on 'Contact Us' button", ()=>{
+    it ("Click on 'Contact Us' button", ()=>{
        
        const contactUSbutton  = testcase6contactusformpage.getContuctUsButton();
        if (contactUSbutton .should("be.visible")) {
@@ -64,7 +64,7 @@ describe("Test Case 6: Contact Us Form", ()=>{
     });
     
     
-    it (" TC -  5. Verify 'GET IN TOUCH' is visible", ()=>{
+    it (" Verify 'GET IN TOUCH' is visible", ()=>{
     
         const getInTouchText = testcase6contactusformpage.getGetinTouchText();
         if (getInTouchText.should("be.visible")) {
@@ -79,7 +79,7 @@ describe("Test Case 6: Contact Us Form", ()=>{
     });
     
     
-    it ("TC - 6. Enter name, email, subject and message ", ()=>{
+    it ("Enter name, email, subject and message ", ()=>{
     
         //Name
 
@@ -127,7 +127,7 @@ describe("Test Case 6: Contact Us Form", ()=>{
     });
     
     
-    it (" TC - 7. Upload file ", ()=>{
+    it ("Upload file ", ()=>{
     
                 //Choose File  
        const  chooseFileButton  = testcase6contactusformpage.getChooseFileButton();
@@ -142,7 +142,7 @@ describe("Test Case 6: Contact Us Form", ()=>{
     });
     
     
-    it ("TC - 8. Click 'Submit' button ", ()=>{
+    it ("Click 'Submit' button ", ()=>{
     
                 //Submit Button
         
@@ -158,7 +158,7 @@ describe("Test Case 6: Contact Us Form", ()=>{
     });
 
 
-    it ("TC -9. Click OK button ", ()=>{
+    it ("Click OK button ", ()=>{
     
         cy.on("window:confirm", (t) => {
             //verify text on pop-up
@@ -168,7 +168,7 @@ describe("Test Case 6: Contact Us Form", ()=>{
     });
 
 
-    it ("TC - 10. Verify success message 'Success! Your details have been submitted successfully.' is visible", ()=>{
+    it ("Verify success message 'Success! Your details have been submitted successfully.' is visible", ()=>{
     
         const sucessfulText = testcase6contactusformpage.getSucessfulText();
    

@@ -7,7 +7,7 @@ describe("Test Case 4: Logout User", ()=>{
 
 
 
-    it ("TC - 2. Navigate to url 'http://automationexercis.com'", ()=>{
+    it ("Navigate to url 'http://automationexercis.com'", ()=>{
 
       cy.visit('/');
       cy.url().should("equal", Cypress.env("url"));
@@ -15,7 +15,7 @@ describe("Test Case 4: Logout User", ()=>{
     
     
     
-    it ("TC - 3. Verify that home page is visible successfully", ()=>{
+    it ("Verify that home page is visible successfully", ()=>{
     
        
         cy.request(Cypress.env("url")).should(
@@ -40,7 +40,7 @@ describe("Test Case 4: Logout User", ()=>{
     });
     
     
-    it ("TC - 4. Click on 'Signup / Login' button", ()=>{
+    it ("Click on 'Signup / Login' button", ()=>{
     
         const signupLogin = testcase4logoutuserpage.getSignupLoginButton();
         if (signupLogin.should("be.visible")) {
@@ -54,7 +54,7 @@ describe("Test Case 4: Logout User", ()=>{
     });
     
     
-    it (" TC - 5. Verify 'Login to your account' is visible", ()=>{
+    it ("Verify 'Login to your account' is visible", ()=>{
     
         const logintoYourAccountText = testcase4logoutuserpage.getLoginToYourAccountText();
         if (logintoYourAccountText.should("be.visible")) {
@@ -69,7 +69,7 @@ describe("Test Case 4: Logout User", ()=>{
     });
     
     
-    it ("TC - 6. Enter correct email address and password", ()=>{
+    it ("Enter correct email address and password", ()=>{
     
     
         const emailInputField = testcase4logoutuserpage.getEmailInputField();
@@ -95,7 +95,7 @@ describe("Test Case 4: Logout User", ()=>{
     });
     
     
-    it (" TC - 7. Click 'login' button", ()=>{
+    it ("Click 'login' button", ()=>{
     
         const loginButton = testcase4logoutuserpage.getLogInButton();
         if(loginButton.should("be.visible"))
@@ -109,7 +109,7 @@ describe("Test Case 4: Logout User", ()=>{
     });
     
     
-    it ("TC - 8. Verify that 'Logged in as username' is visible", ()=>{
+    it ("Verify that 'Logged in as username' is visible", ()=>{
     
         cy.wait(2000);
         const  loggedInasUserNameText = testcase4logoutuserpage.getLoggedInAsUsernameText();
@@ -128,7 +128,7 @@ describe("Test Case 4: Logout User", ()=>{
     });
     
 
-    it ("TC -9. Click 'Logout' button ", ()=>{
+    it ("Click 'Logout' button ", ()=>{
 
         const logoutButton = testcase4logoutuserpage.getLogoutButton();
         if(logoutButton.should("be.visible").should("have.text"," Logout"))
@@ -142,7 +142,7 @@ describe("Test Case 4: Logout User", ()=>{
     
     });
 
-    it ("TC -10. Verify that user is navigated to login page ", ()=>{
+    it ("Verify that user is navigated to login page ", ()=>{
     
 
         // //  ❌❌   Due to the site vulnarable GET API the "Account logout Button " not Working properly  ❌❌

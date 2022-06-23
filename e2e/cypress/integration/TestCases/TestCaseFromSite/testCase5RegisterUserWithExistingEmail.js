@@ -19,7 +19,7 @@ describe("Test Case 5: Register User with existing email", ()=>{
 
     });
 
-    it ("TC - 3. Verify that home page is visible successfully", ()=>{
+    it ("Verify that home page is visible successfully", ()=>{
     
       
       cy.request(Cypress.env("url")).should(
@@ -67,7 +67,7 @@ describe("Test Case 5: Register User with existing email", ()=>{
   });  
 
 
-    it ("TC - 6. Enter name and already registered email address ", ()=>{
+    it ("Enter name and already registered email address ", ()=>{
         const nameInputField = testcase5registeruserwithexistingemailpage.getNameInputField();
         if(nameInputField.should("be.visible"))
         {
@@ -91,7 +91,7 @@ describe("Test Case 5: Register User with existing email", ()=>{
     
     });
     
-    it("TC - 7. Click 'Signup' button  ", () => {
+    it("Click 'Signup' button  ", () => {
 
         const signUpButton = cy.get(".signup-form > form[method='post'] > .btn.btn-default")
         if(signUpButton.should("be.visible"))
@@ -106,7 +106,7 @@ describe("Test Case 5: Register User with existing email", ()=>{
       
     
     
-    it ("8. Verify error 'Email Address already exist!' is visible ", ()=>{
+    it (" Verify error 'Email Address already exist!' is visible ", ()=>{
     
         const emailAddressAlreadyExistText = testcase5registeruserwithexistingemailpage.getEmailAddressAlreadyExistText();
         if (emailAddressAlreadyExistText.should("be.visible")) {

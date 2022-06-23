@@ -6,7 +6,7 @@ const testcase2loginuserwithcorrectemailandpasswordpage = {
     getEmailInputField: () => cy.get(".login-form > form[method='post'] > input[name='email']" , {timeout :1000}),
     getLogInButton: () => cy.get(".login-form > form[method='post'] > .btn.btn-default" , {timeout :1000}),
     getEnterAccountInformationText: () => cy.get(".login-form > .text-center.title > b" , {timeout :1000}),
-    getLoggedInAsUsernameText: () => cy.get("li:nth-of-type(9) > a" , {timeout :1000}),
+    getLoggedInAsUsernameText: () => cy.get("li:nth-of-type(10) > a" , {timeout :1000}),
 
     // getNameInputField: () => cy.get("" , {timeout :1000}),
   

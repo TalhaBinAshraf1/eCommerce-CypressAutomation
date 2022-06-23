@@ -17,7 +17,7 @@ describe(" Test Case 12: Add Products in Cart ", ()=>{
     
     
     
-    it ("TC - 3. Verify that home page is visible successfully ", ()=>{
+    it ("Verify that home page is visible successfully ", ()=>{
     
         cy.request(Cypress.env("url")).should(
             (response) => {
@@ -39,7 +39,7 @@ describe(" Test Case 12: Add Products in Cart ", ()=>{
     
     });
     
-    it("TC - 4. Click on 'Products' button ", ()=>{
+    it("Click on 'Products' button ", ()=>{
     
         const productButton  = testcase12addproductincartpage.getProductsButton();
         if (productButton .should("be.visible").should("contain.text"," Products")) {
@@ -53,7 +53,7 @@ describe(" Test Case 12: Add Products in Cart ", ()=>{
     });
     
     
-    it("TC - 5. Verify user is navigated to ALL PRODUCTS page successfully ", ()=>{
+    it("Verify user is navigated to ALL PRODUCTS page successfully ", ()=>{
     
         cy.visit(Cypress.env("productpageurl"));
         cy.url().should("equal", Cypress.env("productpageurl"));
@@ -83,7 +83,7 @@ describe(" Test Case 12: Add Products in Cart ", ()=>{
     });
 
 
-    it(" TC -6. Hover over first product and click 'Add to cart' ", ()=>{
+    it("Hover over first product and click 'Add to cart' ", ()=>{
 
       //  testcase12addproductincartpage.getFirstProductAddToCartButtonProductPage().click();
 
@@ -172,7 +172,7 @@ describe(" Test Case 12: Add Products in Cart ", ()=>{
     // });
 
 
-    it("TC - 9. Click 'View Cart' button ", ()=>{
+    it("Click 'View Cart' button ", ()=>{
 
 
          // cy.get(".modal-body > p:nth-of-type(2)").click();
@@ -191,7 +191,7 @@ describe(" Test Case 12: Add Products in Cart ", ()=>{
     });
 
     
-    it ("TC - 10. Verify both products are added to Cart ", ()=>{
+    it ("Verify both products are added to Cart ", ()=>{
     
         // testcase12addproductincartpage.getFirstProductAddToCartButtonProductPage().click();
         // testcase12addproductincartpage.getContinueShopingbutton().click();

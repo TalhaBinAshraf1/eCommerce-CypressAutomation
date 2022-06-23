@@ -12,7 +12,7 @@ const elementVisible = "Is Visible";
 
 describe(" Test Case 14: Place Order: Register while Checkout ", ()=>{
 
-    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it ("Navigate to url 'http://automationexercise.com'", ()=>{
     
       cy.visit('/');
       cy.url().should("equal", Cypress.env("url"));
@@ -20,16 +20,14 @@ describe(" Test Case 14: Place Order: Register while Checkout ", ()=>{
 
     });
     
-    
-    
-    it ("TC - 3. Verify that home page is visible successfully ", ()=>{
+    it ("Verify that home page is visible successfully ", ()=>{
     
         cy.request(Cypress.env("url")).should(
             (response) => {
               expect(response.status).to.eq(200);
             }
           );
-          cy.csrfCookies();
+         cy.csrfCookies();
 
         //             ✅  Navbar Validation  ✅
 
@@ -44,7 +42,7 @@ describe(" Test Case 14: Place Order: Register while Checkout ", ()=>{
     
     });
     
-    it ("TC - 4. Product Add products to cart", ()=>{
+    it ("Product Add products to cart", ()=>{
     
         const  addToCartButton  = testcase14placeorderregisterwhitecheckoutpage.getAddToCartButton();
         if ( addToCartButton .should("be.visible").should("contain.text", "Add to cart")) {
@@ -70,7 +68,7 @@ describe(" Test Case 14: Place Order: Register while Checkout ", ()=>{
     });
     
  
-    it ("TC - 6. Verify that cart page is displayed ", ()=>{
+    it ("Verify that cart page is displayed ", ()=>{
     
       cy.url().should("equal", Cypress.env("cartpageurl"));
     
@@ -78,7 +76,7 @@ describe(" Test Case 14: Place Order: Register while Checkout ", ()=>{
     });
 
     
-    it ("TC - 7. Click Proceed To Checkout ", ()=>{
+    it ("Click Proceed To Checkout ", ()=>{
 
       const proceedToCheckoutButton  = testcase14placeorderregisterwhitecheckoutpage.getProceedToCheckOutButton();
       if (proceedToCheckoutButton .should("be.visible").should("contain.text","Proceed To Checkout")) {
@@ -93,7 +91,7 @@ describe(" Test Case 14: Place Order: Register while Checkout ", ()=>{
     });
 
 
-    it("TC - 8. Click 'Register / Login' button  ", () => {
+    it("Click 'Register / Login' button  ", () => {
       
       const signupLogin = cy.get(".modal-content u");
        if (signupLogin.should("be.visible")) {
@@ -104,7 +102,7 @@ describe(" Test Case 14: Place Order: Register while Checkout ", ()=>{
        }
    
       });     
-it (" TC - 5. Verify 'Login to your account' is visible", ()=>{
+it (" Verify 'Login to your account' is visible", ()=>{
 
   const logintoYourAccountText = testcase2loginuserwithcorrectemailandpasswordpage.getLoginToYourAccountText();
   if (logintoYourAccountText.should("be.visible")) {
@@ -119,7 +117,7 @@ it (" TC - 5. Verify 'Login to your account' is visible", ()=>{
 });
 
 
-it ("TC - 6. Enter correct email address and password", ()=>{
+it ("Enter correct email address and password", ()=>{
 
 
   const emailInputField = testcase2loginuserwithcorrectemailandpasswordpage.getEmailInputField();
@@ -145,7 +143,7 @@ it ("TC - 6. Enter correct email address and password", ()=>{
 });
 
 
-it (" TC - 7. Click 'login' button", ()=>{
+it ("Click 'login' button", ()=>{
 
   const loginButton = testcase2loginuserwithcorrectemailandpasswordpage.getLogInButton();
   if(loginButton.should("be.visible"))
@@ -159,7 +157,7 @@ it (" TC - 7. Click 'login' button", ()=>{
 });
 
 
-it ("TC - 8. Verify that 'Logged in as username' is visible", ()=>{
+it ("Verify that 'Logged in as username' is visible", ()=>{
 
   cy.wait(2000);
   const  loggedInasUserNameText = testcase2loginuserwithcorrectemailandpasswordpage.getLoggedInAsUsernameText();
@@ -174,11 +172,21 @@ it ("TC - 8. Verify that 'Logged in as username' is visible", ()=>{
      cy.visit(Cypress.env("url"));
    }
 
+   
+Cypress.Cookies.defaults({
+  preserve: 'session_id',
+})
+
 
 });
 
 
-it ("TC - 12.Click 'Cart' button ", ()=>{
+it ("Click 'Cart' button ", ()=>{
+
+  
+Cypress.Cookies.defaults({
+  preserve: 'session_id',
+})
       
   const  addToCartButton  = testcase14placeorderregisterwhitecheckoutpage.getAddToCartButton();
   if ( addToCartButton .should("be.visible").should("contain.text", "Add to cart")) {
@@ -203,7 +211,7 @@ it ("TC - 12.Click 'Cart' button ", ()=>{
     });
 
 
-    it ("TC -13. Click 'Proceed To Checkout' button ", ()=>{
+    it ("Click 'Proceed To Checkout' button ", ()=>{
     
         
         //     ❌ Now,It doesn't Work. ❌ 
@@ -222,45 +230,45 @@ it ("TC - 12.Click 'Cart' button ", ()=>{
     });
 
 
-    it ("TC - 14. Verify Address Details and Review Your Order ", ()=>{
+    it ("Verify Address Details and Review Your Order ", ()=>{
     
     
     
     });
 
 
-    it ("TC - 15. Enter description in comment text area and click 'Place Order' ", ()=>{
+    it ("Enter description in comment text area and click 'Place Order' ", ()=>{
     
     
     
     });
 
 
-    it ("TC - 16. Enter payment details: Name on Card, Card Number, CVC, Expiration date ", ()=>{
+    it ("Enter payment details: Name on Card, Card Number, CVC, Expiration date ", ()=>{
     
     
     
     });
 
-    it ("TC - 17. Click 'Pay and Confirm Order' button ", ()=>{
+    it ("Click 'Pay and Confirm Order' button ", ()=>{
     
     
     
     });
 
-    it ("TC - 18. Verify success message 'Your order has been placed successfully!' ", ()=>{
+    it ("Verify success message 'Your order has been placed successfully!' ", ()=>{
     
     
     
     });
 
-    it ("TC - 19. Click 'Delete Account' button ", ()=>{
+    it ("Click 'Delete Account' button ", ()=>{
     
     
     
     });
 
-    it ("TC - 20. Verify 'ACCOUNT DELETED!' and click 'Continue' button ", ()=>{
+    it ("Verify 'ACCOUNT DELETED!' and click 'Continue' button ", ()=>{
     
     
     
