@@ -10,13 +10,13 @@ const elementVisible = "Is Visible";
 describe(" Test Case 7: Verify Test Cases Page ", ()=>{
 
     
-    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it ("Navigate to url 'http://automationexercise.com'", ()=>{
     
       cy.visit('/');
       cy.url().should("equal", Cypress.env("url"));
     });
 
-    it ("TC - 3. Verify that home page is visible successfully", ()=>{
+    it ("Verify that home page is visible successfully", ()=>{
     
  
       cy.request(Cypress.env("url")).should(
@@ -41,7 +41,7 @@ describe(" Test Case 7: Verify Test Cases Page ", ()=>{
     
 
     
-    it ("TC - 4. Click on 'Test Cases' button ", ()=>{
+    it ("Click on 'Test Cases' button ", ()=>{
     
        const TestCasesButton  = testcase7VerifyTestCasePage_Page.getTestCaseButton();
        if (TestCasesButton .should("be.visible")) {
@@ -56,7 +56,7 @@ describe(" Test Case 7: Verify Test Cases Page ", ()=>{
     });
     
     
-    it (" TC - 5. Verify user is navigated to test cases page successfully", ()=>{
+    it ("Verify user is navigated to test cases page successfully", ()=>{
     
 
         cy.url().should("equal", Cypress.env("testcasepageurl"));

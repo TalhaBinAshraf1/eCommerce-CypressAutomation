@@ -181,3 +181,25 @@ Cypress.Commands.add("hnmBrandProducts",(menuText) => {
 }
 
 );
+
+//   ✅ TC 22 ✅
+
+Cypress.Commands.add("recomandedItemsList1",(menuText) => {
+  cy.get("div:nth-of-type(2) > div > .product-image-wrapper > .single-products > .productinfo.text-center > p")
+    .should("be.visible" ,menuText )
+    .should("contain.text", menuText)
+    .log(menuText + " Available in page");
+}
+
+);
+
+Cypress.Commands.add("recomandedItemsList2",(menuText) => {
+  cy.get(".carousel-inner > div:nth-of-type(1) >div> .product-image-wrapper > .single-products > .productinfo.text-center > p")
+    .should("be.visible" ,menuText )
+    .should("contain.text", menuText)
+    .log(menuText + " Available in page");
+}
+
+);
+
+

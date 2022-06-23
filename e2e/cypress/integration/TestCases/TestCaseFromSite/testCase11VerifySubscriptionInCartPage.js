@@ -1,13 +1,12 @@
 import testCase11Verifysubscriptionincartpage from "../../../PageObject/testCase-11-VerifySubscriptionInCartPage-Pages"
 
 
-const positiveMessage = "Inputted Successfully" ; 
 const elementVisible = "Is Visible";
 const subscription = "Subscription" ;
 
 describe(" Test Case 11: Verify Subscription in Cart page ", ()=>{
 
-    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it ("Navigate to url 'http://automationexercise.com'", ()=>{
     
         cy.visit('/');
         cy.url().should("equal", Cypress.env("url"));
@@ -17,7 +16,7 @@ describe(" Test Case 11: Verify Subscription in Cart page ", ()=>{
     
     
     
-    it ("TC - 3. Verify that home page is visible successfully ", ()=>{
+    it ("Verify that home page is visible successfully ", ()=>{
     
         cy.request(Cypress.env("url")).should(
             (response) => {
@@ -40,7 +39,7 @@ describe(" Test Case 11: Verify Subscription in Cart page ", ()=>{
     });
     
     
-    it ("TC -4. Click 'Cart' button", ()=>{
+    it ("Click 'Cart' button", ()=>{
     
     const   cartButton = testCase11Verifysubscriptionincartpage.getCartButton();
         if (  cartButton.should("be.visible")) {
@@ -56,7 +55,7 @@ describe(" Test Case 11: Verify Subscription in Cart page ", ()=>{
     });
     
     
-    it (" TC -5. Verify text 'SUBSCRIPTION' ", ()=>{
+    it ("Verify text 'SUBSCRIPTION' ", ()=>{
      
             
 //   ✅    Product name -> " Blue Top" validation ✅ 
@@ -72,7 +71,7 @@ describe(" Test Case 11: Verify Subscription in Cart page ", ()=>{
     });
     
 
-    it ("TC - 6. Enter email address in input and click arrow button ", ()=>{
+    it ("Enter email address in input and click arrow button ", ()=>{
     
         const emailinputField = testCase11Verifysubscriptionincartpage.getEmailInputField();
         if (emailinputField.should("be.visible")) {
@@ -90,7 +89,7 @@ describe(" Test Case 11: Verify Subscription in Cart page ", ()=>{
     });
 
 
-    it ("TC - 7. Verify success message 'You have been successfully subscribed!' is visible ", ()=>{
+    it ("Verify success message 'You have been successfully subscribed!' is visible ", ()=>{
     
 
         testCase11Verifysubscriptionincartpage.getSubscribeButton().should("be.visible").click();

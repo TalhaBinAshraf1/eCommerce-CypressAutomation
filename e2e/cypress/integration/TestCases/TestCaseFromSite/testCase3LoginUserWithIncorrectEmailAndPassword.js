@@ -7,7 +7,7 @@ const elementVisible = "Is Visible";
 describe("Test Case 3: Login User with incorrect email and password", ()=>{
 
 
-    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it ("Navigate to url 'http://automationexercise.com'", ()=>{
    
     
       cy.visit('/');
@@ -17,7 +17,7 @@ describe("Test Case 3: Login User with incorrect email and password", ()=>{
     
     
     
-    it ("TC - 3. Verify that home page is visible successfully", ()=>{
+    it ("Verify that home page is visible successfully", ()=>{
     
        
         cy.request(Cypress.env("url")).should(
@@ -42,7 +42,7 @@ describe("Test Case 3: Login User with incorrect email and password", ()=>{
     });
     
     
-    it ("TC - 4. Click on 'Signup / Login' button", ()=>{
+    it ("Click on 'Signup / Login' button", ()=>{
     
 
         const signupLogin = testcase3loginuserwithincorrectemailandpasswordpage.getSignupLoginButton();
@@ -57,7 +57,7 @@ describe("Test Case 3: Login User with incorrect email and password", ()=>{
     });
     
     
-    it (" TC - 5. Verify 'Login to your account' is visible", ()=>{
+    it ("Verify 'Login to your account' is visible", ()=>{
     
         const logintoYourAccountText = testcase3loginuserwithincorrectemailandpasswordpage.getLoginToYourAccountText();
         if (logintoYourAccountText.should("be.visible")) {
@@ -72,7 +72,7 @@ describe("Test Case 3: Login User with incorrect email and password", ()=>{
     });
     
     
-    it ("TC - 6. Enter incorrect email address and password", ()=>{
+    it ("Enter incorrect email address and password", ()=>{
     
         
     const emailInputField = testcase3loginuserwithincorrectemailandpasswordpage.getEmailInputField();
@@ -99,7 +99,7 @@ describe("Test Case 3: Login User with incorrect email and password", ()=>{
     });
     
     
-    it (" TC - 7. Click 'login' button", ()=>{
+    it ("Click 'login' button", ()=>{
     
         const loginButton = testcase3loginuserwithincorrectemailandpasswordpage.getLogInButton();
         if(loginButton.should("be.visible"))
@@ -114,7 +114,7 @@ describe("Test Case 3: Login User with incorrect email and password", ()=>{
     });
     
     
-    it ("TC - 8. Verify error 'Your email or password is incorrect!' is visible", ()=>{
+    it ("Verify error 'Your email or password is incorrect!' is visible", ()=>{
     
         cy.wait(2000);
         const  yourEmailOrPasswordisIncorrect = testcase3loginuserwithincorrectemailandpasswordpage.getYourEmailOrPasswordIsIncorrectText();

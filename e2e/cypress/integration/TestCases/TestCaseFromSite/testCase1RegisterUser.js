@@ -28,7 +28,7 @@ describe("Test Case 1: Register User", () =>{
 
     });
 
-    it ("TC - 3. Verify that home page is visible successfully ", ()=>{
+    it (" Verify that home page is visible successfully ", ()=>{
 
       cy.request(Cypress.env("url")).should(
         (response) => {
@@ -97,15 +97,8 @@ describe("Test Case 1: Register User", () =>{
     }
 
   });
-  
-  // it("should login using the custom commands", () => {
-  //   cy.visit("https://admin-demo.nopcommerce.com/");
-  //   cy.login("admin@yourstore.com", "admin");
-  //   cy.url().should('be.equal', 'https://admin-demo.nopcommerce.com/admin/')
-  // });
 
-
-it("TC - 7. Click 'Signup' button  ", () => {
+it("Click 'Signup' button  ", () => {
 
   const signUpButton = cy.get(".signup-form > form[method='post'] > .btn.btn-default")
   if(signUpButton.should("be.visible"))
@@ -119,7 +112,7 @@ it("TC - 7. Click 'Signup' button  ", () => {
 });
 
 
-it("TC - 8. Verify that 'ENTER ACCOUNT INFORMATION' is visible ", () => {
+it("Verify that 'ENTER ACCOUNT INFORMATION' is visible ", () => {
   
   const enterAccountInformationText = testCase1RegisterUserPage.getEnterAccountInformationText();
   if(enterAccountInformationText.should("be.visible"))
@@ -133,7 +126,7 @@ it("TC - 8. Verify that 'ENTER ACCOUNT INFORMATION' is visible ", () => {
 });
 
 
-it(" TC - 9. Fill details: Title, Name, Email, Password, Date of birth ", () => {
+it("Fill details: Title, Name, Email, Password, Date of birth ", () => {
 
     const mrRedioButton = testCase1RegisterUserPage.getMrRedioButton();
     if (mrRedioButton.should("be.visible")) {
@@ -230,7 +223,7 @@ cy.yearDropdown("1994","1994");
 
 });
 
-it("TC - 10. Select checkbox 'Sign up for our newsletter!'", () => {
+it("Select checkbox 'Sign up for our newsletter!'", () => {
 
   const signUpForOurNewsLetterscheckbox = testCase1RegisterUserPage.getSignUpForOurNewsLetterCheckbox();
   if (signUpForOurNewsLetterscheckbox
@@ -246,7 +239,7 @@ it("TC - 10. Select checkbox 'Sign up for our newsletter!'", () => {
 
 });
 
-it(" TC - 11. Select checkbox 'Receive special offers from our partners!'", () => {
+it("Select checkbox 'Receive special offers from our partners!'", () => {
 
   const recieveSpecialOffersFromOurPartnersCheckbox = testCase1RegisterUserPage.getRecivespecialOffersFromOurPartnersCheckbox();
   if (recieveSpecialOffersFromOurPartnersCheckbox
@@ -261,7 +254,7 @@ it(" TC - 11. Select checkbox 'Receive special offers from our partners!'", () =
 
 });
 
-it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number ", () => {
+it("Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number ", () => {
 
   //First Name 
   const firstNameInputField = testCase1RegisterUserPage.getFirstNameInputField();
@@ -379,7 +372,7 @@ it(" TC - 12. Fill details: First name, Last name, Company, Address, Address2, C
     } 
 });
 
-it(" TC - 13. Click 'Create Account button' ", () => {
+it("Click 'Create Account button' ", () => {
 
     const  createAccountButton = testCase1RegisterUserPage.getCreateAccountButton();
   if( createAccountButton.should("be.visible").should("have.text","Create Account").should("have.css", "background-color",).and ("be.colored" ,"#FE980F") )
@@ -394,7 +387,7 @@ it(" TC - 13. Click 'Create Account button' ", () => {
 
 });
 
-it("  TC - 14. Verify that 'ACCOUNT CREATED!' is visible ", () => {
+it("Verify that 'ACCOUNT CREATED!' is visible ", () => {
 
   const  accountCreatedText = testCase1RegisterUserPage.getAccountCreatedText();
 
@@ -411,7 +404,7 @@ it("  TC - 14. Verify that 'ACCOUNT CREATED!' is visible ", () => {
 
 });
 
-it(" TC - 15. Click 'Continue' button ", () => {
+it("Click 'Continue' button ", () => {
 
   const  continueButton = testCase1RegisterUserPage.getContinueButton();
    if( continueButton.should("be.visible")
@@ -429,7 +422,7 @@ it(" TC - 15. Click 'Continue' button ", () => {
 
 });
 
-it(" TC - 16. Verify that 'Logged in as username' is visible ", () => {
+it("Verify that 'Logged in as username' is visible ", () => {
 
   cy.wait(2000);
   cy.reload();
@@ -448,7 +441,7 @@ it(" TC - 16. Verify that 'Logged in as username' is visible ", () => {
 
 });
 
-it("  TC - 17. Click 'Delete Account' button ", () => {
+it("Click 'Delete Account' button ", () => {
 
 //  ❌❌   Due to the site vulnarable API the "Account delete" not Working properly  ❌❌
 

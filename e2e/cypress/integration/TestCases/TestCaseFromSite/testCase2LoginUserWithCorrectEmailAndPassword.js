@@ -9,7 +9,7 @@ describe("Test Case 2: Login User with correct email and password", ()=>{
 
 
 
-it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+it ("Navigate to url 'http://automationexercise.com'", ()=>{
 
   cy.visit('/');
   cy.url().should("equal", Cypress.env("url"));
@@ -17,7 +17,7 @@ it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
 
 
 
-it ("TC - 3. Verify that home page is visible successfully", ()=>{
+it ("Verify that home page is visible successfully", ()=>{
 
     
     cy.request(Cypress.env("url")).should(
@@ -40,7 +40,7 @@ it ("TC - 3. Verify that home page is visible successfully", ()=>{
 });
 
 
-it ("TC - 4. Click on 'Signup / Login' button", ()=>{
+it ("Click on 'Signup / Login' button", ()=>{
 
     const signupLogin = testcase2loginuserwithcorrectemailandpasswordpage.getSignupLoginButton();
     if (signupLogin.should("be.visible")) {
@@ -54,7 +54,7 @@ it ("TC - 4. Click on 'Signup / Login' button", ()=>{
 });
 
 
-it (" TC - 5. Verify 'Login to your account' is visible", ()=>{
+it ("Verify 'Login to your account' is visible", ()=>{
 
     const logintoYourAccountText = testcase2loginuserwithcorrectemailandpasswordpage.getLoginToYourAccountText();
     if (logintoYourAccountText.should("be.visible")) {
@@ -69,7 +69,7 @@ it (" TC - 5. Verify 'Login to your account' is visible", ()=>{
 });
 
 
-it ("TC - 6. Enter correct email address and password", ()=>{
+it ("Enter correct email address and password", ()=>{
 
 
     const emailInputField = testcase2loginuserwithcorrectemailandpasswordpage.getEmailInputField();
@@ -95,7 +95,7 @@ it ("TC - 6. Enter correct email address and password", ()=>{
 });
 
 
-it (" TC - 7. Click 'login' button", ()=>{
+it ("Click 'login' button", ()=>{
 
     const loginButton = testcase2loginuserwithcorrectemailandpasswordpage.getLogInButton();
     if(loginButton.should("be.visible"))
@@ -109,7 +109,7 @@ it (" TC - 7. Click 'login' button", ()=>{
 });
 
 
-it ("TC - 8. Verify that 'Logged in as username' is visible", ()=>{
+it ("Verify that 'Logged in as username' is visible", ()=>{
 
     cy.wait(2000);
     const  loggedInasUserNameText = testcase2loginuserwithcorrectemailandpasswordpage.getLoggedInAsUsernameText();
@@ -128,7 +128,7 @@ it ("TC - 8. Verify that 'Logged in as username' is visible", ()=>{
 });
 
 
-it ("TC - 9. Click 'Delete Account' button", ()=>{
+it ("Click 'Delete Account' button", ()=>{
 
 //  ❌❌   Due to the site vulnarable delete API the "Account delete" not Working properly  ❌❌
 

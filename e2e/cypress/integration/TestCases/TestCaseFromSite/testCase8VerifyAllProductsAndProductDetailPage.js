@@ -7,7 +7,7 @@ const viewProductButtonText ="View Product";
 
 describe(" Test Case 8: Verify All Products and product detail page ", ()=>{
     
-    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it ("Navigate to url 'http://automationexercise.com'", ()=>{
     
       cy.visit('/');
       cy.url().should("equal", Cypress.env("url"));
@@ -17,7 +17,7 @@ describe(" Test Case 8: Verify All Products and product detail page ", ()=>{
     
     
     
-    it ("TC - 3. Verify that home page is visible successfully ", ()=>{
+    it ("Verify that home page is visible successfully ", ()=>{
     
         cy.request(Cypress.env("url")).should(
             (response) => {
@@ -40,7 +40,7 @@ describe(" Test Case 8: Verify All Products and product detail page ", ()=>{
     });
     
     
-    it ("TC - 4. Click on 'Products' button ", ()=>{
+    it ("Click on 'Products' button ", ()=>{
     
         const productButton  = testcase8varifyallproductandproductdetailpage.getProductsButton();
         if (productButton .should("be.visible").should("contain.text"," Products")) {
@@ -55,7 +55,7 @@ describe(" Test Case 8: Verify All Products and product detail page ", ()=>{
     
         
     
-    it ("TC - 5. Verify user is navigated to ALL PRODUCTS page successfully ", ()=>{
+    it ("Verify user is navigated to ALL PRODUCTS page successfully ", ()=>{
     
         cy.url().should("equal", Cypress.env("productpageurl"));
         cy.request(Cypress.env("productpageurl")).should(
@@ -84,10 +84,8 @@ describe(" Test Case 8: Verify All Products and product detail page ", ()=>{
     
     });
 
-
-        
     
-    it ("TC - 6. The products list is visible ", ()=>{
+    it ("The products list is visible ", ()=>{
     
         cy.categoryList("Women");
         cy.categoryList("Men");
@@ -97,11 +95,9 @@ describe(" Test Case 8: Verify All Products and product detail page ", ()=>{
     
     
     });
-
-
         
     
-    it ("TC -7. Click on 'View Product' of first product", ()=>{
+    it ("Click on 'View Product' of first product", ()=>{
     
         const viewProductButton  = testcase8varifyallproductandproductdetailpage.getFirstProductofProductPage();
         if (viewProductButton .should("be.visible").should("contain.text", viewProductButtonText)) {
@@ -115,16 +111,14 @@ describe(" Test Case 8: Verify All Products and product detail page ", ()=>{
     });
     
 
-    it ("TC - 8. User is landed to product detail page ", ()=>{
+    it ("User is landed to product detail page ", ()=>{
     
         cy.url().should("equal", Cypress.env("firstproductpageurl"));
   
     });
 
-
-        
     
-    it ("TC 9. Verify that detail detail is visible: product name, category, price, availability ", ()=>{
+    it ("Verify that detail detail is visible: product name, category, price, availability ", ()=>{
     
     //✅   NAME VALIDATION   ✅
 

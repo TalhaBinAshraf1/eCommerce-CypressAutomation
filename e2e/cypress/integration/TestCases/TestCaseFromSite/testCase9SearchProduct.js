@@ -14,7 +14,7 @@ const searchproductText = "Searched Products";
 describe(" Test Case 9: Search Product ", ()=>{
 
 
-    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it ("Navigate to url 'http://automationexercise.com'", ()=>{
     
         cy.visit('/');
         cy.url().should("equal", Cypress.env("url"));
@@ -24,7 +24,7 @@ describe(" Test Case 9: Search Product ", ()=>{
     
     
     
-    it ("TC - 3. Verify that home page is visible successfully ", ()=>{
+    it ("Verify that home page is visible successfully ", ()=>{
     
         cy.request(Cypress.env("url")).should(
             (response) => {
@@ -46,7 +46,7 @@ describe(" Test Case 9: Search Product ", ()=>{
     
     });
     
-    it ("TC - 4. Click on 'Products' button ", ()=>{
+    it ("Click on 'Products' button ", ()=>{
     
         const productButton  = testcase9searchproductpage.getProductsButton();
         if (productButton .should("be.visible").should("contain.text"," Products")) {
@@ -60,7 +60,7 @@ describe(" Test Case 9: Search Product ", ()=>{
     });
     
     
-    it ("TC - 5. Verify user is navigated to ALL PRODUCTS page successfully ", ()=>{
+    it ("Verify user is navigated to ALL PRODUCTS page successfully ", ()=>{
     
         cy.url().should("equal", Cypress.env("productpageurl"));
         cy.request(Cypress.env("productpageurl")).should(
@@ -92,7 +92,7 @@ describe(" Test Case 9: Search Product ", ()=>{
     });
 
     
-    it ("TC - 6. The products list is visible ", ()=>{
+    it ("The products list is visible ", ()=>{
     
         cy.categoryList("Women");
         cy.categoryList("Men");
@@ -105,7 +105,7 @@ describe(" Test Case 9: Search Product ", ()=>{
 
         
     
-    it ("TC - 6. Enter product name in search input and click search button ", ()=>{
+    it ("Enter product name in search input and click search button ", ()=>{
 
         // Blue Top
             
@@ -125,7 +125,7 @@ describe(" Test Case 9: Search Product ", ()=>{
 
         
     
-    it ("TC - 7. Verify 'SEARCHED PRODUCTS' is visible ", ()=>{
+    it ("Verify 'SEARCHED PRODUCTS' is visible ", ()=>{
 
         cy.scrollTo(0, 800);
 

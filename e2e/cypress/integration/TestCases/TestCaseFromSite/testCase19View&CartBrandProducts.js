@@ -11,7 +11,7 @@ const viewProductButtonText ="View Product";
 
 describe ("Test Case 19: View & Cart Brand Products", ()=>{
 
-    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it ("Navigate to url 'http://automationexercise.com'", ()=>{
     
         cy.visit('/');
         cy.url().should("equal", Cypress.env("url"));
@@ -19,7 +19,7 @@ describe ("Test Case 19: View & Cart Brand Products", ()=>{
     });
     
     
-    it ("TC - 3. Click on 'Products' button", ()=>{
+    it ("Click on 'Products' button", ()=>{
     
            
         const productButton  = testcase19viewandcartbrandproductpage.getProductsButton();
@@ -32,7 +32,7 @@ describe ("Test Case 19: View & Cart Brand Products", ()=>{
     
     });
 
-    it ("TC - 4. Verify that Brands are visible on left side bar", ()=>{
+    it ("Verify that Brands are visible on left side bar", ()=>{
     
         let brandElementPosition;
 
@@ -53,7 +53,7 @@ describe ("Test Case 19: View & Cart Brand Products", ()=>{
     });
     
     
-    it ("TC - 5. Click on any brand name", ()=>{
+    it (" Click on any brand name", ()=>{
     
         const poloBrand  = testcase19viewandcartbrandproductpage.getPoloBrand();
         if (poloBrand .should("be.visible").should("contain.text","Polo")) {
@@ -65,7 +65,7 @@ describe ("Test Case 19: View & Cart Brand Products", ()=>{
     
     });
 
-    it ("TC - 6. Verify that user is navigated to brand page and brand products are displayed", ()=>{
+    it ("Verify that user is navigated to brand page and brand products are displayed", ()=>{
     
             
         cy.url().should("equal", Cypress.env("polobrandpageurl"));
@@ -94,7 +94,7 @@ describe ("Test Case 19: View & Cart Brand Products", ()=>{
     });
     
     
-    it ("TC - 7. On left side bar, click on any other brand link", ()=>{
+    it ("On left side bar, click on any other brand link", ()=>{
     
             
         let hnmbrandPosition;
@@ -126,7 +126,7 @@ describe ("Test Case 19: View & Cart Brand Products", ()=>{
     
     });
 
-    it ("TC - 8. Verify that user is navigated to that brand page and can see products", ()=>{
+    it ("Verify that user is navigated to that brand page and can see products", ()=>{
     
 
         cy.url().should("equal", Cypress.env("hnmbrandpageurl"));

@@ -8,14 +8,14 @@ const elementVisible = "Is Visible";
 describe ("Test Case 17: Remove Products From Cart", ()=>{
 
 
-    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it ("Navigate to url 'http://automationexercise.com'", ()=>{
     
       cy.visit('/');
       cy.url().should("equal", Cypress.env("url"));
 
     });
     
-    it ("TC - 3. Verify that home page is visible successfully ", ()=>{
+    it ("Verify that home page is visible successfully ", ()=>{
     
         cy.request(Cypress.env("url")).should(
             (response) => {
@@ -37,7 +37,7 @@ describe ("Test Case 17: Remove Products From Cart", ()=>{
     
     });
     
-    it ("TC - 4. Product Add products to cart", ()=>{
+    it ("Product Add products to cart", ()=>{
     
         const  addToCartButton  = testcase17removeproductfromcartpage.getAddToCartButton();
         if ( addToCartButton .should("be.visible").should("contain.text", "Add to cart")) {
@@ -61,7 +61,7 @@ describe ("Test Case 17: Remove Products From Cart", ()=>{
     });
     
  
-    it ("TC - 6. Verify that cart page is displayed ", ()=>{
+    it (" Verify that cart page is displayed ", ()=>{
     
       cy.url().should("equal", Cypress.env("cartpageurl"));
     
@@ -69,7 +69,7 @@ describe ("Test Case 17: Remove Products From Cart", ()=>{
     });
 
     
-    it ("TC - 7. Click 'X' button corresponding to particular product", ()=>{
+    it (" Click 'X' button corresponding to particular product", ()=>{
     
         const cartquantityDeleteButton  = testcase17removeproductfromcartpage.getCartQuantityDeleteButton();
         if (cartquantityDeleteButton .should("be.visible")) {
@@ -83,7 +83,7 @@ describe ("Test Case 17: Remove Products From Cart", ()=>{
     
     });
 
-    it ("TC - 8. Verify that product is removed from the cart", ()=>{
+    it (" Verify that product is removed from the cart", ()=>{
 
            
         const cartEmptyText  = testcase17removeproductfromcartpage.getCartEmptyText();

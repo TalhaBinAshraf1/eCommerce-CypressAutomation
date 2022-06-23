@@ -7,7 +7,7 @@ const elementVisible = "Is Visible";
 
 describe(" Test Case 13: Verify Product quantity in Cart ", ()=>{
 
-    it ("TC - 2. Navigate to url 'http://automationexercise.com'", ()=>{
+    it ("Navigate to url 'http://automationexercise.com'", ()=>{
     
         cy.visit('/');
         cy.url().should("equal", Cypress.env("url"));
@@ -17,7 +17,7 @@ describe(" Test Case 13: Verify Product quantity in Cart ", ()=>{
     
     
     
-    it ("TC - 3. Verify that home page is visible successfully ", ()=>{
+    it ("Verify that home page is visible successfully ", ()=>{
     
         cy.request(Cypress.env("url")).should(
             (response) => {
@@ -40,7 +40,7 @@ describe(" Test Case 13: Verify Product quantity in Cart ", ()=>{
     });
     
     
-    it ("TC - 4. Click 'View Product' for any product on home page", ()=>{
+    it ("Click 'View Product' for any product on home page", ()=>{
     
     const productName = cy.get("div:nth-of-type(8) > .product-image-wrapper > .single-products > .productinfo.text-center > p");
         
@@ -63,7 +63,7 @@ describe(" Test Case 13: Verify Product quantity in Cart ", ()=>{
     });
     
     
-    it (" TC - 5. Verify product detail is opened ", ()=>{
+    it ("Verify product detail is opened ", ()=>{
     
         //   ✅  Name Validation  ✅ 
 
@@ -91,7 +91,7 @@ describe(" Test Case 13: Verify Product quantity in Cart ", ()=>{
 
         
     
-    it ("TC - 6. Increase quantity to 4 ", ()=>{
+    it ("Increase quantity to 4 ", ()=>{
     
         cy.wait(2000)
         const productQuantity  = testcase13varifyproductqwantityincartpag.getProductQuantityInputfield();
@@ -107,7 +107,7 @@ describe(" Test Case 13: Verify Product quantity in Cart ", ()=>{
     });
 
     
-    it ("TC - 7. Click 'Add to cart' button ", ()=>{
+    it ("Click 'Add to cart' button ", ()=>{
     
         const  addToCartButton  = testcase13varifyproductqwantityincartpag.getAddToCartButton();
         if ( addToCartButton .should("be.visible").should("contain.text", "Add to cart")) {
@@ -121,7 +121,7 @@ describe(" Test Case 13: Verify Product quantity in Cart ", ()=>{
     });
 
 
-    it ("TC - 8. Click 'View Cart' button ", ()=>{
+    it ("Click 'View Cart' button ", ()=>{
     
         const  viewCartButton  = testcase13varifyproductqwantityincartpag.getViewCartButton();
         if ( viewCartButton .should("be.visible").should("contain.text", "View Cart")) {
@@ -134,7 +134,7 @@ describe(" Test Case 13: Verify Product quantity in Cart ", ()=>{
     });
 
     
-    it ("TC - 9. Verify that product is displayed in cart page with exact quantity ", ()=>{
+    it ("Verify that product is displayed in cart page with exact quantity ", ()=>{
     
         const  productQuantityInCartPage  = testcase13varifyproductqwantityincartpag.getProductQuantityInCartPage();
         if ( productQuantityInCartPage .should("be.visible").should("contain.text", "4")) {
