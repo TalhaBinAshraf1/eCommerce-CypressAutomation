@@ -1,0 +1,104 @@
+{
+  "uid" : "85b52982719b52a2",
+  "name" : "Click 'Create Account button' ",
+  "fullName" : "Click 'Create Account button' ",
+  "historyId" : "f26951905225900de66e32cf9f8b9ff4",
+  "time" : {
+    "start" : 1670996420149,
+    "stop" : 1670996421235,
+    "duration" : 1086
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 1000ms: expected '<button.btn.btn-default>' to have text 'Create Account', but the text was 'Login'",
+  "statusTrace" : "AssertionError: Timed out retrying after 1000ms: expected '<button.btn.btn-default>' to have text 'Create Account', but the text was 'Login'\n    at Context.eval (webpack:///./cypress/e2e/TestCases/TestCaseFromSite/testCase1RegisterUser.cy.js:378:47)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 1000ms: expected '<button.btn.btn-default>' to have text 'Create Account', but the text was 'Login'",
+    "statusTrace" : "AssertionError: Timed out retrying after 1000ms: expected '<button.btn.btn-default>' to have text 'Create Account', but the text was 'Login'\n    at Context.eval (webpack:///./cypress/e2e/TestCases/TestCaseFromSite/testCase1RegisterUser.cy.js:378:47)",
+    "steps" : [ {
+      "name" : "assert expected **<button.btn.btn-default>** to have text **Create Account**, but the text was **Login**",
+      "time" : {
+        "start" : 1670996420156,
+        "stop" : 1670996421234,
+        "duration" : 1078
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<button.btn.btn-default>** to be **visible**",
+      "time" : {
+        "start" : 1670996421234,
+        "stop" : 1670996421234,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get .login-form > form > .btn",
+      "time" : {
+        "start" : 1670996421234,
+        "stop" : 1670996421234,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "20c1146ae2c3706e",
+      "name" : "cypress/e2e/TestCases/TestCaseFromSite/testCase1RegisterUser.cy.js:2022-12-14T05:40:21.169Z",
+      "source" : "20c1146ae2c3706e.png",
+      "type" : "image/png",
+      "size" : 95864
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 1: Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "85b52982719b52a2.json",
+  "parameterValues" : [ ]
+}

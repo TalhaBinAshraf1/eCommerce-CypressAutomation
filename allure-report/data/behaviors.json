@@ -1,0 +1,3034 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "5de6b53db05099ee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996248357,
+      "stop" : 1670996259088,
+      "duration" : 10731
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully ",
+    "uid" : "7679ff2124b6faed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996259101,
+      "stop" : 1670996259983,
+      "duration" : 882
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Scroll down to footer",
+    "uid" : "537f6f99532b2ae8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996259986,
+      "stop" : 1670996260002,
+      "duration" : 16
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify text 'SUBSCRIPTION' ",
+    "uid" : "6f360cd134ed2c53",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996260003,
+      "stop" : 1670996260021,
+      "duration" : 18
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter email address in input and click arrow button ",
+    "uid" : "a5a16e58a5abb1ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996260034,
+      "stop" : 1670996260409,
+      "duration" : 375
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify success message 'You have been successfully subscribed!' is visible ",
+    "uid" : "59fa36393b2b2057",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996260415,
+      "stop" : 1670996260516,
+      "duration" : 101
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "f8ae342759877e30",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996261455,
+      "stop" : 1670996270026,
+      "duration" : 8571
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully ",
+    "uid" : "c21e83ed7ccd6b5c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996270039,
+      "stop" : 1670996270929,
+      "duration" : 890
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Cart' button",
+    "uid" : "bc6d8e67f041072",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996270933,
+      "stop" : 1670996272103,
+      "duration" : 1170
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify text 'SUBSCRIPTION' ",
+    "uid" : "9e1ddcc6396897b9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996272106,
+      "stop" : 1670996272126,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter email address in input and click arrow button ",
+    "uid" : "39526abcd2033231",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996272127,
+      "stop" : 1670996272455,
+      "duration" : 328
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify success message 'You have been successfully subscribed!' is visible ",
+    "uid" : "9982b25524ad6f8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996272461,
+      "stop" : 1670996272570,
+      "duration" : 109
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC - 2. Navigate to url 'http://automationexercise.com'",
+    "uid" : "bf349d65fcc049b1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996273569,
+      "stop" : 1670996283478,
+      "duration" : 9909
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully ",
+    "uid" : "1c959f880f887229",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996283491,
+      "stop" : 1670996284383,
+      "duration" : 892
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Products' button ",
+    "uid" : "fda2bfdca01db853",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996284387,
+      "stop" : 1670996291037,
+      "duration" : 6650
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user is navigated to ALL PRODUCTS page successfully ",
+    "uid" : "b076d196ecb0a424",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996291043,
+      "stop" : 1670996297135,
+      "duration" : 6092
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Hover over first product and click 'Add to cart' ",
+    "uid" : "5a5a5663c270a546",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996297142,
+      "stop" : 1670996299684,
+      "duration" : 2542
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'View Cart' button ",
+    "uid" : "a4014dd9e9e41338",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996299690,
+      "stop" : 1670996301428,
+      "duration" : 1738
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify both products are added to Cart ",
+    "uid" : "b829eb58610b5968",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996301432,
+      "stop" : 1670996301466,
+      "duration" : 34
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC - 11. Verify their prices, quantity and total price",
+    "uid" : "1f3d504cc564bc16",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996301468,
+      "stop" : 1670996301499,
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "816d3725885c610a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996302453,
+      "stop" : 1670996310578,
+      "duration" : 8125
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully ",
+    "uid" : "f38b4707a35a2ae3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996310593,
+      "stop" : 1670996311483,
+      "duration" : 890
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'View Product' for any product on home page",
+    "uid" : "d784e67ff5195613",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996311487,
+      "stop" : 1670996313324,
+      "duration" : 1837
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify product detail is opened ",
+    "uid" : "b897dff6ce263704",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996313329,
+      "stop" : 1670996313357,
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Increase quantity to 4 ",
+    "uid" : "5baa7a1d6bf5bfef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996313358,
+      "stop" : 1670996315596,
+      "duration" : 2238
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Add to cart' button ",
+    "uid" : "cbc7e61f91627bcc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996315601,
+      "stop" : 1670996315695,
+      "duration" : 94
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'View Cart' button ",
+    "uid" : "9911d67a0d7abb53",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996315696,
+      "stop" : 1670996317915,
+      "duration" : 2219
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that product is displayed in cart page with exact quantity ",
+    "uid" : "50fb501ea6451746",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996317918,
+      "stop" : 1670996317943,
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "e8f9a49ade11e4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996318968,
+      "stop" : 1670996327321,
+      "duration" : 8353
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully ",
+    "uid" : "62069f40aa3e4d26",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996327335,
+      "stop" : 1670996328205,
+      "duration" : 870
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Product Add products to cart",
+    "uid" : "820f9dab4fdd83c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996328208,
+      "stop" : 1670996329962,
+      "duration" : 1754
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that cart page is displayed ",
+    "uid" : "15eab95f7048485",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996329966,
+      "stop" : 1670996329990,
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click Proceed To Checkout ",
+    "uid" : "834fab6b79bfff3f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996329991,
+      "stop" : 1670996330076,
+      "duration" : 85
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Register / Login' button  ",
+    "uid" : "abbfc60c8700bd91",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996330077,
+      "stop" : 1670996330641,
+      "duration" : 564
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify 'Login to your account' is visible",
+    "uid" : "28beb02c24f7e459",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996330645,
+      "stop" : 1670996330673,
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter correct email address and password",
+    "uid" : "6cbb9aef3e4f4bb3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996330675,
+      "stop" : 1670996331440,
+      "duration" : 765
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'login' button",
+    "uid" : "367d1735b418834",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996331446,
+      "stop" : 1670996338015,
+      "duration" : 6569
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that 'Logged in as username' is visible",
+    "uid" : "a3d726798dcab65d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996338021,
+      "stop" : 1670996340057,
+      "duration" : 2036
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Cart' button ",
+    "uid" : "abbae5fdf1849a88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996340058,
+      "stop" : 1670996341623,
+      "duration" : 1565
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Proceed To Checkout' button ",
+    "uid" : "d95008d55cec84e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996341627,
+      "stop" : 1670996341748,
+      "duration" : 121
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Address Details and Review Your Order ",
+    "uid" : "c770a132ebceba56",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996341748,
+      "stop" : 1670996341752,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter description in comment text area and click 'Place Order' ",
+    "uid" : "e483c71c2d640d8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996341753,
+      "stop" : 1670996341759,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter payment details: Name on Card, Card Number, CVC, Expiration date ",
+    "uid" : "c2ef6a88b366d960",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996341763,
+      "stop" : 1670996341771,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Pay and Confirm Order' button ",
+    "uid" : "5a83560d08e4a962",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996341773,
+      "stop" : 1670996341780,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify success message 'Your order has been placed successfully!' ",
+    "uid" : "78853bd5d9443a5a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996341780,
+      "stop" : 1670996341784,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Delete Account' button ",
+    "uid" : "3d84e5bda7c0fe7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996341785,
+      "stop" : 1670996341789,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'ACCOUNT DELETED!' and click 'Continue' button ",
+    "uid" : "f60db17840cc8de0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996341790,
+      "stop" : 1670996341796,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "c2e68105d72dfb0d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996342751,
+      "stop" : 1670996351110,
+      "duration" : 8359
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully",
+    "uid" : "707a50c12fce05b1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351124,
+      "stop" : 1670996351155,
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Signup / Login' button",
+    "uid" : "cefd030d7e821e16",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351157,
+      "stop" : 1670996351166,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Fill all details in Signup and create account",
+    "uid" : "92010b9ebe19a8b3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351167,
+      "stop" : 1670996351172,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'ACCOUNT CREATED!' and click 'Continue' button",
+    "uid" : "66c6b3af4c3b4294",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351173,
+      "stop" : 1670996351180,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify ' Logged in as username' at top",
+    "uid" : "563fd35c7b69a7f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351181,
+      "stop" : 1670996351185,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add products to cart",
+    "uid" : "e47d288bf8f86c2e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351186,
+      "stop" : 1670996351194,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Cart' button",
+    "uid" : "e59ef0ab27559e95",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351195,
+      "stop" : 1670996351199,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify that cart page is displayed",
+    "uid" : "1a20a10bd37b6366",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351200,
+      "stop" : 1670996351204,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Click Proceed To Checkout",
+    "uid" : "c3f217c03ded6225",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351204,
+      "stop" : 1670996351211,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify Address Details and Review Your Order",
+    "uid" : "ff9071a432b99aa2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351213,
+      "stop" : 1670996351216,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Enter description in comment text area and click 'Place Order'",
+    "uid" : "dd9c271099374e2b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351216,
+      "stop" : 1670996351220,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+    "uid" : "cb838ba186b43706",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351221,
+      "stop" : 1670996351228,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify success message 'Your order has been placed successfully!'",
+    "uid" : "5870663666c66df",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351229,
+      "stop" : 1670996351232,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "  Click 'Delete Account' button",
+    "uid" : "a7903676b8f2ba34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351233,
+      "stop" : 1670996351236,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify 'ACCOUNT DELETED!' and click 'Continue' button",
+    "uid" : "1ebb608bf304c216",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996351236,
+      "stop" : 1670996351241,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "a40535852ec587be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996352238,
+      "stop" : 1670996360067,
+      "duration" : 7829
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully",
+    "uid" : "9009cb9cdeb2852e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360080,
+      "stop" : 1670996360112,
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Signup / Login' button",
+    "uid" : "1abf121058c5c737",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360113,
+      "stop" : 1670996360121,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Fill email, password and click 'Login' button",
+    "uid" : "10a81f63441dea94",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360122,
+      "stop" : 1670996360128,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'Logged in as username' at top",
+    "uid" : "d1f82595dcfddabe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360129,
+      "stop" : 1670996360134,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add products to cart",
+    "uid" : "23b08c82387dc9f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360135,
+      "stop" : 1670996360139,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Cart' button",
+    "uid" : "4038f0be849f17ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360140,
+      "stop" : 1670996360145,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that cart page is displayed",
+    "uid" : "fb95373b69408c44",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360146,
+      "stop" : 1670996360151,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Click Proceed To Checkout",
+    "uid" : "2b7b748c71d18c6e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360152,
+      "stop" : 1670996360158,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify Address Details and Review Your Order",
+    "uid" : "52817f6790ce72fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360163,
+      "stop" : 1670996360166,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Enter description in comment text area and click 'Place Order'",
+    "uid" : "a19d2060c0a8f0ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360167,
+      "stop" : 1670996360171,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+    "uid" : "c47bf611763fd080",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360171,
+      "stop" : 1670996360178,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Click 'Pay and Confirm Order' button",
+    "uid" : "a677c40b8639126b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360179,
+      "stop" : 1670996360184,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify success message 'Your order has been placed successfully!'",
+    "uid" : "aa7a8633a8d04f79",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360184,
+      "stop" : 1670996360190,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Click 'Delete Account' button",
+    "uid" : "99f16da297efbc2e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360191,
+      "stop" : 1670996360197,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify 'ACCOUNT DELETED!' and click 'Continue' button",
+    "uid" : "fa9aef783ab7783f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996360198,
+      "stop" : 1670996360202,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "1c70e5d73606396e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996361162,
+      "stop" : 1670996369126,
+      "duration" : 7964
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully ",
+    "uid" : "69cf1706bc868efc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996369139,
+      "stop" : 1670996369989,
+      "duration" : 850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Product Add products to cart",
+    "uid" : "f7a7373b733b17f6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996369991,
+      "stop" : 1670996371603,
+      "duration" : 1612
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify that cart page is displayed ",
+    "uid" : "586f48ee1dc0066",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996371606,
+      "stop" : 1670996371630,
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Click 'X' button corresponding to particular product",
+    "uid" : "e4f01d1d5186a9b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996371631,
+      "stop" : 1670996371721,
+      "duration" : 90
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify that product is removed from the cart",
+    "uid" : "f7a167434201dd51",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996371722,
+      "stop" : 1670996371944,
+      "duration" : 222
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Navigate to url 'http://automationexercise.com'",
+    "uid" : "7c5d2a11a8e544b4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996372918,
+      "stop" : 1670996380726,
+      "duration" : 7808
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify that categories are visible on left side bar",
+    "uid" : "982077644016cd57",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996380740,
+      "stop" : 1670996380877,
+      "duration" : 137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Click on 'Women' category",
+    "uid" : "374cee0832ad0b88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996380878,
+      "stop" : 1670996380984,
+      "duration" : 106
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on any category link under 'Women' category, for example: Dress",
+    "uid" : "224df6cda5784c0f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996380988,
+      "stop" : 1670996381165,
+      "duration" : 177
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify that category page is displayed and confirm text 'WOMEN - TOPS PRODUCTS'",
+    "uid" : "ce19c106ca5523aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996381189,
+      "stop" : 1670996381212,
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " On left side bar, click on any sub-category link of 'Men' category",
+    "uid" : "c7a162d7207adafc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996381213,
+      "stop" : 1670996381218,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify that user is navigated to that category page",
+    "uid" : "bfcb75cd1e7fd279",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996381218,
+      "stop" : 1670996381223,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "11cd9cd0b13a67d9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996382158,
+      "stop" : 1670996389433,
+      "duration" : 7275
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Products' button",
+    "uid" : "19331c0661526976",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996389448,
+      "stop" : 1670996396179,
+      "duration" : 6731
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that Brands are visible on left side bar",
+    "uid" : "3f9ded15d34506e4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996396184,
+      "stop" : 1670996396321,
+      "duration" : 137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Click on any brand name",
+    "uid" : "446d91b40daa0650",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996396322,
+      "stop" : 1670996398863,
+      "duration" : 2541
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that user is navigated to brand page and brand products are displayed",
+    "uid" : "ae8f0be4e3f384ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996398866,
+      "stop" : 1670996399249,
+      "duration" : 383
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "On left side bar, click on any other brand link",
+    "uid" : "93dd7e78aaf60999",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996399251,
+      "stop" : 1670996401255,
+      "duration" : 2004
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that user is navigated to that brand page and can see products",
+    "uid" : "c1a72a171c09bbd6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996401260,
+      "stop" : 1670996401618,
+      "duration" : 358
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "75f0909d1fa2e5e1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996402723,
+      "stop" : 1670996410568,
+      "duration" : 7845
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify that home page is visible successfully ",
+    "uid" : "6c84aaaee106edee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996410582,
+      "stop" : 1670996411447,
+      "duration" : 865
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Signup / Login' button It Should Be visible In this Page  ",
+    "uid" : "2d01a166fb5cdca1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996411450,
+      "stop" : 1670996412643,
+      "duration" : 1193
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'New User Signup!' is visible ",
+    "uid" : "f5218eec7eedc1b6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996412648,
+      "stop" : 1670996412672,
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter name and email address",
+    "uid" : "9fb09bb361ff998c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996412675,
+      "stop" : 1670996413406,
+      "duration" : 731
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Signup' button  ",
+    "uid" : "1e7c826b5dce42d5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996413411,
+      "stop" : 1670996414675,
+      "duration" : 1264
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that 'ENTER ACCOUNT INFORMATION' is visible ",
+    "uid" : "eb00920866f81cab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996414685,
+      "stop" : 1670996415792,
+      "duration" : 1107
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Fill details: Title, Name, Email, Password, Date of birth ",
+    "uid" : "135c5726c4e6604",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996415811,
+      "stop" : 1670996416893,
+      "duration" : 1082
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Select checkbox 'Sign up for our newsletter!'",
+    "uid" : "1277cfd0ffd61dc0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996416900,
+      "stop" : 1670996418008,
+      "duration" : 1108
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Select checkbox 'Receive special offers from our partners!'",
+    "uid" : "2e5a3c1a9fb3ec92",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996418012,
+      "stop" : 1670996419076,
+      "duration" : 1064
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number ",
+    "uid" : "e0bbdad2f1e763fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996419080,
+      "stop" : 1670996420145,
+      "duration" : 1065
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Create Account button' ",
+    "uid" : "85b52982719b52a2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996420149,
+      "stop" : 1670996421235,
+      "duration" : 1086
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that 'ACCOUNT CREATED!' is visible ",
+    "uid" : "b55bdd18c6a2b068",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996421239,
+      "stop" : 1670996422333,
+      "duration" : 1094
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Continue' button ",
+    "uid" : "1c538f08a856a4b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996422336,
+      "stop" : 1670996423415,
+      "duration" : 1079
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that 'Logged in as username' is visible ",
+    "uid" : "f4f70b95de2027cf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996423419,
+      "stop" : 1670996428858,
+      "duration" : 5439
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Delete Account' button ",
+    "uid" : "549c8e55c6f29b38",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996428862,
+      "stop" : 1670996428882,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "6ca154bc7c88fd34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996429870,
+      "stop" : 1670996438547,
+      "duration" : 8677
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Products' button",
+    "uid" : "8e1a26fa4ce2eb1b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996438560,
+      "stop" : 1670996445342,
+      "duration" : 6782
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user is navigated to ALL PRODUCTS page successfully",
+    "uid" : "68127218064bb38b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996445348,
+      "stop" : 1670996445726,
+      "duration" : 378
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter product name in search input and click search button",
+    "uid" : "faf5d2358efa4846",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996445731,
+      "stop" : 1670996447724,
+      "duration" : 1993
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'SEARCHED PRODUCTS' is visible",
+    "uid" : "64de37fe1a002bd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996447727,
+      "stop" : 1670996447754,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify all the products related to search are visible",
+    "uid" : "2038b9cf86db0084",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996447758,
+      "stop" : 1670996447769,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add those products to cart",
+    "uid" : "9202e6ef3f8d4338",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996447770,
+      "stop" : 1670996451808,
+      "duration" : 4038
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Signup / Login' button and submit login details",
+    "uid" : "4771ffaa996e4edc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996451815,
+      "stop" : 1670996453120,
+      "duration" : 1305
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Again, go to Cart page",
+    "uid" : "dd1ea69c3b6b6074",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996453125,
+      "stop" : 1670996454094,
+      "duration" : 969
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that those products are visible in cart after login as well",
+    "uid" : "7e2ce4bfa6bb9d65",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996454096,
+      "stop" : 1670996454118,
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "dde400adc439bd6a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996455099,
+      "stop" : 1670996476435,
+      "duration" : 21336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Products' button",
+    "uid" : "116d91c48fd2152e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996476448,
+      "stop" : 1670996485085,
+      "duration" : 8637
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user is navigated to ALL PRODUCTS page successfully",
+    "uid" : "8a5377fd165bb520",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996485091,
+      "stop" : 1670996485441,
+      "duration" : 350
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'View Product' button",
+    "uid" : "a6cea06455963d7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996485446,
+      "stop" : 1670996487117,
+      "duration" : 1671
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'Write Your Review' is visible",
+    "uid" : "58bb1ca2a071f662",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996487119,
+      "stop" : 1670996487150,
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter name, email and review",
+    "uid" : "50ae423496b016f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996487151,
+      "stop" : 1670996488152,
+      "duration" : 1001
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Submit' button",
+    "uid" : "7453a31fd7e09af6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996488157,
+      "stop" : 1670996488249,
+      "duration" : 92
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify success message 'Thank you for your review.'",
+    "uid" : "f64144e7bd0ec5a8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996488249,
+      "stop" : 1670996488257,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "c4f289b643a67d53",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996489202,
+      "stop" : 1670996499730,
+      "duration" : 10528
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Scroll to bottom of page",
+    "uid" : "86d48516b3b571eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996499744,
+      "stop" : 1670996499778,
+      "duration" : 34
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'RECOMMENDED ITEMS' are visible",
+    "uid" : "cd688f88666c2706",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996499780,
+      "stop" : 1670996504839,
+      "duration" : 5059
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Add To Cart' on Recommended product",
+    "uid" : "f1d4fd3204b1ad05",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996504858,
+      "stop" : 1670996505284,
+      "duration" : 426
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'View Cart' button",
+    "uid" : "f9a84cd8a04c1d61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996505290,
+      "stop" : 1670996508295,
+      "duration" : 3005
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that product is displayed in cart page",
+    "uid" : "5e300e44af1e9437",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996508298,
+      "stop" : 1670996509177,
+      "duration" : 879
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "eaae089ffd41e9a1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996510234,
+      "stop" : 1670996521950,
+      "duration" : 11716
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully",
+    "uid" : "da6723685cd5e571",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996521964,
+      "stop" : 1670996522840,
+      "duration" : 876
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Signup / Login' button",
+    "uid" : "aaac6898d9baccd6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996522844,
+      "stop" : 1670996525129,
+      "duration" : 2285
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Fill all details in Signup and create account",
+    "uid" : "aa477738207bb65b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996525134,
+      "stop" : 1670996528090,
+      "duration" : 2956
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'ACCOUNT CREATED!' and click 'Continue' button",
+    "uid" : "5c6e91f0a1aae696",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996528113,
+      "stop" : 1670996529221,
+      "duration" : 1108
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify ' Logged in as username' at top",
+    "uid" : "80ecdcbdf9a74e60",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996529225,
+      "stop" : 1670996530286,
+      "duration" : 1061
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add products to cart",
+    "uid" : "a11cf0478d83c09",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996530291,
+      "stop" : 1670996530300,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Cart' button",
+    "uid" : "56dc014336adb01d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996530313,
+      "stop" : 1670996530326,
+      "duration" : 13
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that cart page is displayed",
+    "uid" : "4d33829f4e9fec06",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996530327,
+      "stop" : 1670996530341,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click Proceed To Checkout",
+    "uid" : "57dc7a2cb36593e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996530342,
+      "stop" : 1670996530350,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that the delivery address is same address filled at the time registration of account",
+    "uid" : "743e8798d0c965c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996530351,
+      "stop" : 1670996530361,
+      "duration" : 10
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that the billing address is same address filled at the time registration of account",
+    "uid" : "11fee8a55b595095",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996530363,
+      "stop" : 1670996530374,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Delete Account' button",
+    "uid" : "b75f607db1220954",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996530375,
+      "stop" : 1670996530396,
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'ACCOUNT DELETED!' and click 'Continue' button",
+    "uid" : "d9a655058053c349",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996530398,
+      "stop" : 1670996530409,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC - 2. Navigate to url 'http://automationexercise.com'",
+    "uid" : "6fc12623adf130a5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996531465,
+      "stop" : 1670996542366,
+      "duration" : 10901
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully",
+    "uid" : "e90ec280d5007c68",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996542380,
+      "stop" : 1670996543251,
+      "duration" : 871
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Signup / Login' button",
+    "uid" : "8d25f3d2f19ef181",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996543254,
+      "stop" : 1670996544432,
+      "duration" : 1178
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Fill all details in Signup and create account",
+    "uid" : "131ad4ad7c239bc5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996544437,
+      "stop" : 1670996547990,
+      "duration" : 3553
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'ACCOUNT CREATED!' and click 'Continue' button",
+    "uid" : "c38e153c8275942b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996548014,
+      "stop" : 1670996549104,
+      "duration" : 1090
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify ' Logged in as username' at top",
+    "uid" : "6855b2c4eb0fec84",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996549109,
+      "stop" : 1670996550214,
+      "duration" : 1105
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Cart' button",
+    "uid" : "c9d0095dbe8562f5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550218,
+      "stop" : 1670996550246,
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Proceed To Checkout' button",
+    "uid" : "660b22cafeaf96e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550247,
+      "stop" : 1670996550258,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Address Details and Review Your Order",
+    "uid" : "b4976060dcb2b51e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550259,
+      "stop" : 1670996550274,
+      "duration" : 15
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter description in comment text area and click 'Place Order'",
+    "uid" : "28d665179d476dd9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550275,
+      "stop" : 1670996550282,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+    "uid" : "baeaa99e13fd51aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550283,
+      "stop" : 1670996550294,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Pay and Confirm Order' button",
+    "uid" : "e0955663e1ab7c8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550294,
+      "stop" : 1670996550308,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify success message 'Your order has been placed successfully!'",
+    "uid" : "a3a56ba44b10c615",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550309,
+      "stop" : 1670996550330,
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Download Invoice' button and verify invoice is downloaded successfully.",
+    "uid" : "d7f5da2ccddbb8f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550331,
+      "stop" : 1670996550342,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Continue' button",
+    "uid" : "c143cae3f85d32c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550342,
+      "stop" : 1670996550348,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Delete Account' button",
+    "uid" : "9e78c5a1dc98921c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550348,
+      "stop" : 1670996550362,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'ACCOUNT DELETED!' and click 'Continue' button",
+    "uid" : "edc1237f6a25f554",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996550363,
+      "stop" : 1670996550377,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC - 2. Navigate to url 'http://automationexercise.com'",
+    "uid" : "fe7ccccc4a85d07f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996551373,
+      "stop" : 1670996561166,
+      "duration" : 9793
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully",
+    "uid" : "e3482e321385a154",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996561176,
+      "stop" : 1670996561511,
+      "duration" : 335
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Scroll down page to bottom",
+    "uid" : "c75a3a56747ba89",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996561513,
+      "stop" : 1670996561522,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'SUBSCRIPTION' is visible",
+    "uid" : "ac5ec516b9127023",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996561524,
+      "stop" : 1670996561544,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on arrow at bottom right side to move upward",
+    "uid" : "98c97c16364fdc99",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996561549,
+      "stop" : 1670996561779,
+      "duration" : 230
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that page is scrolled up and 'Full-Fledged practice website fTC - or Automation Engineers' text is visible on screen",
+    "uid" : "9827da41d0fd91ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996561779,
+      "stop" : 1670996561800,
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC - 2. Navigate to url 'http://automationexercise.com'",
+    "uid" : "8080463056166070",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996562734,
+      "stop" : 1670996570199,
+      "duration" : 7465
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC - 3. Verify that home page is visible successfully",
+    "uid" : "2fceb10ef5d52ee4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996570208,
+      "stop" : 1670996570532,
+      "duration" : 324
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC - 4. Scroll down page to bottom",
+    "uid" : "607276e41aadcf7f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996570534,
+      "stop" : 1670996570547,
+      "duration" : 13
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "5. Verify 'SUBSCRIPTION' is visible",
+    "uid" : "4b2f92ce58849283",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996570548,
+      "stop" : 1670996570582,
+      "duration" : 34
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "6. Scroll up page to top",
+    "uid" : "265f45ba3233b376",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996570584,
+      "stop" : 1670996570594,
+      "duration" : 10
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "7. Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen",
+    "uid" : "d60096184cf2f8cd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996570595,
+      "stop" : 1670996570609,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "c2b4d71d07d589be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996571577,
+      "stop" : 1670996581855,
+      "duration" : 10278
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully",
+    "uid" : "e1ce176746aeaae1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996581869,
+      "stop" : 1670996582737,
+      "duration" : 868
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Signup / Login' button",
+    "uid" : "e85579f8b866a156",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996582740,
+      "stop" : 1670996583936,
+      "duration" : 1196
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'Login to your account' is visible",
+    "uid" : "3f820a6691348844",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996583940,
+      "stop" : 1670996583966,
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter correct email address and password",
+    "uid" : "ec825091deba94b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996583967,
+      "stop" : 1670996584719,
+      "duration" : 752
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'login' button",
+    "uid" : "15a22af057d751b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996584724,
+      "stop" : 1670996592526,
+      "duration" : 7802
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that 'Logged in as username' is visible",
+    "uid" : "bbf1a69d0b8fe1cc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996592532,
+      "stop" : 1670996594567,
+      "duration" : 2035
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Delete Account' button",
+    "uid" : "2d1dd21c212e0810",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996594571,
+      "stop" : 1670996594577,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "834c47ddb198b674",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996595529,
+      "stop" : 1670996609305,
+      "duration" : 13776
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully",
+    "uid" : "b8649fb680b6679c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996609318,
+      "stop" : 1670996610789,
+      "duration" : 1471
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Signup / Login' button",
+    "uid" : "63ade44a4c6b9877",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996610791,
+      "stop" : 1670996612045,
+      "duration" : 1254
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'Login to your account' is visible",
+    "uid" : "6352b99d4cb95493",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996612048,
+      "stop" : 1670996612071,
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter incorrect email address and password",
+    "uid" : "fbda0c5be331472c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996612072,
+      "stop" : 1670996612818,
+      "duration" : 746
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'login' button",
+    "uid" : "f115c67df64179ab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996612823,
+      "stop" : 1670996613818,
+      "duration" : 995
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify error 'Your email or password is incorrect!' is visible",
+    "uid" : "d89bee3c0ed687ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996613819,
+      "stop" : 1670996615845,
+      "duration" : 2026
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercis.com'",
+    "uid" : "56d9c2fa9c55d818",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996616825,
+      "stop" : 1670996629015,
+      "duration" : 12190
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully",
+    "uid" : "56e7832e96ce58b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996629028,
+      "stop" : 1670996629906,
+      "duration" : 878
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Signup / Login' button",
+    "uid" : "49c7be16e9d39960",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996629909,
+      "stop" : 1670996631021,
+      "duration" : 1112
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'Login to your account' is visible",
+    "uid" : "c077ff84efae3b05",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996631025,
+      "stop" : 1670996631051,
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter correct email address and password",
+    "uid" : "ed4601ea33881044",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996631052,
+      "stop" : 1670996631816,
+      "duration" : 764
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'login' button",
+    "uid" : "d6d1f8aed4f1abee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996631822,
+      "stop" : 1670996640501,
+      "duration" : 8679
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that 'Logged in as username' is visible",
+    "uid" : "ae8c632be71ff45",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1670996640507,
+      "stop" : 1670996643632,
+      "duration" : 3125
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Logout' button ",
+    "uid" : "6913ad9122a13abe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996643651,
+      "stop" : 1670996644613,
+      "duration" : 962
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that user is navigated to login page ",
+    "uid" : "e601af009dd377ff",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996644619,
+      "stop" : 1670996644628,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "a8828081a84e2bc9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996645622,
+      "stop" : 1670996655132,
+      "duration" : 9510
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully",
+    "uid" : "f1831ccc6fa9a191",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996655145,
+      "stop" : 1670996656004,
+      "duration" : 859
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Signup / Login' button It Should Be visible In this Page  ",
+    "uid" : "8ba8e92f92345a77",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996656007,
+      "stop" : 1670996657937,
+      "duration" : 1930
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'New User Signup!' is visible ",
+    "uid" : "f74dbc720c696990",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996657940,
+      "stop" : 1670996657965,
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter name and already registered email address ",
+    "uid" : "a589e5957a5ea913",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996657966,
+      "stop" : 1670996658687,
+      "duration" : 721
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click 'Signup' button  ",
+    "uid" : "bb8c4ede1b65899c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996658695,
+      "stop" : 1670996659971,
+      "duration" : 1276
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " Verify error 'Email Address already exist!' is visible ",
+    "uid" : "d8af09f263f73afb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996659978,
+      "stop" : 1670996660001,
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: cypress/e2e/TestCases/TestCaseFromSite/testCase6ContactUsForm.cy.js",
+    "uid" : "b6490b98d6c9649c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1670996660744,
+      "stop" : 1670996660744,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "32554cb1327279e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996661685,
+      "stop" : 1670996674314,
+      "duration" : 12629
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully",
+    "uid" : "f50b41b26b85da0d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996674326,
+      "stop" : 1670996675176,
+      "duration" : 850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Test Cases' button ",
+    "uid" : "4982c2d3fd3b5d90",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996675179,
+      "stop" : 1670996677041,
+      "duration" : 1862
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user is navigated to test cases page successfully",
+    "uid" : "b626cf7e48ce0107",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996677044,
+      "stop" : 1670996679890,
+      "duration" : 2846
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "531161ea52566bfc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996680889,
+      "stop" : 1670996689737,
+      "duration" : 8848
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully ",
+    "uid" : "644a12bf4244d74c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996689750,
+      "stop" : 1670996690599,
+      "duration" : 849
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Products' button ",
+    "uid" : "2fe432c5ba3d24fd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996690603,
+      "stop" : 1670996696733,
+      "duration" : 6130
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user is navigated to ALL PRODUCTS page successfully ",
+    "uid" : "1253c9cc9b3d3546",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996696738,
+      "stop" : 1670996697058,
+      "duration" : 320
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "The products list is visible ",
+    "uid" : "eac8ee67b3d6d016",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996697060,
+      "stop" : 1670996697096,
+      "duration" : 36
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'View Product' of first product",
+    "uid" : "9f14a42b2496b468",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996697097,
+      "stop" : 1670996698853,
+      "duration" : 1756
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "User is landed to product detail page ",
+    "uid" : "37221caca42d61ab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996698855,
+      "stop" : 1670996698882,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that detail detail is visible: product name, category, price, availability ",
+    "uid" : "11a9f3f4e140b380",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996698883,
+      "stop" : 1670996698906,
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navigate to url 'http://automationexercise.com'",
+    "uid" : "a201d41450d02fe9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996699859,
+      "stop" : 1670996707776,
+      "duration" : 7917
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that home page is visible successfully ",
+    "uid" : "2f7267331fb6c142",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996707790,
+      "stop" : 1670996708651,
+      "duration" : 861
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on 'Products' button ",
+    "uid" : "d344fe8343449f61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996708655,
+      "stop" : 1670996715070,
+      "duration" : 6415
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user is navigated to ALL PRODUCTS page successfully ",
+    "uid" : "134d5aaebcc2b1ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996715075,
+      "stop" : 1670996715385,
+      "duration" : 310
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "The products list is visible ",
+    "uid" : "ee0bbab111d67d57",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996715387,
+      "stop" : 1670996715426,
+      "duration" : 39
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enter product name in search input and click search button ",
+    "uid" : "620fdf83d71bbee6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996715431,
+      "stop" : 1670996717620,
+      "duration" : 2189
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify 'SEARCHED PRODUCTS' is visible ",
+    "uid" : "7cd6e65cde9d3a7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1670996717623,
+      "stop" : 1670996717660,
+      "duration" : 37
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

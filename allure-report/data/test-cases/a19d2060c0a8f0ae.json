@@ -1,0 +1,35 @@
+{
+  "uid" : "a19d2060c0a8f0ae",
+  "name" : " Enter description in comment text area and click 'Place Order'",
+  "fullName" : " Enter description in comment text area and click 'Place Order'",
+  "historyId" : "591552830423135bd5f827f52c8f8ddc",
+  "time" : {
+    "start" : 1670996360167,
+    "stop" : 1670996360171,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 16: Place Order: Login before Checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a19d2060c0a8f0ae.json",
+  "parameterValues" : [ ]
+}

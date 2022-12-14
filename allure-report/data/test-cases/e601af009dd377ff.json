@@ -1,0 +1,35 @@
+{
+  "uid" : "e601af009dd377ff",
+  "name" : "Verify that user is navigated to login page ",
+  "fullName" : "Verify that user is navigated to login page ",
+  "historyId" : "31316ee1f7052c7e2da1ccc22c2e4c3c",
+  "time" : {
+    "start" : 1670996644619,
+    "stop" : 1670996644628,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 4: Logout User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e601af009dd377ff.json",
+  "parameterValues" : [ ]
+}

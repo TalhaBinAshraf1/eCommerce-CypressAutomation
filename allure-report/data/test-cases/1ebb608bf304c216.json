@@ -1,0 +1,35 @@
+{
+  "uid" : "1ebb608bf304c216",
+  "name" : " Verify 'ACCOUNT DELETED!' and click 'Continue' button",
+  "fullName" : " Verify 'ACCOUNT DELETED!' and click 'Continue' button",
+  "historyId" : "0a74f1389c89d988b123de5db174fad5",
+  "time" : {
+    "start" : 1670996351236,
+    "stop" : 1670996351241,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Test Case 15: Place Order: Register before Checkout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ebb608bf304c216.json",
+  "parameterValues" : [ ]
+}

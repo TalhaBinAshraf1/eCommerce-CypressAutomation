@@ -1,0 +1,2331 @@
+[ {
+  "uid" : "75f0909d1fa2e5e1",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996402723,
+    "stop" : 1670996410568,
+    "duration" : 7845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dde400adc439bd6a",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996455099,
+    "stop" : 1670996476435,
+    "duration" : 21336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fb09bb361ff998c",
+  "name" : "Enter name and email address",
+  "time" : {
+    "start" : 1670996412675,
+    "stop" : 1670996413406,
+    "duration" : 731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5baa7a1d6bf5bfef",
+  "name" : "Increase quantity to 4 ",
+  "time" : {
+    "start" : 1670996313358,
+    "stop" : 1670996315596,
+    "duration" : 2238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f60db17840cc8de0",
+  "name" : "Verify 'ACCOUNT DELETED!' and click 'Continue' button ",
+  "time" : {
+    "start" : 1670996341790,
+    "stop" : 1670996341796,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baeaa99e13fd51aa",
+  "name" : "Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+  "time" : {
+    "start" : 1670996550283,
+    "stop" : 1670996550294,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c38e153c8275942b",
+  "name" : "Verify 'ACCOUNT CREATED!' and click 'Continue' button",
+  "time" : {
+    "start" : 1670996548014,
+    "stop" : 1670996549104,
+    "duration" : 1090
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c84aaaee106edee",
+  "name" : " Verify that home page is visible successfully ",
+  "time" : {
+    "start" : 1670996410582,
+    "stop" : 1670996411447,
+    "duration" : 865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec825091deba94b",
+  "name" : "Enter correct email address and password",
+  "time" : {
+    "start" : 1670996583967,
+    "stop" : 1670996584719,
+    "duration" : 752
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93dd7e78aaf60999",
+  "name" : "On left side bar, click on any other brand link",
+  "time" : {
+    "start" : 1670996399251,
+    "stop" : 1670996401255,
+    "duration" : 2004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae8c632be71ff45",
+  "name" : "Verify that 'Logged in as username' is visible",
+  "time" : {
+    "start" : 1670996640507,
+    "stop" : 1670996643632,
+    "duration" : 3125
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "820f9dab4fdd83c4",
+  "name" : "Product Add products to cart",
+  "time" : {
+    "start" : 1670996328208,
+    "stop" : 1670996329962,
+    "duration" : 1754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15eab95f7048485",
+  "name" : "Verify that cart page is displayed ",
+  "time" : {
+    "start" : 1670996329966,
+    "stop" : 1670996329990,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a5a5663c270a546",
+  "name" : "Hover over first product and click 'Add to cart' ",
+  "time" : {
+    "start" : 1670996297142,
+    "stop" : 1670996299684,
+    "duration" : 2542
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c538f08a856a4b",
+  "name" : "Click 'Continue' button ",
+  "time" : {
+    "start" : 1670996422336,
+    "stop" : 1670996423415,
+    "duration" : 1079
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d60096184cf2f8cd",
+  "name" : "7. Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen",
+  "time" : {
+    "start" : 1670996570595,
+    "stop" : 1670996570609,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cd6e65cde9d3a7e",
+  "name" : "Verify 'SEARCHED PRODUCTS' is visible ",
+  "time" : {
+    "start" : 1670996717623,
+    "stop" : 1670996717660,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa477738207bb65b",
+  "name" : "Fill all details in Signup and create account",
+  "time" : {
+    "start" : 1670996525134,
+    "stop" : 1670996528090,
+    "duration" : 2956
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbf1a69d0b8fe1cc",
+  "name" : "Verify that 'Logged in as username' is visible",
+  "time" : {
+    "start" : 1670996592532,
+    "stop" : 1670996594567,
+    "duration" : 2035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f115c67df64179ab",
+  "name" : "Click 'login' button",
+  "time" : {
+    "start" : 1670996612823,
+    "stop" : 1670996613818,
+    "duration" : 995
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99f16da297efbc2e",
+  "name" : " Click 'Delete Account' button",
+  "time" : {
+    "start" : 1670996360191,
+    "stop" : 1670996360197,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1253c9cc9b3d3546",
+  "name" : "Verify user is navigated to ALL PRODUCTS page successfully ",
+  "time" : {
+    "start" : 1670996696738,
+    "stop" : 1670996697058,
+    "duration" : 320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d784e67ff5195613",
+  "name" : "Click 'View Product' for any product on home page",
+  "time" : {
+    "start" : 1670996311487,
+    "stop" : 1670996313324,
+    "duration" : 1837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7903676b8f2ba34",
+  "name" : "  Click 'Delete Account' button",
+  "time" : {
+    "start" : 1670996351233,
+    "stop" : 1670996351236,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c959f880f887229",
+  "name" : "Verify that home page is visible successfully ",
+  "time" : {
+    "start" : 1670996283491,
+    "stop" : 1670996284383,
+    "duration" : 892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a11cf0478d83c09",
+  "name" : "Add products to cart",
+  "time" : {
+    "start" : 1670996530291,
+    "stop" : 1670996530300,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "743e8798d0c965c7",
+  "name" : "Verify that the delivery address is same address filled at the time registration of account",
+  "time" : {
+    "start" : 1670996530351,
+    "stop" : 1670996530361,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6490b98d6c9649c",
+  "name" : "Oops...we found an error preparing this test file: cypress/e2e/TestCases/TestCaseFromSite/testCase6ContactUsForm.cy.js",
+  "time" : {
+    "start" : 1670996660744,
+    "stop" : 1670996660744,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ed4601ea33881044",
+  "name" : "Enter correct email address and password",
+  "time" : {
+    "start" : 1670996631052,
+    "stop" : 1670996631816,
+    "duration" : 764
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49c7be16e9d39960",
+  "name" : "Click on 'Signup / Login' button",
+  "time" : {
+    "start" : 1670996629909,
+    "stop" : 1670996631021,
+    "duration" : 1112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4982c2d3fd3b5d90",
+  "name" : "Click on 'Test Cases' button ",
+  "time" : {
+    "start" : 1670996675179,
+    "stop" : 1670996677041,
+    "duration" : 1862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "374cee0832ad0b88",
+  "name" : " Click on 'Women' category",
+  "time" : {
+    "start" : 1670996380878,
+    "stop" : 1670996380984,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4976060dcb2b51e",
+  "name" : "Verify Address Details and Review Your Order",
+  "time" : {
+    "start" : 1670996550259,
+    "stop" : 1670996550274,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11cd9cd0b13a67d9",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996382158,
+    "stop" : 1670996389433,
+    "duration" : 7275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c770a132ebceba56",
+  "name" : "Verify Address Details and Review Your Order ",
+  "time" : {
+    "start" : 1670996341748,
+    "stop" : 1670996341752,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fceb10ef5d52ee4",
+  "name" : "TC - 3. Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996570208,
+    "stop" : 1670996570532,
+    "duration" : 324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b75f607db1220954",
+  "name" : "Click 'Delete Account' button",
+  "time" : {
+    "start" : 1670996530375,
+    "stop" : 1670996530396,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc6d8e67f041072",
+  "name" : "Click 'Cart' button",
+  "time" : {
+    "start" : 1670996270933,
+    "stop" : 1670996272103,
+    "duration" : 1170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3f217c03ded6225",
+  "name" : " Click Proceed To Checkout",
+  "time" : {
+    "start" : 1670996351204,
+    "stop" : 1670996351211,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9d0095dbe8562f5",
+  "name" : "Click 'Cart' button",
+  "time" : {
+    "start" : 1670996550218,
+    "stop" : 1670996550246,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8828081a84e2bc9",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996645622,
+    "stop" : 1670996655132,
+    "duration" : 9510
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "563fd35c7b69a7f4",
+  "name" : "Verify ' Logged in as username' at top",
+  "time" : {
+    "start" : 1670996351181,
+    "stop" : 1670996351185,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ba8e92f92345a77",
+  "name" : "Click on 'Signup / Login' button It Should Be visible In this Page  ",
+  "time" : {
+    "start" : 1670996656007,
+    "stop" : 1670996657937,
+    "duration" : 1930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9202e6ef3f8d4338",
+  "name" : "Add those products to cart",
+  "time" : {
+    "start" : 1670996447770,
+    "stop" : 1670996451808,
+    "duration" : 4038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5218eec7eedc1b6",
+  "name" : "Verify 'New User Signup!' is visible ",
+  "time" : {
+    "start" : 1670996412648,
+    "stop" : 1670996412672,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d25f3d2f19ef181",
+  "name" : "Click 'Signup / Login' button",
+  "time" : {
+    "start" : 1670996543254,
+    "stop" : 1670996544432,
+    "duration" : 1178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb8c4ede1b65899c",
+  "name" : "Click 'Signup' button  ",
+  "time" : {
+    "start" : 1670996658695,
+    "stop" : 1670996659971,
+    "duration" : 1276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abbae5fdf1849a88",
+  "name" : "Click 'Cart' button ",
+  "time" : {
+    "start" : 1670996340058,
+    "stop" : 1670996341623,
+    "duration" : 1565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "834fab6b79bfff3f",
+  "name" : "Click Proceed To Checkout ",
+  "time" : {
+    "start" : 1670996329991,
+    "stop" : 1670996330076,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1f82595dcfddabe",
+  "name" : "Verify 'Logged in as username' at top",
+  "time" : {
+    "start" : 1670996360129,
+    "stop" : 1670996360134,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0955663e1ab7c8b",
+  "name" : "Click 'Pay and Confirm Order' button",
+  "time" : {
+    "start" : 1670996550294,
+    "stop" : 1670996550308,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e601af009dd377ff",
+  "name" : "Verify that user is navigated to login page ",
+  "time" : {
+    "start" : 1670996644619,
+    "stop" : 1670996644628,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0bbdad2f1e763fc",
+  "name" : "Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number ",
+  "time" : {
+    "start" : 1670996419080,
+    "stop" : 1670996420145,
+    "duration" : 1065
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "620fdf83d71bbee6",
+  "name" : "Enter product name in search input and click search button ",
+  "time" : {
+    "start" : 1670996715431,
+    "stop" : 1670996717620,
+    "duration" : 2189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "367d1735b418834",
+  "name" : "Click 'login' button",
+  "time" : {
+    "start" : 1670996331446,
+    "stop" : 1670996338015,
+    "duration" : 6569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5de6b53db05099ee",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996248357,
+    "stop" : 1670996259088,
+    "duration" : 10731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ebb608bf304c216",
+  "name" : " Verify 'ACCOUNT DELETED!' and click 'Continue' button",
+  "time" : {
+    "start" : 1670996351236,
+    "stop" : 1670996351241,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "531161ea52566bfc",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996680889,
+    "stop" : 1670996689737,
+    "duration" : 8848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9911d67a0d7abb53",
+  "name" : "Click 'View Cart' button ",
+  "time" : {
+    "start" : 1670996315696,
+    "stop" : 1670996317915,
+    "duration" : 2219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98c97c16364fdc99",
+  "name" : "Click on arrow at bottom right side to move upward",
+  "time" : {
+    "start" : 1670996561549,
+    "stop" : 1670996561779,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "265f45ba3233b376",
+  "name" : "6. Scroll up page to top",
+  "time" : {
+    "start" : 1670996570584,
+    "stop" : 1670996570594,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e90ec280d5007c68",
+  "name" : "Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996542380,
+    "stop" : 1670996543251,
+    "duration" : 871
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e78c5a1dc98921c",
+  "name" : "Click 'Delete Account' button",
+  "time" : {
+    "start" : 1670996550348,
+    "stop" : 1670996550362,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7f5da2ccddbb8f1",
+  "name" : "Click 'Download Invoice' button and verify invoice is downloaded successfully.",
+  "time" : {
+    "start" : 1670996550331,
+    "stop" : 1670996550342,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d84e5bda7c0fe7d",
+  "name" : "Click 'Delete Account' button ",
+  "time" : {
+    "start" : 1670996341785,
+    "stop" : 1670996341789,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd9c271099374e2b",
+  "name" : " Enter description in comment text area and click 'Place Order'",
+  "time" : {
+    "start" : 1670996351216,
+    "stop" : 1670996351220,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa9aef783ab7783f",
+  "name" : " Verify 'ACCOUNT DELETED!' and click 'Continue' button",
+  "time" : {
+    "start" : 1670996360198,
+    "stop" : 1670996360202,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f360cd134ed2c53",
+  "name" : "Verify text 'SUBSCRIPTION' ",
+  "time" : {
+    "start" : 1670996260003,
+    "stop" : 1670996260021,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd688f88666c2706",
+  "name" : "Verify 'RECOMMENDED ITEMS' are visible",
+  "time" : {
+    "start" : 1670996499780,
+    "stop" : 1670996504839,
+    "duration" : 5059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4f289b643a67d53",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996489202,
+    "stop" : 1670996499730,
+    "duration" : 10528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7453a31fd7e09af6",
+  "name" : "Click 'Submit' button",
+  "time" : {
+    "start" : 1670996488157,
+    "stop" : 1670996488249,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11a9f3f4e140b380",
+  "name" : "Verify that detail detail is visible: product name, category, price, availability ",
+  "time" : {
+    "start" : 1670996698883,
+    "stop" : 1670996698906,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56d9c2fa9c55d818",
+  "name" : "Navigate to url 'http://automationexercis.com'",
+  "time" : {
+    "start" : 1670996616825,
+    "stop" : 1670996629015,
+    "duration" : 12190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3482e321385a154",
+  "name" : "Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996561176,
+    "stop" : 1670996561511,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50ae423496b016f4",
+  "name" : "Enter name, email and review",
+  "time" : {
+    "start" : 1670996487151,
+    "stop" : 1670996488152,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56dc014336adb01d",
+  "name" : "Click 'Cart' button",
+  "time" : {
+    "start" : 1670996530313,
+    "stop" : 1670996530326,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b2f92ce58849283",
+  "name" : "5. Verify 'SUBSCRIPTION' is visible",
+  "time" : {
+    "start" : 1670996570548,
+    "stop" : 1670996570582,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4038f0be849f17ca",
+  "name" : "Click 'Cart' button",
+  "time" : {
+    "start" : 1670996360140,
+    "stop" : 1670996360145,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28beb02c24f7e459",
+  "name" : " Verify 'Login to your account' is visible",
+  "time" : {
+    "start" : 1670996330645,
+    "stop" : 1670996330673,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb00920866f81cab",
+  "name" : "Verify that 'ENTER ACCOUNT INFORMATION' is visible ",
+  "time" : {
+    "start" : 1670996414685,
+    "stop" : 1670996415792,
+    "duration" : 1107
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b55bdd18c6a2b068",
+  "name" : "Verify that 'ACCOUNT CREATED!' is visible ",
+  "time" : {
+    "start" : 1670996421239,
+    "stop" : 1670996422333,
+    "duration" : 1094
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "19331c0661526976",
+  "name" : "Click on 'Products' button",
+  "time" : {
+    "start" : 1670996389448,
+    "stop" : 1670996396179,
+    "duration" : 6731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3a56ba44b10c615",
+  "name" : "Verify success message 'Your order has been placed successfully!'",
+  "time" : {
+    "start" : 1670996550309,
+    "stop" : 1670996550330,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fe432c5ba3d24fd",
+  "name" : "Click on 'Products' button ",
+  "time" : {
+    "start" : 1670996690603,
+    "stop" : 1670996696733,
+    "duration" : 6130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "982077644016cd57",
+  "name" : " Verify that categories are visible on left side bar",
+  "time" : {
+    "start" : 1670996380740,
+    "stop" : 1670996380877,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32554cb1327279e2",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996661685,
+    "stop" : 1670996674314,
+    "duration" : 12629
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6d1f8aed4f1abee",
+  "name" : "Click 'login' button",
+  "time" : {
+    "start" : 1670996631822,
+    "stop" : 1670996640501,
+    "duration" : 8679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b829eb58610b5968",
+  "name" : "Verify both products are added to Cart ",
+  "time" : {
+    "start" : 1670996301432,
+    "stop" : 1670996301466,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eaae089ffd41e9a1",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996510234,
+    "stop" : 1670996521950,
+    "duration" : 11716
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e1a26fa4ce2eb1b",
+  "name" : "Click on 'Products' button",
+  "time" : {
+    "start" : 1670996438560,
+    "stop" : 1670996445342,
+    "duration" : 6782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a589e5957a5ea913",
+  "name" : "Enter name and already registered email address ",
+  "time" : {
+    "start" : 1670996657966,
+    "stop" : 1670996658687,
+    "duration" : 721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbda0c5be331472c",
+  "name" : "Enter incorrect email address and password",
+  "time" : {
+    "start" : 1670996612072,
+    "stop" : 1670996612818,
+    "duration" : 746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1831ccc6fa9a191",
+  "name" : "Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996655145,
+    "stop" : 1670996656004,
+    "duration" : 859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86d48516b3b571eb",
+  "name" : "Scroll to bottom of page",
+  "time" : {
+    "start" : 1670996499744,
+    "stop" : 1670996499778,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e7c826b5dce42d5",
+  "name" : "Click 'Signup' button  ",
+  "time" : {
+    "start" : 1670996413411,
+    "stop" : 1670996414675,
+    "duration" : 1264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e2ce4bfa6bb9d65",
+  "name" : "Verify that those products are visible in cart after login as well",
+  "time" : {
+    "start" : 1670996454096,
+    "stop" : 1670996454118,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68127218064bb38b",
+  "name" : "Verify user is navigated to ALL PRODUCTS page successfully",
+  "time" : {
+    "start" : 1670996445348,
+    "stop" : 1670996445726,
+    "duration" : 378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eac8ee67b3d6d016",
+  "name" : "The products list is visible ",
+  "time" : {
+    "start" : 1670996697060,
+    "stop" : 1670996697096,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39526abcd2033231",
+  "name" : "Enter email address in input and click arrow button ",
+  "time" : {
+    "start" : 1670996272127,
+    "stop" : 1670996272455,
+    "duration" : 328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10a81f63441dea94",
+  "name" : "Fill email, password and click 'Login' button",
+  "time" : {
+    "start" : 1670996360122,
+    "stop" : 1670996360128,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d01a166fb5cdca1",
+  "name" : "Click on 'Signup / Login' button It Should Be visible In this Page  ",
+  "time" : {
+    "start" : 1670996411450,
+    "stop" : 1670996412643,
+    "duration" : 1193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "131ad4ad7c239bc5",
+  "name" : "Fill all details in Signup and create account",
+  "time" : {
+    "start" : 1670996544437,
+    "stop" : 1670996547990,
+    "duration" : 3553
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "23b08c82387dc9f",
+  "name" : "Add products to cart",
+  "time" : {
+    "start" : 1670996360135,
+    "stop" : 1670996360139,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9a655058053c349",
+  "name" : "Verify 'ACCOUNT DELETED!' and click 'Continue' button",
+  "time" : {
+    "start" : 1670996530398,
+    "stop" : 1670996530409,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "816d3725885c610a",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996302453,
+    "stop" : 1670996310578,
+    "duration" : 8125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c21e83ed7ccd6b5c",
+  "name" : "Verify that home page is visible successfully ",
+  "time" : {
+    "start" : 1670996270039,
+    "stop" : 1670996270929,
+    "duration" : 890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "549c8e55c6f29b38",
+  "name" : "Click 'Delete Account' button ",
+  "time" : {
+    "start" : 1670996428862,
+    "stop" : 1670996428882,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfcb75cd1e7fd279",
+  "name" : " Verify that user is navigated to that category page",
+  "time" : {
+    "start" : 1670996381218,
+    "stop" : 1670996381223,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4f70b95de2027cf",
+  "name" : "Verify that 'Logged in as username' is visible ",
+  "time" : {
+    "start" : 1670996423419,
+    "stop" : 1670996428858,
+    "duration" : 5439
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aaac6898d9baccd6",
+  "name" : "Click 'Signup / Login' button",
+  "time" : {
+    "start" : 1670996522844,
+    "stop" : 1670996525129,
+    "duration" : 2285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fc12623adf130a5",
+  "name" : "TC - 2. Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996531465,
+    "stop" : 1670996542366,
+    "duration" : 10901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1d4fd3204b1ad05",
+  "name" : "Click on 'Add To Cart' on Recommended product",
+  "time" : {
+    "start" : 1670996504858,
+    "stop" : 1670996505284,
+    "duration" : 426
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "134d5aaebcc2b1ca",
+  "name" : "Verify user is navigated to ALL PRODUCTS page successfully ",
+  "time" : {
+    "start" : 1670996715075,
+    "stop" : 1670996715385,
+    "duration" : 310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f64144e7bd0ec5a8",
+  "name" : "Verify success message 'Thank you for your review.'",
+  "time" : {
+    "start" : 1670996488249,
+    "stop" : 1670996488257,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "586f48ee1dc0066",
+  "name" : " Verify that cart page is displayed ",
+  "time" : {
+    "start" : 1670996371606,
+    "stop" : 1670996371630,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a677c40b8639126b",
+  "name" : " Click 'Pay and Confirm Order' button",
+  "time" : {
+    "start" : 1670996360179,
+    "stop" : 1670996360184,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1a72a171c09bbd6",
+  "name" : "Verify that user is navigated to that brand page and can see products",
+  "time" : {
+    "start" : 1670996401260,
+    "stop" : 1670996401618,
+    "duration" : 358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c6e91f0a1aae696",
+  "name" : "Verify 'ACCOUNT CREATED!' and click 'Continue' button",
+  "time" : {
+    "start" : 1670996528113,
+    "stop" : 1670996529221,
+    "duration" : 1108
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c47bf611763fd080",
+  "name" : " Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+  "time" : {
+    "start" : 1670996360171,
+    "stop" : 1670996360178,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e5a3c1a9fb3ec92",
+  "name" : "Select checkbox 'Receive special offers from our partners!'",
+  "time" : {
+    "start" : 1670996418012,
+    "stop" : 1670996419076,
+    "duration" : 1064
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a201d41450d02fe9",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996699859,
+    "stop" : 1670996707776,
+    "duration" : 7917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f9ded15d34506e4",
+  "name" : "Verify that Brands are visible on left side bar",
+  "time" : {
+    "start" : 1670996396184,
+    "stop" : 1670996396321,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f7267331fb6c142",
+  "name" : "Verify that home page is visible successfully ",
+  "time" : {
+    "start" : 1670996707790,
+    "stop" : 1670996708651,
+    "duration" : 861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "537f6f99532b2ae8",
+  "name" : "Scroll down to footer",
+  "time" : {
+    "start" : 1670996259986,
+    "stop" : 1670996260002,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e1ddcc6396897b9",
+  "name" : "Verify text 'SUBSCRIPTION' ",
+  "time" : {
+    "start" : 1670996272106,
+    "stop" : 1670996272126,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f3d504cc564bc16",
+  "name" : "TC - 11. Verify their prices, quantity and total price",
+  "time" : {
+    "start" : 1670996301468,
+    "stop" : 1670996301499,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b076d196ecb0a424",
+  "name" : "Verify user is navigated to ALL PRODUCTS page successfully ",
+  "time" : {
+    "start" : 1670996291043,
+    "stop" : 1670996297135,
+    "duration" : 6092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac5ec516b9127023",
+  "name" : "Verify 'SUBSCRIPTION' is visible",
+  "time" : {
+    "start" : 1670996561524,
+    "stop" : 1670996561544,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58bb1ca2a071f662",
+  "name" : "Verify 'Write Your Review' is visible",
+  "time" : {
+    "start" : 1670996487119,
+    "stop" : 1670996487150,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c077ff84efae3b05",
+  "name" : "Verify 'Login to your account' is visible",
+  "time" : {
+    "start" : 1670996631025,
+    "stop" : 1670996631051,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "607276e41aadcf7f",
+  "name" : "TC - 4. Scroll down page to bottom",
+  "time" : {
+    "start" : 1670996570534,
+    "stop" : 1670996570547,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d1dd21c212e0810",
+  "name" : "Click 'Delete Account' button",
+  "time" : {
+    "start" : 1670996594571,
+    "stop" : 1670996594577,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4f01d1d5186a9b5",
+  "name" : " Click 'X' button corresponding to particular product",
+  "time" : {
+    "start" : 1670996371631,
+    "stop" : 1670996371721,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "135c5726c4e6604",
+  "name" : "Fill details: Title, Name, Email, Password, Date of birth ",
+  "time" : {
+    "start" : 1670996415811,
+    "stop" : 1670996416893,
+    "duration" : 1082
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3d726798dcab65d",
+  "name" : "Verify that 'Logged in as username' is visible",
+  "time" : {
+    "start" : 1670996338021,
+    "stop" : 1670996340057,
+    "duration" : 2036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e59ef0ab27559e95",
+  "name" : "Click 'Cart' button",
+  "time" : {
+    "start" : 1670996351195,
+    "stop" : 1670996351199,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56e7832e96ce58b",
+  "name" : "Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996629028,
+    "stop" : 1670996629906,
+    "duration" : 878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1ce176746aeaae1",
+  "name" : "Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996581869,
+    "stop" : 1670996582737,
+    "duration" : 868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2e68105d72dfb0d",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996342751,
+    "stop" : 1670996351110,
+    "duration" : 8359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cbb9aef3e4f4bb3",
+  "name" : "Enter correct email address and password",
+  "time" : {
+    "start" : 1670996330675,
+    "stop" : 1670996331440,
+    "duration" : 765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59fa36393b2b2057",
+  "name" : "Verify success message 'You have been successfully subscribed!' is visible ",
+  "time" : {
+    "start" : 1670996260415,
+    "stop" : 1670996260516,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c70e5d73606396e",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996361162,
+    "stop" : 1670996369126,
+    "duration" : 7964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fda2bfdca01db853",
+  "name" : "Click on 'Products' button ",
+  "time" : {
+    "start" : 1670996284387,
+    "stop" : 1670996291037,
+    "duration" : 6650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d344fe8343449f61",
+  "name" : "Click on 'Products' button ",
+  "time" : {
+    "start" : 1670996708655,
+    "stop" : 1670996715070,
+    "duration" : 6415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d95008d55cec84e2",
+  "name" : "Click 'Proceed To Checkout' button ",
+  "time" : {
+    "start" : 1670996341627,
+    "stop" : 1670996341748,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9827da41d0fd91ef",
+  "name" : "Verify that page is scrolled up and 'Full-Fledged practice website fTC - or Automation Engineers' text is visible on screen",
+  "time" : {
+    "start" : 1670996561779,
+    "stop" : 1670996561800,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66c6b3af4c3b4294",
+  "name" : "Verify 'ACCOUNT CREATED!' and click 'Continue' button",
+  "time" : {
+    "start" : 1670996351173,
+    "stop" : 1670996351180,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2ef6a88b366d960",
+  "name" : "Enter payment details: Name on Card, Card Number, CVC, Expiration date ",
+  "time" : {
+    "start" : 1670996341763,
+    "stop" : 1670996341771,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e85579f8b866a156",
+  "name" : "Click on 'Signup / Login' button",
+  "time" : {
+    "start" : 1670996582740,
+    "stop" : 1670996583936,
+    "duration" : 1196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff9071a432b99aa2",
+  "name" : " Verify Address Details and Review Your Order",
+  "time" : {
+    "start" : 1670996351213,
+    "stop" : 1670996351216,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9982b25524ad6f8",
+  "name" : "Verify success message 'You have been successfully subscribed!' is visible ",
+  "time" : {
+    "start" : 1670996272461,
+    "stop" : 1670996272570,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce19c106ca5523aa",
+  "name" : " Verify that category page is displayed and confirm text 'WOMEN - TOPS PRODUCTS'",
+  "time" : {
+    "start" : 1670996381189,
+    "stop" : 1670996381212,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "116d91c48fd2152e",
+  "name" : "Click on 'Products' button",
+  "time" : {
+    "start" : 1670996476448,
+    "stop" : 1670996485085,
+    "duration" : 8637
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c143cae3f85d32c7",
+  "name" : "Click 'Continue' button",
+  "time" : {
+    "start" : 1670996550342,
+    "stop" : 1670996550348,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50fb501ea6451746",
+  "name" : "Verify that product is displayed in cart page with exact quantity ",
+  "time" : {
+    "start" : 1670996317918,
+    "stop" : 1670996317943,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7a167434201dd51",
+  "name" : " Verify that product is removed from the cart",
+  "time" : {
+    "start" : 1670996371722,
+    "stop" : 1670996371944,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8ae342759877e30",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996261455,
+    "stop" : 1670996270026,
+    "duration" : 8571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb95373b69408c44",
+  "name" : "Verify that cart page is displayed",
+  "time" : {
+    "start" : 1670996360146,
+    "stop" : 1670996360151,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8649fb680b6679c",
+  "name" : "Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996609318,
+    "stop" : 1670996610789,
+    "duration" : 1471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6352b99d4cb95493",
+  "name" : "Verify 'Login to your account' is visible",
+  "time" : {
+    "start" : 1670996612048,
+    "stop" : 1670996612071,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ca154bc7c88fd34",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996429870,
+    "stop" : 1670996438547,
+    "duration" : 8677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2038b9cf86db0084",
+  "name" : "Verify all the products related to search are visible",
+  "time" : {
+    "start" : 1670996447758,
+    "stop" : 1670996447769,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6cea06455963d7e",
+  "name" : "Click on 'View Product' button",
+  "time" : {
+    "start" : 1670996485446,
+    "stop" : 1670996487117,
+    "duration" : 1671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "660b22cafeaf96e2",
+  "name" : "Click 'Proceed To Checkout' button",
+  "time" : {
+    "start" : 1670996550247,
+    "stop" : 1670996550258,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1abf121058c5c737",
+  "name" : "Click 'Signup / Login' button",
+  "time" : {
+    "start" : 1670996360113,
+    "stop" : 1670996360121,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "644a12bf4244d74c",
+  "name" : "Verify that home page is visible successfully ",
+  "time" : {
+    "start" : 1670996689750,
+    "stop" : 1670996690599,
+    "duration" : 849
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37221caca42d61ab",
+  "name" : "User is landed to product detail page ",
+  "time" : {
+    "start" : 1670996698855,
+    "stop" : 1670996698882,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5a16e58a5abb1ed",
+  "name" : "Enter email address in input and click arrow button ",
+  "time" : {
+    "start" : 1670996260034,
+    "stop" : 1670996260409,
+    "duration" : 375
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62069f40aa3e4d26",
+  "name" : "Verify that home page is visible successfully ",
+  "time" : {
+    "start" : 1670996327335,
+    "stop" : 1670996328205,
+    "duration" : 870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf349d65fcc049b1",
+  "name" : "TC - 2. Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996273569,
+    "stop" : 1670996283478,
+    "duration" : 9909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8080463056166070",
+  "name" : "TC - 2. Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996562734,
+    "stop" : 1670996570199,
+    "duration" : 7465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b626cf7e48ce0107",
+  "name" : "Verify user is navigated to test cases page successfully",
+  "time" : {
+    "start" : 1670996677044,
+    "stop" : 1670996679890,
+    "duration" : 2846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11fee8a55b595095",
+  "name" : "Verify that the billing address is same address filled at the time registration of account",
+  "time" : {
+    "start" : 1670996530363,
+    "stop" : 1670996530374,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7a162d7207adafc",
+  "name" : " On left side bar, click on any sub-category link of 'Men' category",
+  "time" : {
+    "start" : 1670996381213,
+    "stop" : 1670996381218,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee0bbab111d67d57",
+  "name" : "The products list is visible ",
+  "time" : {
+    "start" : 1670996715387,
+    "stop" : 1670996715426,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f74dbc720c696990",
+  "name" : "Verify 'New User Signup!' is visible ",
+  "time" : {
+    "start" : 1670996657940,
+    "stop" : 1670996657965,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abbfc60c8700bd91",
+  "name" : "Click 'Register / Login' button  ",
+  "time" : {
+    "start" : 1670996330077,
+    "stop" : 1670996330641,
+    "duration" : 564
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edc1237f6a25f554",
+  "name" : "Verify 'ACCOUNT DELETED!' and click 'Continue' button",
+  "time" : {
+    "start" : 1670996550363,
+    "stop" : 1670996550377,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7679ff2124b6faed",
+  "name" : "Verify that home page is visible successfully ",
+  "time" : {
+    "start" : 1670996259101,
+    "stop" : 1670996259983,
+    "duration" : 882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e47d288bf8f86c2e",
+  "name" : "Add products to cart",
+  "time" : {
+    "start" : 1670996351186,
+    "stop" : 1670996351194,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f38b4707a35a2ae3",
+  "name" : "Verify that home page is visible successfully ",
+  "time" : {
+    "start" : 1670996310593,
+    "stop" : 1670996311483,
+    "duration" : 890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6913ad9122a13abe",
+  "name" : "Click 'Logout' button ",
+  "time" : {
+    "start" : 1670996643651,
+    "stop" : 1670996644613,
+    "duration" : 962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d33829f4e9fec06",
+  "name" : "Verify that cart page is displayed",
+  "time" : {
+    "start" : 1670996530327,
+    "stop" : 1670996530341,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa7a8633a8d04f79",
+  "name" : " Verify success message 'Your order has been placed successfully!'",
+  "time" : {
+    "start" : 1670996360184,
+    "stop" : 1670996360190,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c75a3a56747ba89",
+  "name" : "Scroll down page to bottom",
+  "time" : {
+    "start" : 1670996561513,
+    "stop" : 1670996561522,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d89bee3c0ed687ef",
+  "name" : "Verify error 'Your email or password is incorrect!' is visible",
+  "time" : {
+    "start" : 1670996613819,
+    "stop" : 1670996615845,
+    "duration" : 2026
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4771ffaa996e4edc",
+  "name" : "Click 'Signup / Login' button and submit login details",
+  "time" : {
+    "start" : 1670996451815,
+    "stop" : 1670996453120,
+    "duration" : 1305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f50b41b26b85da0d",
+  "name" : "Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996674326,
+    "stop" : 1670996675176,
+    "duration" : 850
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b7b748c71d18c6e",
+  "name" : " Click Proceed To Checkout",
+  "time" : {
+    "start" : 1670996360152,
+    "stop" : 1670996360158,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8f9a49ade11e4",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996318968,
+    "stop" : 1670996327321,
+    "duration" : 8353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85b52982719b52a2",
+  "name" : "Click 'Create Account button' ",
+  "time" : {
+    "start" : 1670996420149,
+    "stop" : 1670996421235,
+    "duration" : 1086
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "64de37fe1a002bd",
+  "name" : "Verify 'SEARCHED PRODUCTS' is visible",
+  "time" : {
+    "start" : 1670996447727,
+    "stop" : 1670996447754,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63ade44a4c6b9877",
+  "name" : "Click on 'Signup / Login' button",
+  "time" : {
+    "start" : 1670996610791,
+    "stop" : 1670996612045,
+    "duration" : 1254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "224df6cda5784c0f",
+  "name" : "Click on any category link under 'Women' category, for example: Dress",
+  "time" : {
+    "start" : 1670996380988,
+    "stop" : 1670996381165,
+    "duration" : 177
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a19d2060c0a8f0ae",
+  "name" : " Enter description in comment text area and click 'Place Order'",
+  "time" : {
+    "start" : 1670996360167,
+    "stop" : 1670996360171,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "707a50c12fce05b1",
+  "name" : "Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996351124,
+    "stop" : 1670996351155,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e483c71c2d640d8b",
+  "name" : "Enter description in comment text area and click 'Place Order' ",
+  "time" : {
+    "start" : 1670996341753,
+    "stop" : 1670996341759,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e300e44af1e9437",
+  "name" : "Verify that product is displayed in cart page",
+  "time" : {
+    "start" : 1670996508298,
+    "stop" : 1670996509177,
+    "duration" : 879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a5377fd165bb520",
+  "name" : "Verify user is navigated to ALL PRODUCTS page successfully",
+  "time" : {
+    "start" : 1670996485091,
+    "stop" : 1670996485441,
+    "duration" : 350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faf5d2358efa4846",
+  "name" : "Enter product name in search input and click search button",
+  "time" : {
+    "start" : 1670996445731,
+    "stop" : 1670996447724,
+    "duration" : 1993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbc7e61f91627bcc",
+  "name" : "Click 'Add to cart' button ",
+  "time" : {
+    "start" : 1670996315601,
+    "stop" : 1670996315695,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9a84cd8a04c1d61",
+  "name" : "Click on 'View Cart' button",
+  "time" : {
+    "start" : 1670996505290,
+    "stop" : 1670996508295,
+    "duration" : 3005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae8f0be4e3f384ae",
+  "name" : "Verify that user is navigated to brand page and brand products are displayed",
+  "time" : {
+    "start" : 1670996398866,
+    "stop" : 1670996399249,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a40535852ec587be",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996352238,
+    "stop" : 1670996360067,
+    "duration" : 7829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb838ba186b43706",
+  "name" : " Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+  "time" : {
+    "start" : 1670996351221,
+    "stop" : 1670996351228,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7a7373b733b17f6",
+  "name" : "Product Add products to cart",
+  "time" : {
+    "start" : 1670996369991,
+    "stop" : 1670996371603,
+    "duration" : 1612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28d665179d476dd9",
+  "name" : "Enter description in comment text area and click 'Place Order'",
+  "time" : {
+    "start" : 1670996550275,
+    "stop" : 1670996550282,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8af09f263f73afb",
+  "name" : " Verify error 'Email Address already exist!' is visible ",
+  "time" : {
+    "start" : 1670996659978,
+    "stop" : 1670996660001,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4014dd9e9e41338",
+  "name" : "Click 'View Cart' button ",
+  "time" : {
+    "start" : 1670996299690,
+    "stop" : 1670996301428,
+    "duration" : 1738
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9009cb9cdeb2852e",
+  "name" : "Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996360080,
+    "stop" : 1670996360112,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b897dff6ce263704",
+  "name" : "Verify product detail is opened ",
+  "time" : {
+    "start" : 1670996313329,
+    "stop" : 1670996313357,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a83560d08e4a962",
+  "name" : "Click 'Pay and Confirm Order' button ",
+  "time" : {
+    "start" : 1670996341773,
+    "stop" : 1670996341780,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1277cfd0ffd61dc0",
+  "name" : "Select checkbox 'Sign up for our newsletter!'",
+  "time" : {
+    "start" : 1670996416900,
+    "stop" : 1670996418008,
+    "duration" : 1108
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "834c47ddb198b674",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996595529,
+    "stop" : 1670996609305,
+    "duration" : 13776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2b4d71d07d589be",
+  "name" : "Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996571577,
+    "stop" : 1670996581855,
+    "duration" : 10278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f820a6691348844",
+  "name" : "Verify 'Login to your account' is visible",
+  "time" : {
+    "start" : 1670996583940,
+    "stop" : 1670996583966,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c5d2a11a8e544b4",
+  "name" : " Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996372918,
+    "stop" : 1670996380726,
+    "duration" : 7808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52817f6790ce72fb",
+  "name" : " Verify Address Details and Review Your Order",
+  "time" : {
+    "start" : 1670996360163,
+    "stop" : 1670996360166,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da6723685cd5e571",
+  "name" : "Verify that home page is visible successfully",
+  "time" : {
+    "start" : 1670996521964,
+    "stop" : 1670996522840,
+    "duration" : 876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe7ccccc4a85d07f",
+  "name" : "TC - 2. Navigate to url 'http://automationexercise.com'",
+  "time" : {
+    "start" : 1670996551373,
+    "stop" : 1670996561166,
+    "duration" : 9793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57dc7a2cb36593e3",
+  "name" : "Click Proceed To Checkout",
+  "time" : {
+    "start" : 1670996530342,
+    "stop" : 1670996530350,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd1ea69c3b6b6074",
+  "name" : "Again, go to Cart page",
+  "time" : {
+    "start" : 1670996453125,
+    "stop" : 1670996454094,
+    "duration" : 969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92010b9ebe19a8b3",
+  "name" : "Fill all details in Signup and create account",
+  "time" : {
+    "start" : 1670996351167,
+    "stop" : 1670996351172,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a20a10bd37b6366",
+  "name" : " Verify that cart page is displayed",
+  "time" : {
+    "start" : 1670996351200,
+    "stop" : 1670996351204,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "446d91b40daa0650",
+  "name" : " Click on any brand name",
+  "time" : {
+    "start" : 1670996396322,
+    "stop" : 1670996398863,
+    "duration" : 2541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78853bd5d9443a5a",
+  "name" : "Verify success message 'Your order has been placed successfully!' ",
+  "time" : {
+    "start" : 1670996341780,
+    "stop" : 1670996341784,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5870663666c66df",
+  "name" : " Verify success message 'Your order has been placed successfully!'",
+  "time" : {
+    "start" : 1670996351229,
+    "stop" : 1670996351232,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f14a42b2496b468",
+  "name" : "Click on 'View Product' of first product",
+  "time" : {
+    "start" : 1670996697097,
+    "stop" : 1670996698853,
+    "duration" : 1756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80ecdcbdf9a74e60",
+  "name" : "Verify ' Logged in as username' at top",
+  "time" : {
+    "start" : 1670996529225,
+    "stop" : 1670996530286,
+    "duration" : 1061
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "15a22af057d751b",
+  "name" : "Click 'login' button",
+  "time" : {
+    "start" : 1670996584724,
+    "stop" : 1670996592526,
+    "duration" : 7802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6855b2c4eb0fec84",
+  "name" : "Verify ' Logged in as username' at top",
+  "time" : {
+    "start" : 1670996549109,
+    "stop" : 1670996550214,
+    "duration" : 1105
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cefd030d7e821e16",
+  "name" : "Click 'Signup / Login' button",
+  "time" : {
+    "start" : 1670996351157,
+    "stop" : 1670996351166,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69cf1706bc868efc",
+  "name" : "Verify that home page is visible successfully ",
+  "time" : {
+    "start" : 1670996369139,
+    "stop" : 1670996369989,
+    "duration" : 850
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

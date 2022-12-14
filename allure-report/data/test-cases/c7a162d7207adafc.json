@@ -1,0 +1,35 @@
+{
+  "uid" : "c7a162d7207adafc",
+  "name" : " On left side bar, click on any sub-category link of 'Men' category",
+  "fullName" : " On left side bar, click on any sub-category link of 'Men' category",
+  "historyId" : "7a7f2f4cea58e5cd3bab34d0da683ac2",
+  "time" : {
+    "start" : 1670996381213,
+    "stop" : 1670996381218,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 18: View Category Products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7a162d7207adafc.json",
+  "parameterValues" : [ ]
+}

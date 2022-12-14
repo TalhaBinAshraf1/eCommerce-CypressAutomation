@@ -1,0 +1,119 @@
+{
+  "uid" : "6855b2c4eb0fec84",
+  "name" : "Verify ' Logged in as username' at top",
+  "fullName" : "Verify ' Logged in as username' at top",
+  "historyId" : "85ca2edf06ebeb724abccfa1559419d7",
+  "time" : {
+    "start" : 1670996549109,
+    "stop" : 1670996550214,
+    "duration" : 1105
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 1000ms: Expected to find element: `li:nth-of-type(10) > a`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 1000ms: Expected to find element: `li:nth-of-type(10) > a`, but never found it.\n    at Context.eval (webpack:///./cypress/e2e/TestCases/TestCaseFromSite/testCase24DownloadInvoiceAfterPurchaseOrder.cy.js:408:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 1000ms: Expected to find element: `li:nth-of-type(10) > a`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 1000ms: Expected to find element: `li:nth-of-type(10) > a`, but never found it.\n    at Context.eval (webpack:///./cypress/e2e/TestCases/TestCaseFromSite/testCase24DownloadInvoiceAfterPurchaseOrder.cy.js:408:5)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1670996549109,
+        "stop" : 1670996549116,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "csrfCookies",
+        "time" : {
+          "start" : 1670996549116,
+          "stop" : 1670996549116,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "assert expected **li:nth-of-type(10) > a** to be **visible**",
+      "time" : {
+        "start" : 1670996549128,
+        "stop" : 1670996550214,
+        "duration" : 1086
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get li:nth-of-type(10) > a",
+      "time" : {
+        "start" : 1670996550213,
+        "stop" : 1670996550213,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "664628232c12dac2",
+      "name" : "cypress/e2e/TestCases/TestCaseFromSite/testCase24DownloadInvoiceAfterPurchaseOrder.cy.js:2022-12-14T05:42:30.136Z",
+      "source" : "664628232c12dac2.png",
+      "type" : "image/png",
+      "size" : 93603
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 24: Download Invoice after purchase order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6855b2c4eb0fec84.json",
+  "parameterValues" : [ ]
+}

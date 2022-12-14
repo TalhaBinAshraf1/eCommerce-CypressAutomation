@@ -1,0 +1,119 @@
+{
+  "uid" : "224df6cda5784c0f",
+  "name" : "Click on any category link under 'Women' category, for example: Dress",
+  "fullName" : "Click on any category link under 'Women' category, for example: Dress",
+  "historyId" : "cbdba1e3e6d82fd8cb5af796eebefd27",
+  "time" : {
+    "start" : 1670996380988,
+    "stop" : 1670996381165,
+    "duration" : 177
+  },
+  "status" : "failed",
+  "statusMessage" : "cy.xpath is not a function",
+  "statusTrace" : "TypeError: cy.xpath is not a function\n    at Context.eval (webpack:///./cypress/e2e/TestCases/TestCaseFromSite/testCase18ViewCategoryProducts.cy.js:68:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "cy.xpath is not a function",
+    "statusTrace" : "TypeError: cy.xpath is not a function\n    at Context.eval (webpack:///./cypress/e2e/TestCases/TestCaseFromSite/testCase18ViewCategoryProducts.cy.js:68:9)",
+    "steps" : [ {
+      "name" : "visit (\"/\")",
+      "time" : {
+        "start" : 1670996380997,
+        "stop" : 1670996380999,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\":nth-child(1) > .panel-heading > .panel-title > a\")",
+      "time" : {
+        "start" : 1670996380999,
+        "stop" : 1670996380999,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click (\"{ force: true }\")",
+      "time" : {
+        "start" : 1670996380999,
+        "stop" : 1670996380999,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait (\"2000\")",
+      "time" : {
+        "start" : 1670996380999,
+        "stop" : 1670996380999,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "2f27787324a8d8ab",
+      "name" : "cypress/e2e/TestCases/TestCaseFromSite/testCase18ViewCategoryProducts.cy.js:2022-12-14T05:39:41.000Z",
+      "source" : "2f27787324a8d8ab.png",
+      "type" : "image/png",
+      "size" : 211504
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 18: View Category Products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "224df6cda5784c0f.json",
+  "parameterValues" : [ ]
+}
