@@ -1,0 +1,105 @@
+{
+  "uid" : "4b2f92ce58849283",
+  "name" : "5. Verify 'SUBSCRIPTION' is visible",
+  "fullName" : "5. Verify 'SUBSCRIPTION' is visible",
+  "historyId" : "ea4e20856f9638ee5a02474ce02d2749",
+  "time" : {
+    "start" : 1670996570548,
+    "stop" : 1670996570582,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assert expected **<h2>** to have text **Subscription**",
+      "time" : {
+        "start" : 1670996570572,
+        "stop" : 1670996570581,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<h2>** to be **visible**",
+      "time" : {
+        "start" : 1670996570581,
+        "stop" : 1670996570581,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get .footer-widget > .container h2",
+      "time" : {
+        "start" : 1670996570581,
+        "stop" : 1670996570581,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log [object Object]Is Visible",
+      "time" : {
+        "start" : 1670996570582,
+        "stop" : 1670996570582,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 26: Verify Scroll Up without 'Arrow' button and Scroll Down functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b2f92ce58849283.json",
+  "parameterValues" : [ ]
+}

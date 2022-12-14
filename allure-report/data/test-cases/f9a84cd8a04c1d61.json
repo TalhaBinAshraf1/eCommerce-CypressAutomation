@@ -1,0 +1,195 @@
+{
+  "uid" : "f9a84cd8a04c1d61",
+  "name" : "Click on 'View Cart' button",
+  "fullName" : "Click on 'View Cart' button",
+  "historyId" : "4052f5b4d39f660220daf35c4e47640f",
+  "time" : {
+    "start" : 1670996505290,
+    "stop" : 1670996508295,
+    "duration" : 3005
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assert expected **<p.text-center>** to contain text **View Cart**",
+      "time" : {
+        "start" : 1670996505297,
+        "stop" : 1670996505300,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get .modal-body .text-center:nth-of-type(2)",
+      "time" : {
+        "start" : 1670996505300,
+        "stop" : 1670996505300,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get .modal-body .text-center:nth-of-type(2)",
+      "time" : {
+        "start" : 1670996505300,
+        "stop" : 1670996505302,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670996505302,
+        "stop" : 1670996506512,
+        "duration" : 1210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /add_to_cart/1",
+      "time" : {
+        "start" : 1670996506512,
+        "stop" : 1670996506512,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1670996506512,
+        "stop" : 1670996506512,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "new url https://www.automationexercise.com/view_cart",
+      "time" : {
+        "start" : 1670996506512,
+        "stop" : 1670996508294,
+        "duration" : 1782
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsv-KKj-TGh5aPyEpDCMkDsy8VmPlsY_yyrJfgnfE28Jke8BTWZx4yhOP3ZOtRsaJtlVYa1yNeSDusr-ALkZYn9SdctiCxG5luYoNSY_0zNssm33lUkvizvmTwnynCLRCNR4_gY&sai=AMfl-YT4qNe7WdBnY6XapC8ZclTftUbaQRqhcATbddhs9Vfq2gwpqO7SWv2mxu6bue1zKnTL9I0VibRQZwz_-Dkh42kE-iqZUkjoVf95cg&sig=Cg0ArKJSzAdlXITOkQanEAE&cid=CAQSKQDq26N92P9SKtgH-bbcwz9qJZ_J2fxZv_SvFPo5lLvoqHurUEspYREuGAEgEw&id=lidartos&mcvt=4721&p=0,0,280,1200&mtos=1888,4721,4721,4721,4721&tos=1888,2833,0,0,0&v=20221207&bin=7&avms=nio&bs=1280,720&mc=1&vu=1&app=0&itpl=22&adk=7856715&rs=2&la=1&cr=0&uach=WyIiLCIiLCIiLCIiLCIiLFtdLGZhbHNlLG51bGwsIiIsW10sZmFsc2Vd&vs=4&r=b&rst=1670996499801&rpt=2247&ec=1&met=mue&wmsd=0&pbe=0",
+      "time" : {
+        "start" : 1670996508294,
+        "stop" : 1670996508294,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20221207&st=env",
+      "time" : {
+        "start" : 1670996508294,
+        "stop" : 1670996508294,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log [object Object]Is Visible",
+      "time" : {
+        "start" : 1670996508294,
+        "stop" : 1670996508294,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 22: Add to cart from Recommended items"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9a84cd8a04c1d61.json",
+  "parameterValues" : [ ]
+}

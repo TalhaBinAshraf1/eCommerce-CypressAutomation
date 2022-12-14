@@ -1,0 +1,35 @@
+{
+  "uid" : "ff9071a432b99aa2",
+  "name" : " Verify Address Details and Review Your Order",
+  "fullName" : " Verify Address Details and Review Your Order",
+  "historyId" : "d1dcf0c4d99c95bf9b4f820b590cdcf6",
+  "time" : {
+    "start" : 1670996351213,
+    "stop" : 1670996351216,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Test Case 15: Place Order: Register before Checkout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff9071a432b99aa2.json",
+  "parameterValues" : [ ]
+}

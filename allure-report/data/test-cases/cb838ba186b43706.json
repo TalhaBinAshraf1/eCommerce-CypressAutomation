@@ -1,0 +1,35 @@
+{
+  "uid" : "cb838ba186b43706",
+  "name" : " Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+  "fullName" : " Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+  "historyId" : "85172bf43636aafafac411fd79201822",
+  "time" : {
+    "start" : 1670996351221,
+    "stop" : 1670996351228,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Test Case 15: Place Order: Register before Checkout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb838ba186b43706.json",
+  "parameterValues" : [ ]
+}

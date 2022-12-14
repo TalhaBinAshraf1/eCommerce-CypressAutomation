@@ -1,0 +1,60 @@
+{
+  "uid" : "607276e41aadcf7f",
+  "name" : "TC - 4. Scroll down page to bottom",
+  "fullName" : "TC - 4. Scroll down page to bottom",
+  "historyId" : "493aaffb17e3401e3a6ea33d06600e76",
+  "time" : {
+    "start" : 1670996570534,
+    "stop" : 1670996570547,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "scrollTo bottom",
+      "time" : {
+        "start" : 1670996570541,
+        "stop" : 1670996570546,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 26: Verify Scroll Up without 'Arrow' button and Scroll Down functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "607276e41aadcf7f.json",
+  "parameterValues" : [ ]
+}

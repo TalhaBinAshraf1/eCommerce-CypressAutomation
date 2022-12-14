@@ -1,0 +1,35 @@
+{
+  "uid" : "563fd35c7b69a7f4",
+  "name" : "Verify ' Logged in as username' at top",
+  "fullName" : "Verify ' Logged in as username' at top",
+  "historyId" : "b79757abc6f363e797e130dcb942537a",
+  "time" : {
+    "start" : 1670996351181,
+    "stop" : 1670996351185,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Test Case 15: Place Order: Register before Checkout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "563fd35c7b69a7f4.json",
+  "parameterValues" : [ ]
+}

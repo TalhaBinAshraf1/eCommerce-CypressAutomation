@@ -1,0 +1,35 @@
+{
+  "uid" : "d1f82595dcfddabe",
+  "name" : "Verify 'Logged in as username' at top",
+  "fullName" : "Verify 'Logged in as username' at top",
+  "historyId" : "7035b34d4f2c90d879c81f219b22d4e6",
+  "time" : {
+    "start" : 1670996360129,
+    "stop" : 1670996360134,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 16: Place Order: Login before Checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1f82595dcfddabe.json",
+  "parameterValues" : [ ]
+}

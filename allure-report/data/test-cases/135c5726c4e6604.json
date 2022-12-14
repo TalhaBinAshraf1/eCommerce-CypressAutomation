@@ -1,0 +1,89 @@
+{
+  "uid" : "135c5726c4e6604",
+  "name" : "Fill details: Title, Name, Email, Password, Date of birth ",
+  "fullName" : "Fill details: Title, Name, Email, Password, Date of birth ",
+  "historyId" : "5b8b79a8a8bfaf50709b3534c58a0883",
+  "time" : {
+    "start" : 1670996415811,
+    "stop" : 1670996416893,
+    "duration" : 1082
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 1000ms: Expected to find element: `div:nth-of-type(1) > .top`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 1000ms: Expected to find element: `div:nth-of-type(1) > .top`, but never found it.\n    at Context.eval (webpack:///./cypress/e2e/TestCases/TestCaseFromSite/testCase1RegisterUser.cy.js:132:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 1000ms: Expected to find element: `div:nth-of-type(1) > .top`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 1000ms: Expected to find element: `div:nth-of-type(1) > .top`, but never found it.\n    at Context.eval (webpack:///./cypress/e2e/TestCases/TestCaseFromSite/testCase1RegisterUser.cy.js:132:22)",
+    "steps" : [ {
+      "name" : "assert expected **div:nth-of-type(1) > .top** to be **visible**",
+      "time" : {
+        "start" : 1670996415828,
+        "stop" : 1670996416892,
+        "duration" : 1064
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get div:nth-of-type(1) > .top",
+      "time" : {
+        "start" : 1670996416892,
+        "stop" : 1670996416892,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "3a14acbfcf91ecfa",
+      "name" : "cypress/e2e/TestCases/TestCaseFromSite/testCase1RegisterUser.cy.js:2022-12-14T05:40:16.826Z",
+      "source" : "3a14acbfcf91ecfa.png",
+      "type" : "image/png",
+      "size" : 99940
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 1: Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "135c5726c4e6604.json",
+  "parameterValues" : [ ]
+}

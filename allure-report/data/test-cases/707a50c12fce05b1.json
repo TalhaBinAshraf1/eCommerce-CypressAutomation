@@ -1,0 +1,35 @@
+{
+  "uid" : "707a50c12fce05b1",
+  "name" : "Verify that home page is visible successfully",
+  "fullName" : "Verify that home page is visible successfully",
+  "historyId" : "27bb77f97dfbcaae4fb95987486c4e69",
+  "time" : {
+    "start" : 1670996351124,
+    "stop" : 1670996351155,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Test Case 15: Place Order: Register before Checkout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "707a50c12fce05b1.json",
+  "parameterValues" : [ ]
+}

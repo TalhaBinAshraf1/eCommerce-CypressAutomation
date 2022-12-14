@@ -1,0 +1,35 @@
+{
+  "uid" : "c3f217c03ded6225",
+  "name" : " Click Proceed To Checkout",
+  "fullName" : " Click Proceed To Checkout",
+  "historyId" : "4760a8740ab9ceb0543cfbfa11530a44",
+  "time" : {
+    "start" : 1670996351204,
+    "stop" : 1670996351211,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Test Case 15: Place Order: Register before Checkout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3f217c03ded6225.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,600 @@
+{
+  "uid" : "cd688f88666c2706",
+  "name" : "Verify 'RECOMMENDED ITEMS' are visible",
+  "fullName" : "Verify 'RECOMMENDED ITEMS' are visible",
+  "historyId" : "e4304e1834920f2214f4a3e3cd46e320",
+  "time" : {
+    "start" : 1670996499780,
+    "stop" : 1670996504839,
+    "duration" : 5059
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assert expected **<h2.title.text-center>** to contain text **recommended items**",
+      "time" : {
+        "start" : 1670996499804,
+        "stop" : 1670996499815,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<h2.title.text-center>** to be **visible**",
+      "time" : {
+        "start" : 1670996499815,
+        "stop" : 1670996499815,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get .recommended_items > .text-center.title",
+      "time" : {
+        "start" : 1670996499815,
+        "stop" : 1670996499815,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670996499815,
+        "stop" : 1670996499905,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log [object Object]Is Visible",
+      "time" : {
+        "start" : 1670996499905,
+        "stop" : 1670996499906,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "recomandedItemsList1 (\"Stylish Dress\")",
+      "time" : {
+        "start" : 1670996499906,
+        "stop" : 1670996499917,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "assert expected **[ <p>, 2 more... ]** to contain text **Stylish Dress**",
+        "time" : {
+          "start" : 1670996499906,
+          "stop" : 1670996499917,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **[ <p>, 2 more... ]** to be **visible**",
+        "time" : {
+          "start" : 1670996499916,
+          "stop" : 1670996499916,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get div:nth-of-type(2) > div > .product-image-wrapper > .single-products > .productinfo.text-center > p",
+        "time" : {
+          "start" : 1670996499916,
+          "stop" : 1670996499916,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log Stylish Dress Available in page",
+        "time" : {
+          "start" : 1670996499917,
+          "stop" : 1670996499917,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "recomandedItemsList1 (\"Winter Top\")",
+      "time" : {
+        "start" : 1670996499917,
+        "stop" : 1670996499927,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "assert expected **[ <p>, 2 more... ]** to contain text **Winter Top**",
+        "time" : {
+          "start" : 1670996499917,
+          "stop" : 1670996499927,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **[ <p>, 2 more... ]** to be **visible**",
+        "time" : {
+          "start" : 1670996499927,
+          "stop" : 1670996499927,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get div:nth-of-type(2) > div > .product-image-wrapper > .single-products > .productinfo.text-center > p",
+        "time" : {
+          "start" : 1670996499927,
+          "stop" : 1670996499927,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log Winter Top Available in page",
+        "time" : {
+          "start" : 1670996499927,
+          "stop" : 1670996499927,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "recomandedItemsList1 (\"Summer White Top\")",
+      "time" : {
+        "start" : 1670996499927,
+        "stop" : 1670996499938,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "assert expected **[ <p>, 2 more... ]** to contain text **Summer White Top**",
+        "time" : {
+          "start" : 1670996499927,
+          "stop" : 1670996499937,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **[ <p>, 2 more... ]** to be **visible**",
+        "time" : {
+          "start" : 1670996499937,
+          "stop" : 1670996499937,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get div:nth-of-type(2) > div > .product-image-wrapper > .single-products > .productinfo.text-center > p",
+        "time" : {
+          "start" : 1670996499937,
+          "stop" : 1670996499937,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log Summer White Top Available in page",
+        "time" : {
+          "start" : 1670996499937,
+          "stop" : 1670996499938,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "recomandedItemsList2 (\"Blue Top\")",
+      "time" : {
+        "start" : 1670996499938,
+        "stop" : 1670996504807,
+        "duration" : 4869
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "assert expected **[ <p>, 2 more... ]** to contain text **Blue Top**",
+        "time" : {
+          "start" : 1670996499938,
+          "stop" : 1670996504805,
+          "duration" : 4867
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET 200 https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsv-KKj-TGh5aPyEpDCMkDsy8VmPlsY_yyrJfgnfE28Jke8BTWZx4yhOP3ZOtRsaJtlVYa1yNeSDusr-ALkZYn9SdctiCxG5luYoNSY_0zNssm33lUkvizvmTwnynCLRCNR4_gY&sai=AMfl-YT4qNe7WdBnY6XapC8ZclTftUbaQRqhcATbddhs9Vfq2gwpqO7SWv2mxu6bue1zKnTL9I0VibRQZwz_-Dkh42kE-iqZUkjoVf95cg&sig=Cg0ArKJSzAdlXITOkQanEAE&cid=CAQSKQDq26N92P9SKtgH-bbcwz9qJZ_J2fxZv_SvFPo5lLvoqHurUEspYREuGAEgEw&id=lidar2&mcvt=1004&p=0,0,280,1200&mtos=0,1004,1004,1004,1004&tos=0,1004,0,0,0&v=20221207&bin=7&avms=nio&bs=1280,720&mc=0.83&vu=1&app=0&itpl=22&adk=7856715&rs=2&la=1&cr=0&uach=WyIiLCIiLCIiLCIiLCIiLFtdLGZhbHNlLG51bGwsIiIsW10sZmFsc2Vd&vs=4&r=v&rst=1670996499801&rpt=2247&met=mue&wmsd=0&pbe=0",
+        "time" : {
+          "start" : 1670996504805,
+          "stop" : 1670996504805,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET 200 https://googleads.g.doubleclick.net/pagead/adview?ai=C59WWFGKZY6eOCcCZvcAP2r6IsAyGpZbCbYjrrKmmD5iS-IezAhABIP20npUBYLOQWqABiNmutwPIAQmoAwHIA8sEqgT_AU_QUXQKOz4326C3TUBhQ9JOv2bbQAv3YLHwumBlGJylIdhdS34MB-d9GHv-gbOSqHYC5OzPMuVTeg-cagdDlQtd9sqgrxYsiyHo27AlADoRh9PLRCdsO1Wkp6Tyyge-jqdKohMZlcjrCFMz0h0XudVkf97TRVVun5bo0f39ctuEYaY-CSHq9TvuwEPZuJVHZpQq5BROkwLkgbvtQzJNvEmfjOhaBRj1WN4Zxu6YiKOaMChgkU-VM0lp30k3xS84Ct7Rd7fKly69-Ma15orju9mCBe77LxG8QP5p4MlcE5aIYiD78iIHIqfLORmvxAKsaYMtvXSOGI3v0ARzHYB5CMAE-5_a3uYDkgUECAQYAZIFBAgFGASgBi6AB-Cm0UioB47OG6gHk9gbqAfulrECqAf-nrECqAeko7ECqAfVyRuoB6a-G9gHAPIHAxCQNdIIDwiAYRABGB8yAooCOgKAQIAKAcgLAbgT5APYEw3QFQGAFwGyFxwKGggAEhRwdWItMTY3NzU5NzQwMzMxMTAxORgA&sigh=yzqyaICQsPM&uach_m=[UACH]&cid=CAQSKQDq26N92P9SKtgH-bbcwz9qJZ_J2fxZv_SvFPo5lLvoqHurUEspYREuGAEgEw&template_id=484",
+        "time" : {
+          "start" : 1670996504805,
+          "stop" : 1670996504805,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **[ <p>, 2 more... ]** to be **visible**",
+        "time" : {
+          "start" : 1670996504805,
+          "stop" : 1670996504805,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get .carousel-inner > div:nth-of-type(1) >div> .product-image-wrapper > .single-products > .productinfo.text-center > p",
+        "time" : {
+          "start" : 1670996504805,
+          "stop" : 1670996504805,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log Blue Top Available in page",
+        "time" : {
+          "start" : 1670996504805,
+          "stop" : 1670996504807,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "recomandedItemsList2 (\"Men Tshirt\")",
+      "time" : {
+        "start" : 1670996504807,
+        "stop" : 1670996504823,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "assert expected **[ <p>, 2 more... ]** to contain text **Men Tshirt**",
+        "time" : {
+          "start" : 1670996504807,
+          "stop" : 1670996504822,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **[ <p>, 2 more... ]** to be **visible**",
+        "time" : {
+          "start" : 1670996504822,
+          "stop" : 1670996504822,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get .carousel-inner > div:nth-of-type(1) >div> .product-image-wrapper > .single-products > .productinfo.text-center > p",
+        "time" : {
+          "start" : 1670996504822,
+          "stop" : 1670996504822,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log Men Tshirt Available in page",
+        "time" : {
+          "start" : 1670996504822,
+          "stop" : 1670996504823,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "recomandedItemsList2 (\"Rs. 1000\")",
+      "time" : {
+        "start" : 1670996504823,
+        "stop" : 1670996504839,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "assert expected **[ <p>, 2 more... ]** to contain text **Rs. 1000**",
+        "time" : {
+          "start" : 1670996504823,
+          "stop" : 1670996504838,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **[ <p>, 2 more... ]** to be **visible**",
+        "time" : {
+          "start" : 1670996504838,
+          "stop" : 1670996504838,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get .carousel-inner > div:nth-of-type(1) >div> .product-image-wrapper > .single-products > .productinfo.text-center > p",
+        "time" : {
+          "start" : 1670996504838,
+          "stop" : 1670996504838,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log Rs. 1000 Available in page",
+        "time" : {
+          "start" : 1670996504838,
+          "stop" : 1670996504839,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 37
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 22: Add to cart from Recommended items"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd688f88666c2706.json",
+  "parameterValues" : [ ]
+}

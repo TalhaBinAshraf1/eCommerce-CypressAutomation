@@ -1,0 +1,35 @@
+{
+  "uid" : "c47bf611763fd080",
+  "name" : " Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+  "fullName" : " Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+  "historyId" : "34371e5f03492129d3107325adf72277",
+  "time" : {
+    "start" : 1670996360171,
+    "stop" : 1670996360178,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 16: Place Order: Login before Checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c47bf611763fd080.json",
+  "parameterValues" : [ ]
+}

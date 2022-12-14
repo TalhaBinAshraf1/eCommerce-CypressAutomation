@@ -1,0 +1,35 @@
+{
+  "uid" : "ce19c106ca5523aa",
+  "name" : " Verify that category page is displayed and confirm text 'WOMEN - TOPS PRODUCTS'",
+  "fullName" : " Verify that category page is displayed and confirm text 'WOMEN - TOPS PRODUCTS'",
+  "historyId" : "f1d4cf8bebd7eac94fae1e5055b56529",
+  "time" : {
+    "start" : 1670996381189,
+    "stop" : 1670996381212,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 18: View Category Products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce19c106ca5523aa.json",
+  "parameterValues" : [ ]
+}

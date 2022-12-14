@@ -1,0 +1,35 @@
+{
+  "uid" : "549c8e55c6f29b38",
+  "name" : "Click 'Delete Account' button ",
+  "fullName" : "Click 'Delete Account' button ",
+  "historyId" : "f708b7e8bf0e1ab9dbc0a68840f5e946",
+  "time" : {
+    "start" : 1670996428862,
+    "stop" : 1670996428882,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 1: Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "549c8e55c6f29b38.json",
+  "parameterValues" : [ ]
+}

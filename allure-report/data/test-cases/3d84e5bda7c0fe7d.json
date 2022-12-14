@@ -1,0 +1,35 @@
+{
+  "uid" : "3d84e5bda7c0fe7d",
+  "name" : "Click 'Delete Account' button ",
+  "fullName" : "Click 'Delete Account' button ",
+  "historyId" : "c9d94cdf36f8bf0f66914d2bec7fd6f1",
+  "time" : {
+    "start" : 1670996341785,
+    "stop" : 1670996341789,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Test Case 14: Place Order: Register while Checkout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d84e5bda7c0fe7d.json",
+  "parameterValues" : [ ]
+}

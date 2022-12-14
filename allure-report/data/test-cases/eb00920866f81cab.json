@@ -1,0 +1,89 @@
+{
+  "uid" : "eb00920866f81cab",
+  "name" : "Verify that 'ENTER ACCOUNT INFORMATION' is visible ",
+  "fullName" : "Verify that 'ENTER ACCOUNT INFORMATION' is visible ",
+  "historyId" : "cce71acb5c69674ae5c2d4bb9841af03",
+  "time" : {
+    "start" : 1670996414685,
+    "stop" : 1670996415792,
+    "duration" : 1107
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 1000ms: Expected to find element: `.login-form > .text-center.title > b`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 1000ms: Expected to find element: `.login-form > .text-center.title > b`, but never found it.\n    at Context.eval (webpack:///./cypress/e2e/TestCases/TestCaseFromSite/testCase1RegisterUser.cy.js:118:33)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 1000ms: Expected to find element: `.login-form > .text-center.title > b`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 1000ms: Expected to find element: `.login-form > .text-center.title > b`, but never found it.\n    at Context.eval (webpack:///./cypress/e2e/TestCases/TestCaseFromSite/testCase1RegisterUser.cy.js:118:33)",
+    "steps" : [ {
+      "name" : "assert expected **.login-form > .text-center.title > b** to be **visible**",
+      "time" : {
+        "start" : 1670996414709,
+        "stop" : 1670996415791,
+        "duration" : 1082
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get .login-form > .text-center.title > b",
+      "time" : {
+        "start" : 1670996415791,
+        "stop" : 1670996415791,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "b41f5aa3a5e30827",
+      "name" : "cypress/e2e/TestCases/TestCaseFromSite/testCase1RegisterUser.cy.js:2022-12-14T05:40:15.718Z",
+      "source" : "b41f5aa3a5e30827.png",
+      "type" : "image/png",
+      "size" : 103563
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 1: Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eb00920866f81cab.json",
+  "parameterValues" : [ ]
+}

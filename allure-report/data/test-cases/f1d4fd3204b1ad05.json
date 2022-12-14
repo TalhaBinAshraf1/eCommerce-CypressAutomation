@@ -1,0 +1,150 @@
+{
+  "uid" : "f1d4fd3204b1ad05",
+  "name" : "Click on 'Add To Cart' on Recommended product",
+  "fullName" : "Click on 'Add To Cart' on Recommended product",
+  "historyId" : "73ce951fc371488f5ac8379b42fc0e39",
+  "time" : {
+    "start" : 1670996504858,
+    "stop" : 1670996505284,
+    "duration" : 426
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assert expected **<a.btn.btn-default.add-to-cart>** to contain text **Add to cart**",
+      "time" : {
+        "start" : 1670996504867,
+        "stop" : 1670996504873,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<a.btn.btn-default.add-to-cart>** to be **visible**",
+      "time" : {
+        "start" : 1670996504873,
+        "stop" : 1670996504873,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get div:nth-of-type(1) > div:nth-of-type(1) > .product-image-wrapper > .single-products > .productinfo.text-center > .add-to-cart.btn.btn-default",
+      "time" : {
+        "start" : 1670996504873,
+        "stop" : 1670996504873,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get div:nth-of-type(1) > div:nth-of-type(1) > .product-image-wrapper > .single-products > .productinfo.text-center > .add-to-cart.btn.btn-default",
+      "time" : {
+        "start" : 1670996504873,
+        "stop" : 1670996504874,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670996504874,
+        "stop" : 1670996505284,
+        "duration" : 410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://www.automationexercise.com/add_to_cart/1",
+      "time" : {
+        "start" : 1670996505284,
+        "stop" : 1670996505284,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log [object Object]Is Visible",
+      "time" : {
+        "start" : 1670996505284,
+        "stop" : 1670996505284,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 22: Add to cart from Recommended items"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1d4fd3204b1ad05.json",
+  "parameterValues" : [ ]
+}

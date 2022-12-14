@@ -1,0 +1,60 @@
+{
+  "uid" : "86d48516b3b571eb",
+  "name" : "Scroll to bottom of page",
+  "fullName" : "Scroll to bottom of page",
+  "historyId" : "ac3a6e51257b973dd42d908b69642bbb",
+  "time" : {
+    "start" : 1670996499744,
+    "stop" : 1670996499778,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "scrollTo bottom",
+      "time" : {
+        "start" : 1670996499773,
+        "stop" : 1670996499778,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 22: Add to cart from Recommended items"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86d48516b3b571eb.json",
+  "parameterValues" : [ ]
+}

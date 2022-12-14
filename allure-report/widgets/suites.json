@@ -1,0 +1,114 @@
+{
+  "total" : 26,
+  "items" : [ {
+    "uid" : "4c198c45df7a7f788c6bb50a83e6a2a8",
+    "name" : "Test Case 1: Register User",
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 16
+    }
+  }, {
+    "uid" : "3f19d7526e8eca66c5283a2bf07cbd9d",
+    "name" : "Test Case 24: Download Invoice after purchase order",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 17
+    }
+  }, {
+    "uid" : "10d411b2b379d00ee92c0de927a7951d",
+    "name" : "Test Case 23: Verify address details in checkout page",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "ee4be7ef9a3ea75b189bae5e554b1a41",
+    "name" : "Test Case 4: Logout User",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "61ee14924ada42c80f3e653f9ad1e5dd",
+    "name" : "Test Case 18: View Category Products",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "fd49a9a57024cb5284162fc3a9ca78fe",
+    "name" : "cypress/e2e/TestCases/TestCaseFromSite/testCase6ContactUsForm.cy.js",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1e109d2c97f5e0769f12fbc4b8d4a683",
+    "name" : " Test Case 14: Place Order: Register while Checkout ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 19
+    }
+  }, {
+    "uid" : "1aadfd402132d0ac21fbd44988eceff4",
+    "name" : " Test Case 15: Place Order: Register before Checkout ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 16
+    }
+  }, {
+    "uid" : "e3a70f2c1253f2c7eec05ddc2ac1887a",
+    "name" : "Test Case 16: Place Order: Login before Checkout",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 16
+    }
+  }, {
+    "uid" : "91606134a5a81158661aa039ebac9d96",
+    "name" : "Test Case 20: Search Products and Verify Cart After Login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}

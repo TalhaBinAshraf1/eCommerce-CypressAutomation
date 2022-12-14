@@ -1,0 +1,35 @@
+{
+  "uid" : "5870663666c66df",
+  "name" : " Verify success message 'Your order has been placed successfully!'",
+  "fullName" : " Verify success message 'Your order has been placed successfully!'",
+  "historyId" : "1328b4fe7721ae3a82e6cce9ce169a04",
+  "time" : {
+    "start" : 1670996351229,
+    "stop" : 1670996351232,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Test Case 15: Place Order: Register before Checkout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5870663666c66df.json",
+  "parameterValues" : [ ]
+}

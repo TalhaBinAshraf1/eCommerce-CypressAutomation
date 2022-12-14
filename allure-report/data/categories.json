@@ -1,0 +1,299 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "cy.xpath is not a function",
+      "children" : [ {
+        "name" : "Click on any category link under 'Women' category, for example: Dress",
+        "uid" : "224df6cda5784c0f",
+        "parentUid" : "ca4b2507973e3e55b66646aa5230d466",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996380988,
+          "stop" : 1670996381165,
+          "duration" : 177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca4b2507973e3e55b66646aa5230d466"
+    }, {
+      "name" : "Timed out retrying after 1000ms: Expected to find element: `.login-form > .text-center.title > b`, but never found it.",
+      "children" : [ {
+        "name" : "Verify that 'ENTER ACCOUNT INFORMATION' is visible ",
+        "uid" : "eb00920866f81cab",
+        "parentUid" : "608ce6f72728183ef9f122e123a89f71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996414685,
+          "stop" : 1670996415792,
+          "duration" : 1107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Fill all details in Signup and create account",
+        "uid" : "aa477738207bb65b",
+        "parentUid" : "608ce6f72728183ef9f122e123a89f71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996525134,
+          "stop" : 1670996528090,
+          "duration" : 2956
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Fill all details in Signup and create account",
+        "uid" : "131ad4ad7c239bc5",
+        "parentUid" : "608ce6f72728183ef9f122e123a89f71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996544437,
+          "stop" : 1670996547990,
+          "duration" : 3553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "608ce6f72728183ef9f122e123a89f71"
+    }, {
+      "name" : "Timed out retrying after 1000ms: Expected to find element: `div:nth-of-type(1) > .top`, but never found it.",
+      "children" : [ {
+        "name" : "Fill details: Title, Name, Email, Password, Date of birth ",
+        "uid" : "135c5726c4e6604",
+        "parentUid" : "24e9dc6f8fb88c17883cf8c0eb0383e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996415811,
+          "stop" : 1670996416893,
+          "duration" : 1082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24e9dc6f8fb88c17883cf8c0eb0383e0"
+    }, {
+      "name" : "Timed out retrying after 1000ms: Expected to find element: `div:nth-of-type(6) > label`, but never found it.",
+      "children" : [ {
+        "name" : "Select checkbox 'Sign up for our newsletter!'",
+        "uid" : "1277cfd0ffd61dc0",
+        "parentUid" : "51c9bb17bd9f97a2edc606de39939a1b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996416900,
+          "stop" : 1670996418008,
+          "duration" : 1108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51c9bb17bd9f97a2edc606de39939a1b"
+    }, {
+      "name" : "Timed out retrying after 1000ms: Expected to find element: `div:nth-of-type(7) > label`, but never found it.",
+      "children" : [ {
+        "name" : "Select checkbox 'Receive special offers from our partners!'",
+        "uid" : "2e5a3c1a9fb3ec92",
+        "parentUid" : "63a8cda9c298afff6aad16b5b44859bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996418012,
+          "stop" : 1670996419076,
+          "duration" : 1064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "63a8cda9c298afff6aad16b5b44859bf"
+    }, {
+      "name" : "Timed out retrying after 1000ms: Expected to find element: `input#first_name`, but never found it.",
+      "children" : [ {
+        "name" : "Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number ",
+        "uid" : "e0bbdad2f1e763fc",
+        "parentUid" : "3d70afca9073f9134a4a4bafc4c834f8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996419080,
+          "stop" : 1670996420145,
+          "duration" : 1065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d70afca9073f9134a4a4bafc4c834f8"
+    }, {
+      "name" : "Timed out retrying after 1000ms: expected '<button.btn.btn-default>' to have text 'Create Account', but the text was 'Login'",
+      "children" : [ {
+        "name" : "Click 'Create Account button' ",
+        "uid" : "85b52982719b52a2",
+        "parentUid" : "775b879f91851ee2d0105385b61293fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996420149,
+          "stop" : 1670996421235,
+          "duration" : 1086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "775b879f91851ee2d0105385b61293fd"
+    }, {
+      "name" : "Timed out retrying after 1000ms: Expected to find element: `.text-center.title > b`, but never found it.",
+      "children" : [ {
+        "name" : "Verify that 'ACCOUNT CREATED!' is visible ",
+        "uid" : "b55bdd18c6a2b068",
+        "parentUid" : "7880664f80e23f2290e681120402db40",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996421239,
+          "stop" : 1670996422333,
+          "duration" : 1094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify 'ACCOUNT CREATED!' and click 'Continue' button",
+        "uid" : "5c6e91f0a1aae696",
+        "parentUid" : "7880664f80e23f2290e681120402db40",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996528113,
+          "stop" : 1670996529221,
+          "duration" : 1108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify 'ACCOUNT CREATED!' and click 'Continue' button",
+        "uid" : "c38e153c8275942b",
+        "parentUid" : "7880664f80e23f2290e681120402db40",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996548014,
+          "stop" : 1670996549104,
+          "duration" : 1090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7880664f80e23f2290e681120402db40"
+    }, {
+      "name" : "Timed out retrying after 1000ms: Expected to find element: `.btn.btn-primary`, but never found it.",
+      "children" : [ {
+        "name" : "Click 'Continue' button ",
+        "uid" : "1c538f08a856a4b",
+        "parentUid" : "ef0d4643d3b8aee897e3f7be82b95e3e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996422336,
+          "stop" : 1670996423415,
+          "duration" : 1079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef0d4643d3b8aee897e3f7be82b95e3e"
+    }, {
+      "name" : "Timed out retrying after 1000ms: Expected to find element: `li:nth-of-type(9) > a`, but never found it.",
+      "children" : [ {
+        "name" : "Verify that 'Logged in as username' is visible ",
+        "uid" : "f4f70b95de2027cf",
+        "parentUid" : "242a5f627558d09fc492379a5935cd36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996423419,
+          "stop" : 1670996428858,
+          "duration" : 5439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "242a5f627558d09fc492379a5935cd36"
+    }, {
+      "name" : "Timed out retrying after 1000ms: Expected to find element: `li:nth-of-type(10) > a`, but never found it.",
+      "children" : [ {
+        "name" : "Verify ' Logged in as username' at top",
+        "uid" : "80ecdcbdf9a74e60",
+        "parentUid" : "1758438c3c8a6d7797729f085b7bdbdd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996529225,
+          "stop" : 1670996530286,
+          "duration" : 1061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify ' Logged in as username' at top",
+        "uid" : "6855b2c4eb0fec84",
+        "parentUid" : "1758438c3c8a6d7797729f085b7bdbdd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996549109,
+          "stop" : 1670996550214,
+          "duration" : 1105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1758438c3c8a6d7797729f085b7bdbdd"
+    }, {
+      "name" : "Timed out retrying after 1000ms: expected '<a>' to have text ' Logged in as test0128879123898', but the text was ' Contact us'",
+      "children" : [ {
+        "name" : "Verify that 'Logged in as username' is visible",
+        "uid" : "ae8c632be71ff45",
+        "parentUid" : "808b394e676e6f37dab90b70a7f4d17e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670996640507,
+          "stop" : 1670996643632,
+          "duration" : 3125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "808b394e676e6f37dab90b70a7f4d17e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Oops...we found an error preparing this test file:\n\n  > cypress\\e2e\\TestCases\\TestCaseFromSite\\testCase6ContactUsForm.cy.js\n\n",
+      "children" : [ {
+        "name" : "Oops...we found an error preparing this test file: cypress/e2e/TestCases/TestCaseFromSite/testCase6ContactUsForm.cy.js",
+        "uid" : "b6490b98d6c9649c",
+        "parentUid" : "3bc5f55af983e467422d1edb56a72bcd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1670996660744,
+          "stop" : 1670996660744,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3bc5f55af983e467422d1edb56a72bcd"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

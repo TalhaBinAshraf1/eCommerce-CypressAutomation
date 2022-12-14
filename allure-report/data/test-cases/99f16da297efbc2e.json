@@ -1,0 +1,35 @@
+{
+  "uid" : "99f16da297efbc2e",
+  "name" : " Click 'Delete Account' button",
+  "fullName" : " Click 'Delete Account' button",
+  "historyId" : "7e909555e65603ec6ee256b94c389a2e",
+  "time" : {
+    "start" : 1670996360191,
+    "stop" : 1670996360197,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 16: Place Order: Login before Checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99f16da297efbc2e.json",
+  "parameterValues" : [ ]
+}

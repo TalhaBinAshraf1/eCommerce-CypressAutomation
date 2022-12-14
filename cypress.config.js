@@ -11,6 +11,14 @@ module.exports = defineConfig({
   failOnStatusCode: false,
   viewportHeight: 1000,
   viewportWidth: 1600,
+  reporter: "cypress-mochawesome-reporter",
+  reporterOptions: {
+    reportDir: "cypress/reports/html",
+    charts: true,
+    reportPageTitle: "My Test Suite",
+    embeddedScreenshots: true,
+    inlineAssets: true,
+  },
   e2e: {
     // We've imported your old cypress plugins here.
     // You may want to clean this up later by importing these.

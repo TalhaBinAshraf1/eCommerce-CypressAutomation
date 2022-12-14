@@ -1,0 +1,35 @@
+{
+  "uid" : "aa7a8633a8d04f79",
+  "name" : " Verify success message 'Your order has been placed successfully!'",
+  "fullName" : " Verify success message 'Your order has been placed successfully!'",
+  "historyId" : "f4a4c8bcca57d30f8bf6f2507d3c8705",
+  "time" : {
+    "start" : 1670996360184,
+    "stop" : 1670996360190,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Case 16: Place Order: Login before Checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa7a8633a8d04f79.json",
+  "parameterValues" : [ ]
+}
