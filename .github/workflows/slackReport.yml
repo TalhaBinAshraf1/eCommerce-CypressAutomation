@@ -29,7 +29,7 @@ jobs:
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_USERNAME: mahbub
-          SLACK_TITLE: End-2-End Tests
-          SLACK_MESSAGE: "Let's be Awesome :rocket:"
+          SLACK_USERNAME: Talha
+          SLACK_TITLE: Cypress Ecom UI Test
+          SLACK_MESSAGE: "New Milestone Reached :rocket:"
           SLACK_COLOR: ${{ job.status }}
